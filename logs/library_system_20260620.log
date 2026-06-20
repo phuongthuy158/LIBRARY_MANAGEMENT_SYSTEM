@@ -1,0 +1,121 @@
+2026-06-20 11:15:46,575 - INFO - Khởi động ứng dụng
+2026-06-20 11:15:46,595 - INFO - Đã tải dữ liệu thành công
+2026-06-20 11:15:46,898 - ERROR - Không thể tải logo: [Errno 2] No such file or directory: 'hust.png'
+2026-06-20 11:15:50,641 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-20 11:16:10,331 - INFO - Khởi động ứng dụng
+2026-06-20 11:16:10,339 - INFO - Đã tải dữ liệu thành công
+2026-06-20 11:16:13,027 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-20 13:55:35,088 - INFO - Khởi động ứng dụng
+2026-06-20 13:55:35,112 - INFO - Đã tải dữ liệu thành công
+2026-06-20 13:55:37,768 - INFO - Mở cửa sổ thêm sách mới
+2026-06-20 13:55:40,354 - INFO - Mở cửa sổ cập nhật sách
+2026-06-20 13:55:44,535 - INFO - Mở cửa sổ cập nhật sách
+2026-06-20 13:56:57,426 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-20 13:57:03,588 - INFO - Khởi động ứng dụng
+2026-06-20 13:57:03,605 - INFO - Đã tải dữ liệu thành công
+2026-06-20 13:57:05,433 - INFO - Mở cửa sổ cập nhật sách
+2026-06-20 13:57:10,487 - INFO - Mở cửa sổ cập nhật sách
+2026-06-20 13:57:13,980 - INFO - Cập nhật sách: S001
+2026-06-20 13:57:20,380 - INFO - Mở cửa sổ cập nhật sách
+2026-06-20 13:57:25,415 - INFO - Cập nhật sách: S001
+2026-06-20 13:58:32,799 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-20 13:58:35,053 - INFO - Khởi động ứng dụng
+2026-06-20 13:58:35,063 - INFO - Đã tải dữ liệu thành công
+2026-06-20 13:58:37,293 - INFO - Mở cửa sổ cập nhật sách
+2026-06-20 13:58:40,932 - INFO - Mở cửa sổ cập nhật sách
+2026-06-20 13:58:48,823 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-20 21:22:27,270 - INFO - Khởi động ứng dụng
+2026-06-20 21:22:27,471 - ERROR - Lỗi không mong muốn: TrackBook.__init__() missing 1 required positional argument: 'chuc_vu'
+Traceback (most recent call last):
+  File "c:\HỆ THỐNG QUẢN LÝ THƯ VIỆN\main.py", line 10, in <module>
+    data_handler.load_data()
+  File "c:\HỆ THỐNG QUẢN LÝ THƯ VIỆN\data_handler.py", line 74, in load_data
+    tracking_records = [TrackBook.from_dict(record_data) for record_data in data]
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\HỆ THỐNG QUẢN LÝ THƯ VIỆN\models.py", line 76, in from_dict
+    return cls(**data_dict)
+           ^^^^^^^^^^^^^^^^
+TypeError: TrackBook.__init__() missing 1 required positional argument: 'chuc_vu'
+2026-06-20 21:25:53,823 - INFO - Khởi động ứng dụng
+2026-06-20 21:25:53,972 - INFO - Đã tải dữ liệu thành công
+2026-06-20 21:26:04,961 - INFO - Mở cửa sổ tìm kiếm sách
+2026-06-20 21:26:15,345 - INFO - Mở cửa sổ thêm sách mới
+2026-06-20 21:27:18,376 - INFO - Mở cửa sổ trả sách
+2026-06-20 21:27:26,171 - INFO - Trả sách 3997 bởi 784
+2026-06-20 21:30:16,491 - INFO - Khởi động ứng dụng
+2026-06-20 21:30:16,667 - INFO - Đã tải dữ liệu thành công
+2026-06-20 21:30:19,128 - INFO - Mở cửa sổ thêm sách mới
+2026-06-20 21:31:52,008 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-20 21:31:53,970 - INFO - Khởi động ứng dụng
+2026-06-20 21:31:54,172 - INFO - Đã tải dữ liệu thành công
+2026-06-20 21:31:56,221 - INFO - Mở cửa sổ thêm sách mới
+2026-06-20 21:32:16,386 - INFO - Mở cửa sổ thêm bạn đọc mới
+2026-06-20 21:34:16,072 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-20 21:34:18,248 - INFO - Khởi động ứng dụng
+2026-06-20 21:34:18,434 - INFO - Đã tải dữ liệu thành công
+2026-06-20 21:34:21,418 - INFO - Mở cửa sổ thêm sách mới
+2026-06-20 21:34:33,538 - INFO - Thêm sách: S20
+2026-06-20 21:35:21,357 - INFO - Mở cửa sổ thêm bạn đọc mới
+2026-06-20 21:35:53,227 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-20 21:35:55,737 - INFO - Khởi động ứng dụng
+2026-06-20 21:35:55,907 - INFO - Đã tải dữ liệu thành công
+2026-06-20 21:35:58,539 - INFO - Mở cửa sổ thêm bạn đọc mới
+2026-06-20 21:37:13,789 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-20 21:37:16,495 - INFO - Khởi động ứng dụng
+2026-06-20 21:37:16,661 - INFO - Đã tải dữ liệu thành công
+2026-06-20 21:38:16,857 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-20 21:38:19,621 - INFO - Khởi động ứng dụng
+2026-06-20 21:38:19,774 - INFO - Đã tải dữ liệu thành công
+2026-06-20 21:38:22,153 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-20 21:39:42,302 - INFO - Khởi động ứng dụng
+2026-06-20 21:39:42,452 - INFO - Đã tải dữ liệu thành công
+2026-06-20 21:39:44,873 - INFO - Mở cửa sổ thêm sách mới
+2026-06-20 21:40:01,784 - INFO - Thêm sách: S12
+2026-06-20 21:40:04,391 - INFO - Mở cửa sổ thêm sách mới
+2026-06-20 21:40:16,457 - INFO - Thêm sách: S1
+2026-06-20 21:40:19,838 - INFO - Mở cửa sổ thêm bạn đọc mới
+2026-06-20 21:40:32,376 - INFO - Thêm bạn đọc: BD1
+2026-06-20 21:40:39,547 - INFO - Mở cửa sổ thêm bạn đọc mới
+2026-06-20 21:41:07,136 - INFO - Thêm bạn đọc: BD12
+2026-06-20 21:41:10,097 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-20 21:47:45,902 - INFO - Khởi động ứng dụng
+2026-06-20 21:47:45,907 - INFO - Đã tải dữ liệu thành công
+2026-06-20 21:47:51,871 - INFO - Mở cửa sổ thêm sách mới
+2026-06-20 21:50:18,742 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-20 21:50:21,343 - INFO - Khởi động ứng dụng
+2026-06-20 21:50:21,344 - INFO - Đã tải dữ liệu thành công
+2026-06-20 21:50:26,161 - INFO - Mở cửa sổ thêm sách mới
+2026-06-20 21:53:09,371 - INFO - Mở cửa sổ cập nhật sách
+2026-06-20 21:53:14,367 - INFO - Mở cửa sổ cập nhật sách
+2026-06-20 21:53:18,774 - INFO - Cập nhật sách: S001
+2026-06-20 21:53:30,332 - INFO - Mở cửa sổ cập nhật sách
+2026-06-20 21:53:46,631 - INFO - Cập nhật sách: S001
+2026-06-20 21:54:02,219 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-20 21:54:06,436 - INFO - Khởi động ứng dụng
+2026-06-20 21:54:06,440 - INFO - Đã tải dữ liệu thành công
+2026-06-20 21:54:10,201 - INFO - Mở cửa sổ cập nhật sách
+2026-06-20 21:55:52,081 - INFO - Mở cửa sổ thêm bạn đọc mới
+2026-06-20 21:57:44,912 - INFO - Thêm bạn đọc: BD052
+2026-06-20 21:59:42,495 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-20 21:59:46,898 - INFO - Khởi động ứng dụng
+2026-06-20 21:59:46,903 - INFO - Đã tải dữ liệu thành công
+2026-06-20 21:59:52,360 - INFO - Mở cửa sổ thêm bạn đọc mới
+2026-06-20 22:01:29,446 - INFO - Mở cửa sổ cập nhật bạn đọc
+2026-06-20 22:03:28,529 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-20 22:03:33,418 - INFO - Khởi động ứng dụng
+2026-06-20 22:03:33,431 - INFO - Đã tải dữ liệu thành công
+2026-06-20 22:03:36,794 - INFO - Mở cửa sổ thêm bạn đọc mới
+2026-06-20 22:05:03,704 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-20 22:05:07,729 - INFO - Khởi động ứng dụng
+2026-06-20 22:05:07,729 - INFO - Đã tải dữ liệu thành công
+2026-06-20 22:05:13,674 - INFO - Mở cửa sổ thêm bạn đọc mới
+2026-06-20 22:07:18,737 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-20 22:07:21,746 - INFO - Khởi động ứng dụng
+2026-06-20 22:07:21,747 - INFO - Đã tải dữ liệu thành công
+2026-06-20 22:07:27,609 - INFO - Mở cửa sổ thêm bạn đọc mới
+2026-06-20 22:09:32,216 - INFO - Mở cửa sổ cập nhật bạn đọc
+2026-06-20 22:32:07,313 - INFO - Mở cửa sổ tìm kiếm bạn đọc
+2026-06-20 22:32:14,988 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-20 22:59:45,025 - INFO - Khởi động ứng dụng
+2026-06-20 22:59:45,039 - INFO - Đã tải dữ liệu thành công
+2026-06-20 22:59:50,500 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng

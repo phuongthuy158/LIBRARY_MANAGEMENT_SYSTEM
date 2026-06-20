@@ -1,0 +1,2012 @@
+{
+    "S186": {
+        "ma_sach": "S186",
+        "ten_sach": "Vua Gia Long và người Pháp",
+        "tac_gia": "Thụy Khuê",
+        "the_loai": "Lịch sử",
+        "so_luong_sach": 7,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": "2010"
+    },
+    "S150": {
+        "ma_sach": "S150",
+        "ten_sach": "Cấu trúc dữ liệu và giải thuật",
+        "tac_gia": "Đỗ Xuân Lôi",
+        "the_loai": "Giáo trình",
+        "so_luong_sach": 7,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": 2024
+    },
+    "S187": {
+        "ma_sach": "S187",
+        "ten_sach": "AI tạo sinh",
+        "tac_gia": "Nhiều tác giả",
+        "the_loai": "Khoa học công nghệ",
+        "so_luong_sach": 8,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": "2011"
+    },
+    "S070": {
+        "ma_sach": "S070",
+        "ten_sach": "Toán rời rạc",
+        "tac_gia": "Nguyễn Đức Nghĩa",
+        "the_loai": "Giáo trình",
+        "so_luong_sach": 8,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": 2019
+    },
+    "S188": {
+        "ma_sach": "S188",
+        "ten_sach": "Lược Sử Thời Gian",
+        "tac_gia": "Stephen Hawking",
+        "the_loai": "Khoa học công nghệ",
+        "so_luong_sach": 9,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2012
+    },
+    "S151": {
+        "ma_sach": "S151",
+        "ten_sach": "Tuổi thơ dữ dội Tập 1",
+        "tac_gia": "Phùng Quán",
+        "the_loai": "Văn học",
+        "so_luong_sach": 8,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": 2000
+    },
+    "S071": {
+        "ma_sach": "S071",
+        "ten_sach": "Vợ chồng A Phủ",
+        "tac_gia": "Tô Hoài",
+        "the_loai": "Văn học",
+        "so_luong_sach": 9,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": 2020
+    },
+    "S189": {
+        "ma_sach": "S189",
+        "ten_sach": "Clean Code",
+        "tac_gia": "Robert C. Martin",
+        "the_loai": "Khoa học công nghệ",
+        "so_luong_sach": 10,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2013
+    },
+    "S152": {
+        "ma_sach": "S152",
+        "ten_sach": "Không Gia Đình",
+        "tac_gia": "Hector Malot",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 9,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2001
+    },
+    "S153": {
+        "ma_sach": "S153",
+        "ten_sach": "Sherlock Holmes Tập 1",
+        "tac_gia": "Arthur Conan Doyle",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 10,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2002
+    },
+    "S072": {
+        "ma_sach": "S072",
+        "ten_sach": "Không Gia Đình",
+        "tac_gia": "Hector Malot",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 10,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2021
+    },
+    "S073": {
+        "ma_sach": "S073",
+        "ten_sach": "Sherlock Holmes Toàn Tập",
+        "tac_gia": "Arthur Conan Doyle",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 2,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2022
+    },
+    "S154": {
+        "ma_sach": "S154",
+        "ten_sach": "Bố Già",
+        "tac_gia": "Mario Puzo",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 2,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2003
+    },
+    "S074": {
+        "ma_sach": "S074",
+        "ten_sach": "Bố Già",
+        "tac_gia": "Mario Puzo",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 3,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2023
+    },
+    "S155": {
+        "ma_sach": "S155",
+        "ten_sach": "Chiến Tranh Và Hòa Bình",
+        "tac_gia": "Leo Tolstoy",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 3,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": 2004
+    },
+    "S075": {
+        "ma_sach": "S075",
+        "ten_sach": "Chiến Tranh Và Hòa Bình",
+        "tac_gia": "Leo Tolstoy",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 4,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": 2024
+    },
+    "S156": {
+        "ma_sach": "S156",
+        "ten_sach": "Giao tiếp tiếng Anh Tập 1",
+        "tac_gia": "Nhiều tác giả",
+        "the_loai": "Tham khảo",
+        "so_luong_sach": 4,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": "2005"
+    },
+    "S200": {
+        "ma_sach": "S200",
+        "ten_sach": "Nhật ký trong tù",
+        "tac_gia": "Hồ Chí Minh",
+        "the_loai": "Thơ",
+        "so_luong_sach": 2,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Tổng hợp TP.HCM",
+        "nam_xuat_ban": "1992"
+    },
+    "S120": {
+        "ma_sach": "S120",
+        "ten_sach": "Lập Trình Python Cơ Bản Tập 1",
+        "tac_gia": "Eric Matthes",
+        "the_loai": "Giáo trình",
+        "so_luong_sach": 4,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": "2019"
+    },
+    "S157": {
+        "ma_sach": "S157",
+        "ten_sach": "7 Thói Quen Hiệu Quả",
+        "tac_gia": "Stephen R. Covey",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 5,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2006
+    },
+    "S076": {
+        "ma_sach": "S076",
+        "ten_sach": "Tư Duy Nhanh Và Chậm",
+        "tac_gia": "Daniel Kahneman",
+        "the_loai": "Tham khảo",
+        "so_luong_sach": 5,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": 2000
+    },
+    "S201": {
+        "ma_sach": "S201",
+        "ten_sach": "Truyện Kiểu",
+        "tac_gia": "Nguyễn Du",
+        "the_loai": "Thơ",
+        "so_luong_sach": 14,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": "2000"
+    },
+    "S121": {
+        "ma_sach": "S121",
+        "ten_sach": "Đắc Nhân Tâm",
+        "tac_gia": "Dale Carnegie",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 5,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": 2020
+    },
+    "S158": {
+        "ma_sach": "S158",
+        "ten_sach": "Cẩm nang tư duy phản biện và lập luận hiệu quả",
+        "tac_gia": "Colin Swatridge",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 6,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2007
+    },
+    "S077": {
+        "ma_sach": "S077",
+        "ten_sach": "Dám bị ghét",
+        "tac_gia": "Kishimi Ichiro",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 6,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2001
+    },
+    "S040": {
+        "ma_sach": "S040",
+        "ten_sach": "Lập Trình Python Cơ Bản Tập 2",
+        "tac_gia": "Eric Matthes",
+        "the_loai": "Giáo trình",
+        "so_luong_sach": 5,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": "2014"
+    },
+    "S122": {
+        "ma_sach": "S122",
+        "ten_sach": "Nhà Giả Kim",
+        "tac_gia": "Paulo Coelho",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 6,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2021
+    },
+    "S041": {
+        "ma_sach": "S041",
+        "ten_sach": "Những đòn tâm lý trong thuyết phục",
+        "tac_gia": "Rober B.Cialdini",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 6,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": 2015
+    },
+    "S159": {
+        "ma_sach": "S159",
+        "ten_sach": "Muôn Kiếp Nhân Sinh",
+        "tac_gia": "Nguyên Phong",
+        "the_loai": "Văn học",
+        "so_luong_sach": 7,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2008
+    },
+    "S078": {
+        "ma_sach": "S078",
+        "ten_sach": "Cha Giàu Cha Nghèo",
+        "tac_gia": "Robert Kiyosaki",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 7,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2002
+    },
+    "S042": {
+        "ma_sach": "S042",
+        "ten_sach": "Nhà Giả Kim",
+        "tac_gia": "Paulo Coelho",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 8,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": "2016"
+    },
+    "S123": {
+        "ma_sach": "S123",
+        "ten_sach": "Thói quen tốt",
+        "tac_gia": "Nhã An",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 7,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2022
+    },
+    "S079": {
+        "ma_sach": "S079",
+        "ten_sach": "Muôn Kiếp Nhân Sinh",
+        "tac_gia": "Nguyên Phong",
+        "the_loai": "Văn học",
+        "so_luong_sach": 8,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2003
+    },
+    "S124": {
+        "ma_sach": "S124",
+        "ten_sach": "Kính vạn hoa Tập 4",
+        "tac_gia": "Nguyễn Nhật Ánh",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 8,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2023
+    },
+    "S043": {
+        "ma_sach": "S043",
+        "ten_sach": "Giao tiếp để thành công Tập 1",
+        "tac_gia": "Leil Lowndes",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 8,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2017
+    },
+    "S125": {
+        "ma_sach": "S125",
+        "ten_sach": "Sống mòn",
+        "tac_gia": "Nam Cao",
+        "the_loai": "Văn học",
+        "so_luong_sach": 9,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": 2024
+    },
+    "S044": {
+        "ma_sach": "S044",
+        "ten_sach": "Kính vạn hoa Tập 5",
+        "tac_gia": "Nguyễn Nhật Ánh",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 9,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2018
+    },
+    "S126": {
+        "ma_sach": "S126",
+        "ten_sach": "Bão táp triều Trần",
+        "tac_gia": "Hoàng Quốc Hải",
+        "the_loai": "Lịch sử",
+        "so_luong_sach": 9,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": "2000"
+    },
+    "S045": {
+        "ma_sach": "S045",
+        "ten_sach": "Vang bóng một thời",
+        "tac_gia": "Nguyễn Tuân",
+        "the_loai": "Văn học",
+        "so_luong_sach": 10,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": 2019
+    },
+    "S127": {
+        "ma_sach": "S127",
+        "ten_sach": "Bí kíp sinh tồn trong thời đại AI",
+        "tac_gia": "Sol Rashidi",
+        "the_loai": "Khoa học công nghệ",
+        "so_luong_sach": 2,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": "2001"
+    },
+    "S046": {
+        "ma_sach": "S046",
+        "ten_sach": "Lược sử nước Việt bằng tranh",
+        "tac_gia": "Hiếu Minh",
+        "the_loai": "Lịch sử",
+        "so_luong_sach": 2,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": "2020"
+    },
+    "S010": {
+        "ma_sach": "S010",
+        "ten_sach": "Giải tích I",
+        "tac_gia": "Nhóm giảng viên khoa Toán - Tin",
+        "the_loai": "Giáo trình",
+        "so_luong_sach": 0,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Bách Khoa",
+        "nam_xuat_ban": 2009
+    },
+    "S047": {
+        "ma_sach": "S047",
+        "ten_sach": "Homo Deus: Lược Sử Tương Lai",
+        "tac_gia": "Yuval Noah Harari",
+        "the_loai": "Khoa học công nghệ",
+        "so_luong_sach": 3,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2021
+    },
+    "S128": {
+        "ma_sach": "S128",
+        "ten_sach": "Mặt trái của AI",
+        "tac_gia": "Justin Hutchens",
+        "the_loai": "Khoa học công nghệ",
+        "so_luong_sach": 3,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": "2002"
+    },
+    "S011": {
+        "ma_sach": "S011",
+        "ten_sach": "Bước đường cùng",
+        "tac_gia": "Nguyễn Công Hoan",
+        "the_loai": "Văn học",
+        "so_luong_sach": 3,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": 2010
+    },
+    "S129": {
+        "ma_sach": "S129",
+        "ten_sach": "Lịch sử tiến hóa của dữ liệu",
+        "tac_gia": "Nhiều tác giả",
+        "the_loai": "Khoa học công nghệ",
+        "so_luong_sach": 4,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": "2003"
+    },
+    "S048": {
+        "ma_sach": "S048",
+        "ten_sach": "25 xu hướng công nghệ mới tập 1",
+        "tac_gia": "Bernard Marr",
+        "the_loai": "Khoa học công nghệ",
+        "so_luong_sach": 4,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": "2022"
+    },
+    "S012": {
+        "ma_sach": "S012",
+        "ten_sach": "Không Gia Đình",
+        "tac_gia": "Hector Malot",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 4,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2011
+    },
+    "S049": {
+        "ma_sach": "S049",
+        "ten_sach": "25 xu hướng công nghệ mới Tập 2",
+        "tac_gia": "Bernard Marr",
+        "the_loai": "Khoa học công nghệ",
+        "so_luong_sach": 5,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": "2023"
+    },
+    "S013": {
+        "ma_sach": "S013",
+        "ten_sach": "Sherlock Holmes Tập 2",
+        "tac_gia": "Arthur Conan Doyle",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 10,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2015
+    },
+    "S014": {
+        "ma_sach": "S014",
+        "ten_sach": "Bố Già",
+        "tac_gia": "Mario Puzo",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 6,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2013
+    },
+    "S015": {
+        "ma_sach": "S015",
+        "ten_sach": "Chiến Tranh Và Hòa Bình",
+        "tac_gia": "Leo Tolstoy",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 6,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": 2014
+    },
+    "S016": {
+        "ma_sach": "S016",
+        "ten_sach": "Giao tiếp tiếng Anh Tập 2",
+        "tac_gia": "Nhiều tác giả",
+        "the_loai": "Tham khảo",
+        "so_luong_sach": 7,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": "2015"
+    },
+    "S017": {
+        "ma_sach": "S017",
+        "ten_sach": "Kỹ năng làm sếp",
+        "tac_gia": "Nguyễn Tiến Lợi",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 9,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2016
+    },
+    "S018": {
+        "ma_sach": "S018",
+        "ten_sach": "Cha Giàu Cha Nghèo",
+        "tac_gia": "Robert Kiyosaki",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 10,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2017
+    },
+    "S190": {
+        "ma_sach": "S190",
+        "ten_sach": "Giải tích III",
+        "tac_gia": "Nhóm giảng viên khoa Toán - Tin",
+        "the_loai": "Giáo trình",
+        "so_luong_sach": 2,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Bách Khoa",
+        "nam_xuat_ban": 2014
+    },
+    "S019": {
+        "ma_sach": "S019",
+        "ten_sach": "Muôn Kiếp Nhân Sinh",
+        "tac_gia": "Nguyên Phong",
+        "the_loai": "Văn học",
+        "so_luong_sach": 2,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2018
+    },
+    "S191": {
+        "ma_sach": "S191",
+        "ten_sach": "Bỉ vỏ",
+        "tac_gia": "Nguyên Hồng",
+        "the_loai": "Văn học",
+        "so_luong_sach": 3,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": 2015
+    },
+    "S192": {
+        "ma_sach": "S192",
+        "ten_sach": "Không Gia Đình",
+        "tac_gia": "Hector Malot",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 4,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2016
+    },
+    "S193": {
+        "ma_sach": "S193",
+        "ten_sach": "Sherlock Holmes Toàn Tập",
+        "tac_gia": "Arthur Conan Doyle",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 5,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2017
+    },
+    "S194": {
+        "ma_sach": "S194",
+        "ten_sach": "Bố Già",
+        "tac_gia": "Mario Puzo",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 6,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2018
+    },
+    "S195": {
+        "ma_sach": "S195",
+        "ten_sach": "Chiến Tranh Và Hòa Bình",
+        "tac_gia": "Leo Tolstoy",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 7,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": 2019
+    },
+    "S196": {
+        "ma_sach": "S196",
+        "ten_sach": "Tư Duy Nhanh Và Chậm",
+        "tac_gia": "Daniel Kahneman",
+        "the_loai": "Tham khảo",
+        "so_luong_sach": 8,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": 2020
+    },
+    "S197": {
+        "ma_sach": "S197",
+        "ten_sach": "7 Thói Quen Hiệu Quả",
+        "tac_gia": "Stephen R. Covey",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 5,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2020
+    },
+    "S160": {
+        "ma_sach": "S160",
+        "ten_sach": "Lập Trình Python Cơ Bản Tập 3",
+        "tac_gia": "Eric Matthes",
+        "the_loai": "Giáo trình",
+        "so_luong_sach": 8,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": "2009"
+    },
+    "S161": {
+        "ma_sach": "S161",
+        "ten_sach": "Tự bảo vệ mình",
+        "tac_gia": "Nhã An",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 9,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": 2010
+    },
+    "S080": {
+        "ma_sach": "S080",
+        "ten_sach": "Lập Trình Python Cơ Bản",
+        "tac_gia": "Eric Matthes",
+        "the_loai": "Giáo trình",
+        "so_luong_sach": 9,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": 2004
+    },
+    "S198": {
+        "ma_sach": "S198",
+        "ten_sach": "Khéo ăn khéo nói sẽ có được thiên hạ",
+        "tac_gia": "Trác Nhã",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 9,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2022
+    },
+    "S081": {
+        "ma_sach": "S081",
+        "ten_sach": "Đắc Nhân Tâm",
+        "tac_gia": "Dale Carnegie",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 10,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": 2005
+    },
+    "S199": {
+        "ma_sach": "S199",
+        "ten_sach": "Không gia đình",
+        "tac_gia": "Hector Malor",
+        "the_loai": "Văn học",
+        "so_luong_sach": 10,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": "2006"
+    },
+    "S162": {
+        "ma_sach": "S162",
+        "ten_sach": "Nhà Giả Kim",
+        "tac_gia": "Paulo Coelho",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 10,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2011
+    },
+    "S082": {
+        "ma_sach": "S082",
+        "ten_sach": "Nhà Giả Kim",
+        "tac_gia": "Paulo Coelho",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 2,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2006
+    },
+    "S163": {
+        "ma_sach": "S163",
+        "ten_sach": "Hoàn thành mọi việc không hề khó",
+        "tac_gia": "David Allen",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 2,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2012
+    },
+    "S083": {
+        "ma_sach": "S083",
+        "ten_sach": "Tuổi Trẻ Đáng Giá Bao Nhiêu",
+        "tac_gia": "Rosie Nguyễn",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 3,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2007
+    },
+    "S164": {
+        "ma_sach": "S164",
+        "ten_sach": "Kính vạn hoa Tập 1",
+        "tac_gia": "Nguyễn Nhật Ánh",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 3,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2013
+    },
+    "S165": {
+        "ma_sach": "S165",
+        "ten_sach": "Đất rừng phương Nam",
+        "tac_gia": "Đoàn Giỏi",
+        "the_loai": "Văn học",
+        "so_luong_sach": 4,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": 2014
+    },
+    "S084": {
+        "ma_sach": "S084",
+        "ten_sach": "Chuyện xứ Lang Biang Tập 2",
+        "tac_gia": "Nguyễn Nhật Ánh",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 4,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2008
+    },
+    "S166": {
+        "ma_sach": "S166",
+        "ten_sach": "Tâm lý dân tộc An Nam",
+        "tac_gia": "Paul Giran",
+        "the_loai": "Lịch sử",
+        "so_luong_sach": 5,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": "2015"
+    },
+    "S085": {
+        "ma_sach": "S085",
+        "ten_sach": "Mắt Biếc",
+        "tac_gia": "Nguyễn Nhật Ánh",
+        "the_loai": "Văn học",
+        "so_luong_sach": 5,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": 2009
+    },
+    "S086": {
+        "ma_sach": "S086",
+        "ten_sach": "Đại Nam Văn hiến Sử thi",
+        "tac_gia": "Huỳnh Uy Dũng",
+        "the_loai": "Lịch sử",
+        "so_luong_sach": 6,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": "2010"
+    },
+    "S167": {
+        "ma_sach": "S167",
+        "ten_sach": "Định hình mạng 6G trong tương lai Tập 1",
+        "tac_gia": "Nhiều tác giả",
+        "the_loai": "Khoa học công nghệ",
+        "so_luong_sach": 5,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": "2016"
+    },
+    "S130": {
+        "ma_sach": "S130",
+        "ten_sach": "Xác suất thống kê",
+        "tac_gia": "Tống Đình Quỳ",
+        "the_loai": "Giáo trình",
+        "so_luong_sach": 5,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": 2004
+    },
+    "S050": {
+        "ma_sach": "S050",
+        "ten_sach": "Đại số tuyến tính",
+        "tac_gia": "Dương Quốc Việt",
+        "the_loai": "Giáo trình",
+        "so_luong_sach": 5,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Bách Khoa",
+        "nam_xuat_ban": 2024
+    },
+    "S087": {
+        "ma_sach": "S087",
+        "ten_sach": "Tóm lược chuyển đổi số",
+        "tac_gia": "David L.Rogers",
+        "the_loai": "Khoa học công nghệ",
+        "so_luong_sach": 7,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": "2011"
+    },
+    "S168": {
+        "ma_sach": "S168",
+        "ten_sach": "Chuyển đổi số trong kinh doanh",
+        "tac_gia": "Bùi Xuân Chung",
+        "the_loai": "Khoa học công nghệ",
+        "so_luong_sach": 7,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": "2017"
+    },
+    "S131": {
+        "ma_sach": "S131",
+        "ten_sach": "Hai đứa trẻ",
+        "tac_gia": "Thạch Lam",
+        "the_loai": "Văn học",
+        "so_luong_sach": 6,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": 2005
+    },
+    "S051": {
+        "ma_sach": "S051",
+        "ten_sach": "Tuổi thơ dữ dội Tập 2",
+        "tac_gia": "Phùng Quán",
+        "the_loai": "Văn học",
+        "so_luong_sach": 7,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": 2000
+    },
+    "S132": {
+        "ma_sach": "S132",
+        "ten_sach": "Không Gia Đình",
+        "tac_gia": "Hector Malot",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 7,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2006
+    },
+    "S088": {
+        "ma_sach": "S088",
+        "ten_sach": "Lược Sử Thời Gian",
+        "tac_gia": "Stephen Hawking",
+        "the_loai": "Khoa học công nghệ",
+        "so_luong_sach": 8,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2012
+    },
+    "S169": {
+        "ma_sach": "S169",
+        "ten_sach": "Sử dụng hiệu quả DeepSeek",
+        "tac_gia": "Nhiều tác giả",
+        "the_loai": "Khoa học công nghệ",
+        "so_luong_sach": 8,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": "2018"
+    },
+    "S133": {
+        "ma_sach": "S133",
+        "ten_sach": "Sherlock Holmes Toàn Tập",
+        "tac_gia": "Arthur Conan Doyle",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 8,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2007
+    },
+    "S089": {
+        "ma_sach": "S089",
+        "ten_sach": "Clean Code",
+        "tac_gia": "Robert C. Martin",
+        "the_loai": "Khoa học công nghệ",
+        "so_luong_sach": 9,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2013
+    },
+    "S052": {
+        "ma_sach": "S052",
+        "ten_sach": "Không Gia Đình",
+        "tac_gia": "Hector Malot",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 8,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2001
+    },
+    "S134": {
+        "ma_sach": "S134",
+        "ten_sach": "Bố Già",
+        "tac_gia": "Mario Puzo",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 9,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2008
+    },
+    "S053": {
+        "ma_sach": "S053",
+        "ten_sach": "Sherlock Holmes Toàn Tập",
+        "tac_gia": "Arthur Conan Doyle",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 9,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2002
+    },
+    "S135": {
+        "ma_sach": "S135",
+        "ten_sach": "Chiến Tranh Và Hòa Bình",
+        "tac_gia": "Leo Tolstoy",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 10,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": 2009
+    },
+    "S054": {
+        "ma_sach": "S054",
+        "ten_sach": "Bố Già",
+        "tac_gia": "Mario Puzo",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 10,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2003
+    },
+    "S055": {
+        "ma_sach": "S055",
+        "ten_sach": "Chiến Tranh Và Hòa Bình",
+        "tac_gia": "Leo Tolstoy",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 2,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": 2004
+    },
+    "S136": {
+        "ma_sach": "S136",
+        "ten_sach": "Học tiếng Nhật trong giao tiếp Tập 1",
+        "tac_gia": "Nhiều tác giả",
+        "the_loai": "Tham khảo",
+        "so_luong_sach": 2,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": "2010"
+    },
+    "S100": {
+        "ma_sach": "S100",
+        "ten_sach": "Lập Trình Python Cơ Bản",
+        "tac_gia": "Eric Matthes",
+        "the_loai": "Giáo trình",
+        "so_luong_sach": 0,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": 2024
+    },
+    "S137": {
+        "ma_sach": "S137",
+        "ten_sach": "Những quy tắc trong cuộc sống",
+        "tac_gia": "Richard Templar",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 5,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2011
+    },
+    "S056": {
+        "ma_sach": "S056",
+        "ten_sach": "Học tiếng Nhật trong giao tiếp Tập 1",
+        "tac_gia": "Nhiều tác giả",
+        "the_loai": "Tham khảo",
+        "so_luong_sach": 3,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": "2005"
+    },
+    "S101": {
+        "ma_sach": "S101",
+        "ten_sach": "Gieo suy nghĩ gặt thành công",
+        "tac_gia": "Napoleon Hill",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 2,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": 2000
+    },
+    "S057": {
+        "ma_sach": "S057",
+        "ten_sach": "Những quy tắc để giàu có",
+        "tac_gia": "Richard Templar",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 7,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2006
+    },
+    "S138": {
+        "ma_sach": "S138",
+        "ten_sach": "Giao tiếp để thành công Tập 2",
+        "tac_gia": "Leil Lowndes",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 4,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2012
+    },
+    "S020": {
+        "ma_sach": "S020",
+        "ten_sach": "Lập Trình Python Cơ Bản",
+        "tac_gia": "Eric Matthes",
+        "the_loai": "Giáo trình",
+        "so_luong_sach": 2,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": 2019
+    },
+    "S058": {
+        "ma_sach": "S058",
+        "ten_sach": "Cha Giàu Cha Nghèo",
+        "tac_gia": "Robert Kiyosaki",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 5,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2007
+    },
+    "S139": {
+        "ma_sach": "S139",
+        "ten_sach": "Muôn Kiếp Nhân Sinh",
+        "tac_gia": "Nguyên Phong",
+        "the_loai": "Văn học",
+        "so_luong_sach": 5,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2013
+    },
+    "S021": {
+        "ma_sach": "S021",
+        "ten_sach": "Đắc Nhân Tâm",
+        "tac_gia": "Dale Carnegie",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 4,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": 2020
+    },
+    "S102": {
+        "ma_sach": "S102",
+        "ten_sach": "Nhà Giả Kim",
+        "tac_gia": "Paulo Coelho",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 4,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2001
+    },
+    "S059": {
+        "ma_sach": "S059",
+        "ten_sach": "Muôn Kiếp Nhân Sinh",
+        "tac_gia": "Nguyên Phong",
+        "the_loai": "Văn học",
+        "so_luong_sach": 6,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2008
+    },
+    "S103": {
+        "ma_sach": "S103",
+        "ten_sach": "Tuổi Trẻ Đáng Giá Bao Nhiêu",
+        "tac_gia": "Rosie Nguyễn",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 5,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2002
+    },
+    "S022": {
+        "ma_sach": "S022",
+        "ten_sach": "Nhà Giả Kim",
+        "tac_gia": "Paulo Coelho",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 5,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2021
+    },
+    "S104": {
+        "ma_sach": "S104",
+        "ten_sach": "Chuyện xứ Lang Biang Tập 4",
+        "tac_gia": "Nguyễn Nhật Ánh",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 6,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2003
+    },
+    "S023": {
+        "ma_sach": "S023",
+        "ten_sach": "Đời ngắn đừng ngủ dài",
+        "tac_gia": "Robin Sharma",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 6,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2022
+    },
+    "S024": {
+        "ma_sach": "S024",
+        "ten_sach": "Chuyện xứ Lang Biang Tập 3",
+        "tac_gia": "Nguyễn Nhật Ánh",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 7,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2023
+    },
+    "S105": {
+        "ma_sach": "S105",
+        "ten_sach": "Chí Phèo",
+        "tac_gia": "Nam Cao",
+        "the_loai": "Văn học",
+        "so_luong_sach": 6,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": 2004
+    },
+    "S106": {
+        "ma_sach": "S106",
+        "ten_sach": "Việt Nam Sử lược",
+        "tac_gia": "Trần Trọng Kim",
+        "the_loai": "Lịch sử",
+        "so_luong_sach": 8,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": "2005"
+    },
+    "S025": {
+        "ma_sach": "S025",
+        "ten_sach": "Kính vạn hoa Tập 6",
+        "tac_gia": "Nguyễn Nhật Ánh",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 8,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": 2024
+    },
+    "S026": {
+        "ma_sach": "S026",
+        "ten_sach": "Nghìn năm vương triều",
+        "tac_gia": "Hoàng Đình Long",
+        "the_loai": "Lịch sử",
+        "so_luong_sach": 9,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": "2000"
+    },
+    "S107": {
+        "ma_sach": "S107",
+        "ten_sach": "Homo Deus: Lược Sử Tương Lai",
+        "tac_gia": "Yuval Noah Harari",
+        "the_loai": "Khoa học công nghệ",
+        "so_luong_sach": 9,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2006
+    },
+    "S108": {
+        "ma_sach": "S108",
+        "ten_sach": "Lược Sử Thời Gian",
+        "tac_gia": "Stephen Hawking",
+        "the_loai": "Khoa học công nghệ",
+        "so_luong_sach": 10,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2007
+    },
+    "S027": {
+        "ma_sach": "S027",
+        "ten_sach": "Homo Deus: Lược Sử Tương Lai",
+        "tac_gia": "Yuval Noah Harari",
+        "the_loai": "Khoa học công nghệ",
+        "so_luong_sach": 10,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2001
+    },
+    "S109": {
+        "ma_sach": "S109",
+        "ten_sach": "Clean Code",
+        "tac_gia": "Robert C. Martin",
+        "the_loai": "Khoa học công nghệ",
+        "so_luong_sach": 2,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2008
+    },
+    "S028": {
+        "ma_sach": "S028",
+        "ten_sach": "Lược Sử Thời Gian",
+        "tac_gia": "Stephen Hawking",
+        "the_loai": "Khoa học công nghệ",
+        "so_luong_sach": 2,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2002
+    },
+    "S029": {
+        "ma_sach": "S029",
+        "ten_sach": "Clean Code",
+        "tac_gia": "Robert C. Martin",
+        "the_loai": "Khoa học công nghệ",
+        "so_luong_sach": 3,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2003
+    },
+    "S170": {
+        "ma_sach": "S170",
+        "ten_sach": "Giải tích II",
+        "tac_gia": "Nhóm giảng viên khoa Toán - Tin",
+        "the_loai": "Giáo trình",
+        "so_luong_sach": 9,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Bách Khoa",
+        "nam_xuat_ban": 2019
+    },
+    "S171": {
+        "ma_sach": "S171",
+        "ten_sach": "Dế Mèn Phiêu Lưu Ký",
+        "tac_gia": "Tô Hoài",
+        "the_loai": "Văn học",
+        "so_luong_sach": 10,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": 2020
+    },
+    "S090": {
+        "ma_sach": "S090",
+        "ten_sach": "Đại số",
+        "tac_gia": "Nhóm giảng viên khoa Toán - Tin",
+        "the_loai": "Giáo trình",
+        "so_luong_sach": 10,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Bách Khoa",
+        "nam_xuat_ban": 2014
+    },
+    "S172": {
+        "ma_sach": "S172",
+        "ten_sach": "Không Gia Đình",
+        "tac_gia": "Hector Malot",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 2,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2021
+    },
+    "S091": {
+        "ma_sach": "S091",
+        "ten_sach": "Gió lạnh đầu mùa",
+        "tac_gia": "Thạch Lam",
+        "the_loai": "Văn học",
+        "so_luong_sach": 2,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": 2015
+    },
+    "S173": {
+        "ma_sach": "S173",
+        "ten_sach": "Sherlock Holmes Toàn Tập",
+        "tac_gia": "Arthur Conan Doyle",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 3,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2022
+    },
+    "S092": {
+        "ma_sach": "S092",
+        "ten_sach": "Không Gia Đình",
+        "tac_gia": "Hector Malot",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 3,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2016
+    },
+    "S093": {
+        "ma_sach": "S093",
+        "ten_sach": "Sherlock Holmes Toàn Tập",
+        "tac_gia": "Arthur Conan Doyle",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 4,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2017
+    },
+    "S174": {
+        "ma_sach": "S174",
+        "ten_sach": "Bố Già",
+        "tac_gia": "Mario Puzo",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 4,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2023
+    },
+    "S094": {
+        "ma_sach": "S094",
+        "ten_sach": "Bố Già",
+        "tac_gia": "Mario Puzo",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 5,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2018
+    },
+    "S175": {
+        "ma_sach": "S175",
+        "ten_sach": "Chiến Tranh Và Hòa Bình",
+        "tac_gia": "Leo Tolstoy",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 5,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": 2024
+    },
+    "S095": {
+        "ma_sach": "S095",
+        "ten_sach": "Chiến Tranh Và Hòa Bình",
+        "tac_gia": "Leo Tolstoy",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 6,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": 2019
+    },
+    "S176": {
+        "ma_sach": "S176",
+        "ten_sach": "Tư Duy Nhanh Và Chậm",
+        "tac_gia": "Daniel Kahneman",
+        "the_loai": "Tham khảo",
+        "so_luong_sach": 6,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": 2000
+    },
+    "S140": {
+        "ma_sach": "S140",
+        "ten_sach": "Lập Trình Python Cơ Bản",
+        "tac_gia": "Eric Matthes",
+        "the_loai": "Giáo trình",
+        "so_luong_sach": 6,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": 2014
+    },
+    "S096": {
+        "ma_sach": "S096",
+        "ten_sach": "Tham khảo giáo trình Đại số",
+        "tac_gia": "Nhóm giảng viên khoa Toán - Tin",
+        "the_loai": "Tham khảo",
+        "so_luong_sach": 7,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": "2020"
+    },
+    "S177": {
+        "ma_sach": "S177",
+        "ten_sach": "7 Thói Quen Hiệu Quả",
+        "tac_gia": "Stephen R. Covey",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 7,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2001
+    },
+    "S060": {
+        "ma_sach": "S060",
+        "ten_sach": "Lập Trình Python Cơ Bản",
+        "tac_gia": "Eric Matthes",
+        "the_loai": "Giáo trình",
+        "so_luong_sach": 6,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": 2009
+    },
+    "S097": {
+        "ma_sach": "S097",
+        "ten_sach": "7 Thói Quen Hiệu Quả",
+        "tac_gia": "Stephen R. Covey",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 8,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2021
+    },
+    "S178": {
+        "ma_sach": "S178",
+        "ten_sach": "Nghệ thuật tập trung",
+        "tac_gia": "Daigo",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 8,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2002
+    },
+    "S141": {
+        "ma_sach": "S141",
+        "ten_sach": "Những kỹ năng cơ bản trong cuộc sống",
+        "tac_gia": "Lê Huy Khoa Kanata",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 7,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": 2015
+    },
+    "S061": {
+        "ma_sach": "S061",
+        "ten_sach": "Sức mạnh của ngôn từ",
+        "tac_gia": "Don Gabor",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 8,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": 2010
+    },
+    "S098": {
+        "ma_sach": "S098",
+        "ten_sach": "Cha Giàu Cha Nghèo",
+        "tac_gia": "Robert Kiyosaki",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 9,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2022
+    },
+    "S142": {
+        "ma_sach": "S142",
+        "ten_sach": "Nhà Giả Kim",
+        "tac_gia": "Paulo Coelho",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 8,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2016
+    },
+    "S179": {
+        "ma_sach": "S179",
+        "ten_sach": "Muôn Kiếp Nhân Sinh",
+        "tac_gia": "Nguyên Phong",
+        "the_loai": "Văn học",
+        "so_luong_sach": 9,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2003
+    },
+    "S062": {
+        "ma_sach": "S062",
+        "ten_sach": "Nhà Giả Kim",
+        "tac_gia": "Paulo Coelho",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 9,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2011
+    },
+    "S143": {
+        "ma_sach": "S143",
+        "ten_sach": "Kỹ năng sống cho tuổi vị thành niên",
+        "tac_gia": "Nguyễn Thị Oanh",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 9,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2017
+    },
+    "S099": {
+        "ma_sach": "S099",
+        "ten_sach": "Muôn Kiếp Nhân Sinh",
+        "tac_gia": "Nguyên Phong",
+        "the_loai": "Văn học",
+        "so_luong_sach": 10,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2023
+    },
+    "S144": {
+        "ma_sach": "S144",
+        "ten_sach": "Kính vạn hoa Tập 2",
+        "tac_gia": "Nguyễn Nhật Ánh",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 10,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2018
+    },
+    "S063": {
+        "ma_sach": "S063",
+        "ten_sach": "Kỹ năng ứng xử thông minh",
+        "tac_gia": "Hùng Thái Hành",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 10,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2012
+    },
+    "S064": {
+        "ma_sach": "S064",
+        "ten_sach": "Ngày xưa có một chuyện tình",
+        "tac_gia": "Nguyễn Nhật Ánh",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 2,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2013
+    },
+    "S145": {
+        "ma_sach": "S145",
+        "ten_sach": "Số đỏ",
+        "tac_gia": "Vũ Trọng Phụng",
+        "the_loai": "Văn học",
+        "so_luong_sach": 2,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": 2019
+    },
+    "S146": {
+        "ma_sach": "S146",
+        "ten_sach": "Sử Việt - 12 khúc tráng ca",
+        "tac_gia": "Dũng Phan",
+        "the_loai": "Lịch sử",
+        "so_luong_sach": 3,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": "2020"
+    },
+    "S065": {
+        "ma_sach": "S065",
+        "ten_sach": "Tắt đèn",
+        "tac_gia": "Ngô Tất Tố",
+        "the_loai": "Văn học",
+        "so_luong_sach": 3,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": 2014
+    },
+    "S110": {
+        "ma_sach": "S110",
+        "ten_sach": "C++ & Lập trình hướng đối tượng",
+        "tac_gia": "GS. Phạm Văn Ất",
+        "the_loai": "Giáo trình",
+        "so_luong_sach": 3,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": 2009
+    },
+    "S066": {
+        "ma_sach": "S066",
+        "ten_sach": "Hát ru sử thi Việt",
+        "tac_gia": "Phạm Thiên Thư",
+        "the_loai": "Lịch sử",
+        "so_luong_sach": 4,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": "2015"
+    },
+    "S147": {
+        "ma_sach": "S147",
+        "ten_sach": "Homo Deus: Lược Sử Tương Lai",
+        "tac_gia": "Yuval Noah Harari",
+        "the_loai": "Khoa học công nghệ",
+        "so_luong_sach": 4,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2021
+    },
+    "S030": {
+        "ma_sach": "S030",
+        "ten_sach": "Quản trị học đại cương",
+        "tac_gia": "Nguyễn Quang Chương",
+        "the_loai": "Giáo trình",
+        "so_luong_sach": 3,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": 2004
+    },
+    "S067": {
+        "ma_sach": "S067",
+        "ten_sach": "Homo Deus: Lược Sử Tương Lai",
+        "tac_gia": "Yuval Noah Harari",
+        "the_loai": "Khoa học công nghệ",
+        "so_luong_sach": 5,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2016
+    },
+    "S148": {
+        "ma_sach": "S148",
+        "ten_sach": "Lược Sử Thời Gian",
+        "tac_gia": "Stephen Hawking",
+        "the_loai": "Khoa học công nghệ",
+        "so_luong_sach": 5,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2022
+    },
+    "S111": {
+        "ma_sach": "S111",
+        "ten_sach": "Làm đĩ",
+        "tac_gia": "Vũ Trọng Phụng",
+        "the_loai": "Văn học",
+        "so_luong_sach": 4,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": 2010
+    },
+    "S031": {
+        "ma_sach": "S031",
+        "ten_sach": "Những ngày thơ ấu",
+        "tac_gia": "Nguyên Hồng",
+        "the_loai": "Văn học",
+        "so_luong_sach": 5,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": 2005
+    },
+    "S149": {
+        "ma_sach": "S149",
+        "ten_sach": "Clean Code",
+        "tac_gia": "Robert C. Martin",
+        "the_loai": "Khoa học công nghệ",
+        "so_luong_sach": 6,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2023
+    },
+    "S068": {
+        "ma_sach": "S068",
+        "ten_sach": "Lược Sử Thời Gian",
+        "tac_gia": "Stephen Hawking",
+        "the_loai": "Khoa học công nghệ",
+        "so_luong_sach": 6,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2017
+    },
+    "S112": {
+        "ma_sach": "S112",
+        "ten_sach": "Không Gia Đình",
+        "tac_gia": "Hector Malot",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 5,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2011
+    },
+    "S113": {
+        "ma_sach": "S113",
+        "ten_sach": "Sherlock Holmes Toàn Tập",
+        "tac_gia": "Arthur Conan Doyle",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 6,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2012
+    },
+    "S032": {
+        "ma_sach": "S032",
+        "ten_sach": "Không Gia Đình",
+        "tac_gia": "Hector Malot",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 6,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2006
+    },
+    "S069": {
+        "ma_sach": "S069",
+        "ten_sach": "Clean Code",
+        "tac_gia": "Robert C. Martin",
+        "the_loai": "Khoa học công nghệ",
+        "so_luong_sach": 7,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2018
+    },
+    "S114": {
+        "ma_sach": "S114",
+        "ten_sach": "Bố Già",
+        "tac_gia": "Mario Puzo",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 7,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2013
+    },
+    "S033": {
+        "ma_sach": "S033",
+        "ten_sach": "Sherlock Holmes Toàn Tập",
+        "tac_gia": "Arthur Conan Doyle",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 7,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2007
+    },
+    "S115": {
+        "ma_sach": "S115",
+        "ten_sach": "Chiến Tranh Và Hòa Bình",
+        "tac_gia": "Leo Tolstoy",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 8,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": 2014
+    },
+    "S034": {
+        "ma_sach": "S034",
+        "ten_sach": "Bố Già",
+        "tac_gia": "Mario Puzo",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 8,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2008
+    },
+    "S035": {
+        "ma_sach": "S035",
+        "ten_sach": "Chiến Tranh Và Hòa Bình",
+        "tac_gia": "Leo Tolstoy",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 8,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": 2009
+    },
+    "S116": {
+        "ma_sach": "S116",
+        "ten_sach": "Tham khảo giải bài tập Xác suất thống kê",
+        "tac_gia": "Nhóm giảng viên khoa Toán - Tin",
+        "the_loai": "Tham khảo",
+        "so_luong_sach": 9,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": "2015"
+    },
+    "S036": {
+        "ma_sach": "S036",
+        "ten_sach": "Tư Duy Nhanh Và Chậm",
+        "tac_gia": "Daniel Kahneman",
+        "the_loai": "Tham khảo",
+        "so_luong_sach": 10,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": 2010
+    },
+    "S117": {
+        "ma_sach": "S117",
+        "ten_sach": "Giỏi giao tiếp",
+        "tac_gia": "Nhã An",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 10,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2016
+    },
+    "S037": {
+        "ma_sach": "S037",
+        "ten_sach": "7 Thói Quen Hiệu Quả",
+        "tac_gia": "Stephen R. Covey",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 2,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2011
+    },
+    "S118": {
+        "ma_sach": "S118",
+        "ten_sach": "Nghệ thuật nói trước công chúng",
+        "tac_gia": "Dale Carnegie",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 5,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2017
+    },
+    "S038": {
+        "ma_sach": "S038",
+        "ten_sach": "Tự thoát hiểm",
+        "tac_gia": "Nhã An",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 3,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2012
+    },
+    "S119": {
+        "ma_sach": "S119",
+        "ten_sach": "Muôn Kiếp Nhân Sinh",
+        "tac_gia": "Nguyên Phong",
+        "the_loai": "Văn học",
+        "so_luong_sach": 3,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2018
+    },
+    "S001": {
+        "ma_sach": "S001",
+        "ten_sach": "Trí tuệ do thái",
+        "tac_gia": "Eran Katz",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 7,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": "20"
+    },
+    "S002": {
+        "ma_sach": "S002",
+        "ten_sach": "Nhà Giả Kim",
+        "tac_gia": "Paulo Coelho",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 5,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2001
+    },
+    "S039": {
+        "ma_sach": "S039",
+        "ten_sach": "Muôn Kiếp Nhân Sinh",
+        "tac_gia": "Nguyên Phong",
+        "the_loai": "Văn học",
+        "so_luong_sach": 4,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2013
+    },
+    "S003": {
+        "ma_sach": "S003",
+        "ten_sach": "Tự lập tuổi 20",
+        "tac_gia": "Cao Phi Hải",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 11,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2000
+    },
+    "S004": {
+        "ma_sach": "S004",
+        "ten_sach": "Chuyện xứ Lang Biang Tập 1",
+        "tac_gia": "Nguyễn Nhật Ánh",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 7,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2003
+    },
+    "S005": {
+        "ma_sach": "S005",
+        "ten_sach": "Vợ nhặt",
+        "tac_gia": "Kim Lân",
+        "the_loai": "Văn học",
+        "so_luong_sach": 6,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": 2004
+    },
+    "S006": {
+        "ma_sach": "S006",
+        "ten_sach": "Sapiens: Lược Sử Loài Người",
+        "tac_gia": "Yuval Noah Harari",
+        "the_loai": "Lịch sử",
+        "so_luong_sach": 8,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": 2005
+    },
+    "S007": {
+        "ma_sach": "S007",
+        "ten_sach": "Homo Deus: Lược Sử Tương Lai",
+        "tac_gia": "Yuval Noah Harari",
+        "the_loai": "Khoa học công nghệ",
+        "so_luong_sach": 8,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2006
+    },
+    "S008": {
+        "ma_sach": "S008",
+        "ten_sach": "Lược Sử Thời Gian",
+        "tac_gia": "Stephen Hawking",
+        "the_loai": "Khoa học công nghệ",
+        "so_luong_sach": 9,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2007
+    },
+    "S180": {
+        "ma_sach": "S180",
+        "ten_sach": "Lập Trình Python Cơ Bản",
+        "tac_gia": "Eric Matthes",
+        "the_loai": "Giáo trình",
+        "so_luong_sach": 10,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": 2004
+    },
+    "S009": {
+        "ma_sach": "S009",
+        "ten_sach": "Clean Code",
+        "tac_gia": "Robert C. Martin",
+        "the_loai": "Khoa học công nghệ",
+        "so_luong_sach": 10,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2008
+    },
+    "S181": {
+        "ma_sach": "S181",
+        "ten_sach": "Tâm lý học thành công",
+        "tac_gia": "Carol S.Dweck",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 5,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Trẻ",
+        "nam_xuat_ban": 2005
+    },
+    "S182": {
+        "ma_sach": "S182",
+        "ten_sach": "Nhà Giả Kim",
+        "tac_gia": "Paulo Coelho",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 3,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Kim Đồng",
+        "nam_xuat_ban": 2006
+    },
+    "S183": {
+        "ma_sach": "S183",
+        "ten_sach": "Tuổi Trẻ Đáng Giá Bao Nhiêu",
+        "tac_gia": "Rosie Nguyễn",
+        "the_loai": "Kỹ năng sống",
+        "so_luong_sach": 4,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Giáo Dục",
+        "nam_xuat_ban": 2007
+    },
+    "S184": {
+        "ma_sach": "S184",
+        "ten_sach": "Tôi Thấy Hoa Vàng Trên Cỏ Xanh",
+        "tac_gia": "Nguyễn Nhật Ánh",
+        "the_loai": "Văn học",
+        "so_luong_sach": 5,
+        "tinh_trang_sach": "Sách đã sử dụng",
+        "nha_xuat_ban": "NXB Lao Động",
+        "nam_xuat_ban": 2008
+    },
+    "S185": {
+        "ma_sach": "S185",
+        "ten_sach": "Kính vạn hoa Tập 7",
+        "tac_gia": "Nguyễn Nhật Ánh",
+        "the_loai": "Tiểu thuyết",
+        "so_luong_sach": 6,
+        "tinh_trang_sach": "Sách mới",
+        "nha_xuat_ban": "NXB Tổng Hợp TP.HCM",
+        "nam_xuat_ban": 2009
+    }
+}

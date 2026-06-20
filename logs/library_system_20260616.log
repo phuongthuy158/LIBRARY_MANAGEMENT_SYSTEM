@@ -1,0 +1,1290 @@
+2026-06-16 00:05:07,177 - INFO - Khởi động ứng dụng
+2026-06-16 00:05:07,182 - INFO - Đã tải dữ liệu thành công
+2026-06-16 00:05:30,888 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 00:12:29,780 - INFO - Khởi động ứng dụng
+2026-06-16 00:12:29,784 - INFO - Đã tải dữ liệu thành công
+2026-06-16 00:12:29,908 - ERROR - Không thể tải logo: [Errno 2] No such file or directory: 'assets/hust.png'
+2026-06-16 00:12:29,998 - ERROR - Lỗi không mong muốn: 'Book' object has no attribute 'so_luong'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 13, in <module>
+    app = gui.LibraryManagementSystem(root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 191, in __init__
+    self.setup_book_tab()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 306, in setup_book_tab
+    self.update_book_list()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 827, in update_book_list
+    book.so_luong,
+    ^^^^^^^^^^^^^
+AttributeError: 'Book' object has no attribute 'so_luong'
+2026-06-16 00:18:53,122 - INFO - Khởi động ứng dụng
+2026-06-16 00:18:53,126 - INFO - Đã tải dữ liệu thành công
+2026-06-16 00:18:53,235 - ERROR - Không thể tải logo: [Errno 2] No such file or directory: 'assets/hust.png'
+2026-06-16 00:18:53,299 - ERROR - Lỗi không mong muốn: Invalid column index Tình trạng
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 13, in <module>
+    app = gui.LibraryManagementSystem(root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 180, in __init__
+    self.setup_book_tab()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 287, in setup_book_tab
+    self.book_tree.column("Tình trạng", width=150, anchor="center")
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\tkinter\ttk.py", line 1218, in column
+    return _val_or_dict(self.tk, kw, self._w, "column", column)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\tkinter\ttk.py", line 281, in _val_or_dict
+    res = tk.call(*(args + options))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: Invalid column index Tình trạng
+2026-06-16 00:45:14,745 - INFO - Khởi động ứng dụng
+2026-06-16 00:45:14,749 - INFO - Đã tải dữ liệu thành công
+2026-06-16 00:45:14,865 - ERROR - Không thể tải logo: [Errno 2] No such file or directory: 'assets/hust.png'
+2026-06-16 00:45:14,948 - ERROR - Lỗi không mong muốn: 'Book' object has no attribute 'so_luong'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 13, in <module>
+    app = gui.LibraryManagementSystem(root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 191, in __init__
+    self.setup_book_tab()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 306, in setup_book_tab
+    self.update_book_list()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 827, in update_book_list
+    book.so_luong,
+    ^^^^^^^^^^^^^
+AttributeError: 'Book' object has no attribute 'so_luong'
+2026-06-16 08:29:53,705 - INFO - Khởi động ứng dụng
+2026-06-16 08:29:53,714 - INFO - Đã tải dữ liệu thành công
+2026-06-16 08:29:53,957 - ERROR - Không thể tải logo: [Errno 2] No such file or directory: 'assets/hust.png'
+2026-06-16 08:29:54,819 - ERROR - Lỗi không mong muốn: 'Book' object has no attribute 'so_luong'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 13, in <module>
+    app = gui.LibraryManagementSystem(root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 127, in __init__
+    self.setup_book_tab()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 254, in setup_book_tab
+    self.update_book_list()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 308, in update_book_list
+    self._fill_book_tree(books)
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 319, in _fill_book_tree
+    b.so_luong, b.tinh_trang
+    ^^^^^^^^^^
+AttributeError: 'Book' object has no attribute 'so_luong'
+2026-06-16 08:30:42,161 - INFO - Khởi động ứng dụng
+2026-06-16 08:30:42,164 - INFO - Đã tải dữ liệu thành công
+2026-06-16 08:30:42,797 - ERROR - Lỗi không mong muốn: 'Book' object has no attribute 'so_luong'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 13, in <module>
+    app = gui.LibraryManagementSystem(root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 127, in __init__
+    self.setup_book_tab()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 254, in setup_book_tab
+    self.update_book_list()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 308, in update_book_list
+    self._fill_book_tree(books)
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 319, in _fill_book_tree
+    b.so_luong, b.tinh_trang
+    ^^^^^^^^^^
+AttributeError: 'Book' object has no attribute 'so_luong'
+2026-06-16 08:31:28,237 - INFO - Khởi động ứng dụng
+2026-06-16 08:31:28,237 - INFO - Đã tải dữ liệu thành công
+2026-06-16 08:31:28,729 - ERROR - Lỗi không mong muốn: 'Reader' object has no attribute 'ten'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 13, in <module>
+    app = gui.LibraryManagementSystem(root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 128, in __init__
+    self.setup_reader_tab()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 691, in setup_reader_tab
+    self.update_reader_list()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 733, in update_reader_list
+    self._fill_reader_tree(readers)
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 742, in _fill_reader_tree
+    r.ma_ban_doc, r.ten, r.ngay_sinh, r.gioi_tinh, r.dia_chi, r.so_dien_thoai
+                  ^^^^^
+AttributeError: 'Reader' object has no attribute 'ten'
+2026-06-16 08:32:09,250 - INFO - Khởi động ứng dụng
+2026-06-16 08:32:09,254 - INFO - Đã tải dữ liệu thành công
+2026-06-16 08:32:09,795 - ERROR - Lỗi không mong muốn: 'TrackBook' object has no attribute 'ma_sach_muon'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 13, in <module>
+    app = gui.LibraryManagementSystem(root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 132, in __init__
+    self.update_tracking_list()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 1051, in update_tracking_list
+    r.ma_ban_doc, r.ma_sach_muon, r.ten_sach_muon,
+                  ^^^^^^^^^^^^^^
+AttributeError: 'TrackBook' object has no attribute 'ma_sach_muon'
+2026-06-16 08:32:34,433 - INFO - Khởi động ứng dụng
+2026-06-16 08:32:34,437 - INFO - Đã tải dữ liệu thành công
+2026-06-16 08:34:07,007 - INFO - Mở cửa sổ thêm sách mới
+2026-06-16 08:36:35,573 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 08:36:38,362 - INFO - Khởi động ứng dụng
+2026-06-16 08:36:38,362 - INFO - Đã tải dữ liệu thành công
+2026-06-16 08:37:02,477 - INFO - Mở cửa sổ thêm sách mới
+2026-06-16 08:45:46,554 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 08:45:47,140 - INFO - Khởi động ứng dụng
+2026-06-16 08:45:47,146 - INFO - Đã tải dữ liệu thành công
+2026-06-16 08:45:47,770 - ERROR - Lỗi không mong muốn: 'Book' object has no attribute 'so_luong'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 13, in <module>
+    app = gui.LibraryManagementSystem(root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 127, in __init__
+    self.setup_book_tab()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 254, in setup_book_tab
+    self.update_book_list()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 401, in update_book_list
+    self._fill_book_tree(books)
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 412, in _fill_book_tree
+    b.so_luong, b.tinh_trang
+    ^^^^^^^^^^
+AttributeError: 'Book' object has no attribute 'so_luong'
+2026-06-16 08:46:14,510 - INFO - Khởi động ứng dụng
+2026-06-16 08:46:14,510 - INFO - Đã tải dữ liệu thành công
+2026-06-16 08:46:14,990 - ERROR - Lỗi không mong muốn: 'Reader' object has no attribute 'ten'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 13, in <module>
+    app = gui.LibraryManagementSystem(root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 128, in __init__
+    self.setup_reader_tab()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 784, in setup_reader_tab
+    self.update_reader_list()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 826, in update_reader_list
+    self._fill_reader_tree(readers)
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 835, in _fill_reader_tree
+    r.ma_ban_doc, r.ten, r.ngay_sinh, r.gioi_tinh, r.dia_chi, r.so_dien_thoai
+                  ^^^^^
+AttributeError: 'Reader' object has no attribute 'ten'
+2026-06-16 08:46:38,765 - INFO - Khởi động ứng dụng
+2026-06-16 08:46:38,773 - INFO - Đã tải dữ liệu thành công
+2026-06-16 08:46:39,404 - ERROR - Lỗi không mong muốn: 'TrackBook' object has no attribute 'ma_sach_muon'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 13, in <module>
+    app = gui.LibraryManagementSystem(root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 132, in __init__
+    self.update_tracking_list()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 1144, in update_tracking_list
+    r.ma_ban_doc, r.ma_sach_muon, r.ten_sach_muon,
+                  ^^^^^^^^^^^^^^
+AttributeError: 'TrackBook' object has no attribute 'ma_sach_muon'
+2026-06-16 08:47:04,192 - INFO - Khởi động ứng dụng
+2026-06-16 08:47:04,194 - INFO - Đã tải dữ liệu thành công
+2026-06-16 08:48:49,926 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 08:48:52,429 - INFO - Mở cửa sổ tìm kiếm sách
+2026-06-16 08:49:32,770 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 08:50:24,718 - INFO - Mở cửa sổ thêm bạn đọc mới
+2026-06-16 08:57:09,191 - INFO - Khởi động ứng dụng
+2026-06-16 08:57:09,196 - INFO - Đã tải dữ liệu thành công
+2026-06-16 08:57:09,539 - ERROR - Lỗi không mong muốn: 'LibraryManagementSystem' object has no attribute 'filter_nha_xuat_ban'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 13, in <module>
+    app = gui.LibraryManagementSystem(root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 114, in __init__
+    self.setup_book_tab()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 240, in setup_book_tab
+    self._refresh_book_filter_options()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 252, in _refresh_book_filter_options
+    self.filter_nha_xuat_ban["values"]      = publishers
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'LibraryManagementSystem' object has no attribute 'filter_nha_xuat_ban'
+2026-06-16 08:58:17,144 - INFO - Khởi động ứng dụng
+2026-06-16 08:58:17,148 - INFO - Đã tải dữ liệu thành công
+2026-06-16 08:58:17,387 - ERROR - Lỗi không mong muốn: 'LibraryManagementSystem' object has no attribute 'filter_nha_xuat_ban'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 13, in <module>
+    app = gui.LibraryManagementSystem(root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 114, in __init__
+    self.setup_book_tab()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 240, in setup_book_tab
+    self._refresh_book_filter_options()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 252, in _refresh_book_filter_options
+    self.filter_nha_xuat_ban["values"]      = nha_xuat_ban
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'LibraryManagementSystem' object has no attribute 'filter_nha_xuat_ban'
+2026-06-16 08:58:31,367 - INFO - Khởi động ứng dụng
+2026-06-16 08:58:31,369 - INFO - Đã tải dữ liệu thành công
+2026-06-16 08:58:31,548 - ERROR - Lỗi không mong muốn: 'LibraryManagementSystem' object has no attribute 'filter_nha_xuat_ban'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 13, in <module>
+    app = gui.LibraryManagementSystem(root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 114, in __init__
+    self.setup_book_tab()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 240, in setup_book_tab
+    self._refresh_book_filter_options()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 252, in _refresh_book_filter_options
+    self.filter_nha_xuat_ban["values"]      = nha_xuat_ban
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'LibraryManagementSystem' object has no attribute 'filter_nha_xuat_ban'
+2026-06-16 08:59:44,683 - INFO - Khởi động ứng dụng
+2026-06-16 08:59:44,683 - INFO - Đã tải dữ liệu thành công
+2026-06-16 08:59:44,867 - ERROR - Lỗi không mong muốn: 'Book' object has no attribute 'so_luong'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 13, in <module>
+    app = gui.LibraryManagementSystem(root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 114, in __init__
+    self.setup_book_tab()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 241, in setup_book_tab
+    self.update_book_list()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 389, in update_book_list
+    self._fill_book_tree(books)
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 400, in _fill_book_tree
+    b.so_luong, b.tinh_trang
+    ^^^^^^^^^^
+AttributeError: 'Book' object has no attribute 'so_luong'
+2026-06-16 09:00:05,591 - INFO - Khởi động ứng dụng
+2026-06-16 09:00:05,594 - INFO - Đã tải dữ liệu thành công
+2026-06-16 09:00:06,214 - ERROR - Lỗi không mong muốn: 'Reader' object has no attribute 'ten'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 13, in <module>
+    app = gui.LibraryManagementSystem(root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 115, in __init__
+    self.setup_reader_tab()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 794, in setup_reader_tab
+    self.update_reader_list()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 836, in update_reader_list
+    self._fill_reader_tree(readers)
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 845, in _fill_reader_tree
+    r.ma_ban_doc, r.ten, r.ngay_sinh, r.gioi_tinh, r.dia_chi, r.so_dien_thoai
+                  ^^^^^
+AttributeError: 'Reader' object has no attribute 'ten'
+2026-06-16 09:00:26,476 - INFO - Khởi động ứng dụng
+2026-06-16 09:00:26,476 - INFO - Đã tải dữ liệu thành công
+2026-06-16 09:00:27,058 - INFO - Khởi động ứng dụng
+2026-06-16 09:00:27,068 - INFO - Đã tải dữ liệu thành công
+2026-06-16 09:00:27,599 - ERROR - Lỗi không mong muốn: 'TrackBook' object has no attribute 'ma_sach_muon'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 13, in <module>
+    app = gui.LibraryManagementSystem(root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 119, in __init__
+    self.update_tracking_list()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 1154, in update_tracking_list
+    r.ma_ban_doc, r.ma_sach_muon, r.ten_sach_muon,
+                  ^^^^^^^^^^^^^^
+AttributeError: 'TrackBook' object has no attribute 'ma_sach_muon'
+2026-06-16 09:00:47,602 - INFO - Khởi động ứng dụng
+2026-06-16 09:00:47,605 - INFO - Đã tải dữ liệu thành công
+2026-06-16 09:00:48,065 - INFO - Khởi động ứng dụng
+2026-06-16 09:00:48,065 - INFO - Đã tải dữ liệu thành công
+2026-06-16 09:19:53,019 - INFO - Khởi động ứng dụng
+2026-06-16 09:19:53,029 - INFO - Đã tải dữ liệu thành công
+2026-06-16 09:20:01,107 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 09:20:06,173 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 09:20:11,387 - INFO - Mở cửa sổ tìm kiếm sách
+2026-06-16 09:20:56,603 - INFO - Mở cửa sổ trả sách
+2026-06-16 09:28:55,881 - INFO - Khởi động ứng dụng
+2026-06-16 09:28:55,887 - INFO - Đã tải dữ liệu thành công
+2026-06-16 09:29:20,480 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 09:29:34,993 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 09:32:56,094 - INFO - Khởi động ứng dụng
+2026-06-16 09:32:56,103 - INFO - Đã tải dữ liệu thành công
+2026-06-16 09:33:00,532 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 09:33:04,921 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 09:33:32,223 - INFO - Mở cửa sổ tìm kiếm sách
+2026-06-16 09:34:47,247 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 09:34:59,047 - INFO - Mở cửa sổ tìm kiếm sách
+2026-06-16 09:36:16,026 - INFO - Mở cửa sổ tìm kiếm sách
+2026-06-16 09:36:54,643 - INFO - Mở cửa sổ thêm sách mới
+2026-06-16 09:38:09,167 - INFO - Mở cửa sổ thêm bạn đọc mới
+2026-06-16 09:39:29,730 - INFO - Mở cửa sổ thêm bạn đọc mới
+2026-06-16 09:39:54,917 - INFO - Mở cửa sổ cập nhật bạn đọc
+2026-06-16 09:39:59,627 - INFO - Mở cửa sổ mượn sách
+2026-06-16 09:40:21,245 - INFO - Mở cửa sổ trả sách
+2026-06-16 09:41:04,074 - INFO - Mở cửa sổ xem lịch sử mượn/trả
+2026-06-16 09:41:14,832 - INFO - Mở cửa sổ danh sách sách quá hạn
+2026-06-16 09:44:52,257 - INFO - Khởi động ứng dụng
+2026-06-16 09:44:52,261 - INFO - Đã tải dữ liệu thành công
+2026-06-16 09:44:52,728 - ERROR - Lỗi không mong muốn: 'LibraryManagementSystem' object has no attribute 'filter_by_gioi_tinh'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 13, in <module>
+    app = gui.LibraryManagementSystem(root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 115, in __init__
+    self.setup_reader_tab()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 794, in setup_reader_tab
+    self.update_reader_list()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 820, in update_reader_list
+    gioi_tinh  = self.filter_by_gioi_tinh.get()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'LibraryManagementSystem' object has no attribute 'filter_by_gioi_tinh'
+2026-06-16 09:45:45,805 - INFO - Khởi động ứng dụng
+2026-06-16 09:45:45,819 - INFO - Đã tải dữ liệu thành công
+2026-06-16 09:45:46,271 - ERROR - Lỗi không mong muốn: 'LibraryManagementSystem' object has no attribute 'filter_by_gioi_tinh'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 13, in <module>
+    app = gui.LibraryManagementSystem(root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 115, in __init__
+    self.setup_reader_tab()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 794, in setup_reader_tab
+    self.update_reader_list()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 820, in update_reader_list
+    gioi_tinh  = self.filter_by_gioi_tinh.get()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'LibraryManagementSystem' object has no attribute 'filter_by_gioi_tinh'
+2026-06-16 09:46:57,606 - INFO - Khởi động ứng dụng
+2026-06-16 09:46:57,613 - INFO - Đã tải dữ liệu thành công
+2026-06-16 09:46:58,020 - ERROR - Lỗi không mong muốn: 'LibraryManagementSystem' object has no attribute 'filter_by_address'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 13, in <module>
+    app = gui.LibraryManagementSystem(root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 115, in __init__
+    self.setup_reader_tab()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 793, in setup_reader_tab
+    self._refresh_reader_filter_options()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 798, in _refresh_reader_filter_options
+    self.filter_by_address["values"] = addresses
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'LibraryManagementSystem' object has no attribute 'filter_by_address'
+2026-06-16 09:47:12,936 - INFO - Khởi động ứng dụng
+2026-06-16 09:47:12,945 - INFO - Đã tải dữ liệu thành công
+2026-06-16 09:48:51,471 - INFO - Mở cửa sổ cập nhật bạn đọc
+2026-06-16 09:48:55,735 - INFO - Mở cửa sổ cập nhật bạn đọc
+2026-06-16 09:53:04,869 - INFO - Khởi động ứng dụng
+2026-06-16 09:53:04,876 - INFO - Đã tải dữ liệu thành công
+2026-06-16 09:53:10,452 - INFO - Mở cửa sổ thêm bạn đọc mới
+2026-06-16 09:53:42,904 - INFO - Mở cửa sổ cập nhật bạn đọc
+2026-06-16 09:53:46,500 - INFO - Mở cửa sổ cập nhật bạn đọc
+2026-06-16 09:54:02,022 - INFO - Cập nhật bạn đọc: BD001
+2026-06-16 09:54:05,676 - INFO - Cập nhật bạn đọc: BD001
+2026-06-16 09:54:17,586 - INFO - Cập nhật bạn đọc: BD001
+2026-06-16 09:54:44,289 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 09:54:49,995 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 09:55:33,024 - INFO - Mở cửa sổ tìm kiếm bạn đọc
+2026-06-16 10:00:16,187 - INFO - Mở cửa sổ mượn sách
+2026-06-16 10:00:43,269 - INFO - Mở cửa sổ trả sách
+2026-06-16 10:05:15,986 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:05:20,191 - INFO - Khởi động ứng dụng
+2026-06-16 10:05:20,200 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:05:26,948 - INFO - Mở cửa sổ thêm sách mới
+2026-06-16 10:05:43,932 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:08:14,412 - INFO - Khởi động ứng dụng
+2026-06-16 10:08:14,419 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:08:14,833 - ERROR - Lỗi không mong muốn: name 'MAX_BORROW_DAYS' is not defined
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 13, in <module>
+    app = gui.LibraryManagementSystem(root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 113, in __init__
+    self.check_and_update_overdue_books()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 125, in check_and_update_overdue_books
+    if (today - ngay_muon_dt).days > MAX_BORROW_DAYS:
+                                     ^^^^^^^^^^^^^^^
+NameError: name 'MAX_BORROW_DAYS' is not defined
+2026-06-16 10:08:42,893 - INFO - Khởi động ứng dụng
+2026-06-16 10:08:42,901 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:08:43,481 - ERROR - Lỗi không mong muốn: name 'MAX_BORROW_DAYS' is not defined
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 13, in <module>
+    app = gui.LibraryManagementSystem(root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 113, in __init__
+    self.check_and_update_overdue_books()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 125, in check_and_update_overdue_books
+    if (today - ngay_muon_dt).days > MAX_BORROW_DAYS:
+                                     ^^^^^^^^^^^^^^^
+NameError: name 'MAX_BORROW_DAYS' is not defined
+2026-06-16 10:09:20,616 - INFO - Khởi động ứng dụng
+2026-06-16 10:09:20,619 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:09:23,361 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:11:07,612 - INFO - Khởi động ứng dụng
+2026-06-16 10:11:07,612 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:12:30,536 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:12:31,541 - INFO - Khởi động ứng dụng
+2026-06-16 10:12:31,551 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:12:39,890 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:12:40,665 - INFO - Khởi động ứng dụng
+2026-06-16 10:12:40,671 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:12:43,307 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:13:06,207 - INFO - Khởi động ứng dụng
+2026-06-16 10:13:06,212 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:13:10,265 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:14:35,738 - INFO - Khởi động ứng dụng
+2026-06-16 10:14:35,738 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:14:40,786 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:15:43,972 - INFO - Khởi động ứng dụng
+2026-06-16 10:15:43,986 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:15:48,877 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:17:35,072 - INFO - Khởi động ứng dụng
+2026-06-16 10:17:35,079 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:17:37,988 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:18:18,517 - INFO - Khởi động ứng dụng
+2026-06-16 10:18:18,522 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:18:18,660 - ERROR - Không thể tải logo: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2026-06-16 10:18:20,925 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:19:11,450 - INFO - Khởi động ứng dụng
+2026-06-16 10:19:11,452 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:19:14,624 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:19:31,074 - INFO - Khởi động ứng dụng
+2026-06-16 10:19:31,080 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:19:42,217 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:20:21,873 - INFO - Khởi động ứng dụng
+2026-06-16 10:20:21,878 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:20:28,896 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:20:53,915 - INFO - Khởi động ứng dụng
+2026-06-16 10:20:53,923 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:20:58,866 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:22:35,412 - INFO - Khởi động ứng dụng
+2026-06-16 10:22:35,421 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:22:40,038 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:22:51,343 - INFO - Khởi động ứng dụng
+2026-06-16 10:22:51,348 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:22:54,889 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:23:05,731 - INFO - Khởi động ứng dụng
+2026-06-16 10:23:05,736 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:23:22,645 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:23:37,725 - INFO - Khởi động ứng dụng
+2026-06-16 10:23:37,725 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:23:42,388 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:24:21,110 - INFO - Khởi động ứng dụng
+2026-06-16 10:24:21,110 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:24:24,938 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:24:51,817 - INFO - Khởi động ứng dụng
+2026-06-16 10:24:51,822 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:24:57,303 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:25:17,972 - INFO - Khởi động ứng dụng
+2026-06-16 10:25:17,986 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:25:22,615 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:28:47,672 - INFO - Khởi động ứng dụng
+2026-06-16 10:28:47,679 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:28:53,711 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:29:22,496 - INFO - Khởi động ứng dụng
+2026-06-16 10:29:22,499 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:29:26,183 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:34:30,311 - INFO - Khởi động ứng dụng
+2026-06-16 10:34:30,316 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:34:34,944 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:34:52,083 - INFO - Khởi động ứng dụng
+2026-06-16 10:34:52,089 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:34:54,234 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:35:48,889 - INFO - Khởi động ứng dụng
+2026-06-16 10:35:48,896 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:35:53,268 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:36:31,340 - INFO - Khởi động ứng dụng
+2026-06-16 10:36:31,348 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:36:34,180 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:36:55,673 - INFO - Khởi động ứng dụng
+2026-06-16 10:36:55,678 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:37:01,066 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:37:29,417 - INFO - Khởi động ứng dụng
+2026-06-16 10:37:29,417 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:37:33,704 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:37:44,620 - INFO - Khởi động ứng dụng
+2026-06-16 10:37:44,628 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:37:48,570 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:37:59,400 - INFO - Khởi động ứng dụng
+2026-06-16 10:37:59,400 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:38:03,052 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:38:13,252 - INFO - Khởi động ứng dụng
+2026-06-16 10:38:13,260 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:38:22,817 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:38:41,988 - INFO - Khởi động ứng dụng
+2026-06-16 10:38:41,997 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:38:45,768 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:38:59,361 - INFO - Khởi động ứng dụng
+2026-06-16 10:38:59,367 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:39:21,475 - INFO - Khởi động ứng dụng
+2026-06-16 10:39:21,483 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:39:25,207 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:39:36,505 - INFO - Khởi động ứng dụng
+2026-06-16 10:39:36,514 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:39:41,501 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:40:04,670 - INFO - Khởi động ứng dụng
+2026-06-16 10:40:04,678 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:40:09,542 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:40:22,998 - INFO - Khởi động ứng dụng
+2026-06-16 10:40:23,007 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:40:32,109 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:40:43,435 - INFO - Khởi động ứng dụng
+2026-06-16 10:40:43,437 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:41:33,514 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:41:36,487 - INFO - Khởi động ứng dụng
+2026-06-16 10:41:36,492 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:41:47,984 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:42:03,816 - INFO - Khởi động ứng dụng
+2026-06-16 10:42:03,824 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:42:08,457 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:42:39,613 - INFO - Khởi động ứng dụng
+2026-06-16 10:42:39,615 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:42:44,370 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:42:53,459 - INFO - Khởi động ứng dụng
+2026-06-16 10:42:53,470 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:43:06,997 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:46:37,613 - INFO - Khởi động ứng dụng
+2026-06-16 10:46:37,617 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:46:37,760 - ERROR - Lỗi không mong muốn: LibraryManagementSystem.__init__() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 13, in <module>
+    app = gui.LibraryManagementSystem(root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: LibraryManagementSystem.__init__() takes 1 positional argument but 2 were given
+2026-06-16 10:47:49,199 - INFO - Khởi động ứng dụng
+2026-06-16 10:47:49,203 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:47:49,316 - ERROR - Lỗi không mong muốn: 'LibraryManagementSystem' object has no attribute 'title'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 13, in <module>
+    app = gui.LibraryManagementSystem(root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 25, in __init__
+    self.title("HỆ THỐNG QUẢN LÝ THƯ VIỆN")
+    ^^^^^^^^^^
+AttributeError: 'LibraryManagementSystem' object has no attribute 'title'
+2026-06-16 10:48:59,947 - INFO - Khởi động ứng dụng
+2026-06-16 10:48:59,963 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:49:00,096 - ERROR - Lỗi không mong muốn: 'LibraryManagementSystem' object has no attribute 'tk'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 13, in <module>
+    app = gui.LibraryManagementSystem(root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 30, in __init__
+    self._build_header()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 35, in _build_header
+    header = tk.Frame(self, bg="#1a3c6e", height=80)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vipcu\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\ttkbootstrap\style.py", line 5528, in __init__wrapper
+    func(self, *args, **kwargs)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\tkinter\__init__.py", line 3226, in __init__
+    Widget.__init__(self, master, 'frame', cnf, {}, extra)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\tkinter\__init__.py", line 2655, in __init__
+    self._setup(master, cnf)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\tkinter\__init__.py", line 2622, in _setup
+    self.tk = master.tk
+              ^^^^^^^^^
+AttributeError: 'LibraryManagementSystem' object has no attribute 'tk'
+2026-06-16 10:50:23,775 - INFO - Khởi động ứng dụng
+2026-06-16 10:50:23,781 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:50:23,897 - ERROR - Lỗi không mong muốn: 'LibraryManagementSystem' object has no attribute 'style'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 13, in <module>
+    app = gui.LibraryManagementSystem(root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 30, in __init__
+    self._build_header()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 54, in _build_header
+    inactive_tab_bg = self.style.lookup('TButton', 'background') or "#E0EFFF"
+                      ^^^^^^^^^^
+AttributeError: 'LibraryManagementSystem' object has no attribute 'style'
+2026-06-16 10:51:31,528 - INFO - Khởi động ứng dụng
+2026-06-16 10:51:31,534 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:51:57,811 - INFO - Khởi động ứng dụng
+2026-06-16 10:51:57,825 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:52:00,902 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:52:01,643 - INFO - Khởi động ứng dụng
+2026-06-16 10:52:01,643 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:52:04,584 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:53:00,243 - INFO - Khởi động ứng dụng
+2026-06-16 10:53:00,250 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:53:41,257 - INFO - Khởi động ứng dụng
+2026-06-16 10:53:41,264 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:53:48,779 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:53:49,500 - INFO - Khởi động ứng dụng
+2026-06-16 10:53:49,508 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:53:52,119 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:55:37,737 - INFO - Khởi động ứng dụng
+2026-06-16 10:55:37,737 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:55:52,844 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:56:38,354 - INFO - Khởi động ứng dụng
+2026-06-16 10:56:38,359 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:57:03,435 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:57:07,441 - INFO - Khởi động ứng dụng
+2026-06-16 10:57:07,447 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:57:11,885 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:57:29,271 - INFO - Khởi động ứng dụng
+2026-06-16 10:57:29,275 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:57:47,348 - INFO - Khởi động ứng dụng
+2026-06-16 10:57:47,354 - INFO - Đã tải dữ liệu thành công
+2026-06-16 10:58:11,454 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 10:58:12,150 - INFO - Khởi động ứng dụng
+2026-06-16 10:58:12,154 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:00:39,871 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:00:40,947 - INFO - Khởi động ứng dụng
+2026-06-16 11:00:40,955 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:00:55,704 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:00:56,533 - INFO - Khởi động ứng dụng
+2026-06-16 11:00:56,536 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:01:15,010 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:01:15,728 - INFO - Khởi động ứng dụng
+2026-06-16 11:01:15,737 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:02:43,631 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:02:44,525 - INFO - Khởi động ứng dụng
+2026-06-16 11:02:44,525 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:02:50,575 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:02:51,369 - INFO - Khởi động ứng dụng
+2026-06-16 11:02:51,376 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:03:04,677 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:03:05,398 - INFO - Khởi động ứng dụng
+2026-06-16 11:03:05,406 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:03:07,423 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:03:08,128 - INFO - Khởi động ứng dụng
+2026-06-16 11:03:08,133 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:03:22,542 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:03:23,278 - INFO - Khởi động ứng dụng
+2026-06-16 11:03:23,283 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:03:38,556 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:03:39,344 - INFO - Khởi động ứng dụng
+2026-06-16 11:03:39,364 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:03:41,755 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:03:42,475 - INFO - Khởi động ứng dụng
+2026-06-16 11:03:42,475 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:03:44,255 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:03:44,962 - INFO - Khởi động ứng dụng
+2026-06-16 11:03:44,968 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:03:46,905 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:03:47,619 - INFO - Khởi động ứng dụng
+2026-06-16 11:03:47,627 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:03:49,466 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:03:50,174 - INFO - Khởi động ứng dụng
+2026-06-16 11:03:50,174 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:03:52,121 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:03:52,761 - INFO - Khởi động ứng dụng
+2026-06-16 11:03:52,775 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:03:54,839 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:04:00,004 - INFO - Khởi động ứng dụng
+2026-06-16 11:04:00,010 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:04:04,114 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:04:12,640 - INFO - Khởi động ứng dụng
+2026-06-16 11:04:12,640 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:04:18,020 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:04:26,882 - INFO - Khởi động ứng dụng
+2026-06-16 11:04:26,889 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:04:40,889 - INFO - Khởi động ứng dụng
+2026-06-16 11:04:40,889 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:04:52,765 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:05:00,465 - INFO - Khởi động ứng dụng
+2026-06-16 11:05:00,472 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:05:03,418 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:05:11,099 - INFO - Khởi động ứng dụng
+2026-06-16 11:05:11,105 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:05:14,982 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:05:26,104 - INFO - Khởi động ứng dụng
+2026-06-16 11:05:26,117 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:05:38,338 - INFO - Khởi động ứng dụng
+2026-06-16 11:05:38,345 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:05:54,942 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:05:55,742 - INFO - Khởi động ứng dụng
+2026-06-16 11:05:55,757 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:06:05,270 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:06:06,086 - INFO - Khởi động ứng dụng
+2026-06-16 11:06:06,086 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:06:07,997 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:06:08,667 - INFO - Khởi động ứng dụng
+2026-06-16 11:06:08,670 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:06:11,273 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:06:12,019 - INFO - Khởi động ứng dụng
+2026-06-16 11:06:12,027 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:07:30,611 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:07:34,717 - INFO - Khởi động ứng dụng
+2026-06-16 11:07:34,732 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:08:04,858 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:08:56,652 - INFO - Khởi động ứng dụng
+2026-06-16 11:08:56,661 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:10:56,556 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:11:17,926 - INFO - Khởi động ứng dụng
+2026-06-16 11:11:17,930 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:12:10,460 - INFO - Khởi động ứng dụng
+2026-06-16 11:12:10,465 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:12:15,232 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:13:16,024 - INFO - Khởi động ứng dụng
+2026-06-16 11:13:16,032 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:13:24,789 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:13:56,704 - INFO - Khởi động ứng dụng
+2026-06-16 11:13:56,708 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:14:17,959 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:14:21,514 - INFO - Khởi động ứng dụng
+2026-06-16 11:14:21,521 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:14:33,045 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:14:43,540 - INFO - Khởi động ứng dụng
+2026-06-16 11:14:43,547 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:14:52,446 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:15:36,344 - INFO - Khởi động ứng dụng
+2026-06-16 11:15:36,354 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:16:00,835 - INFO - Khởi động ứng dụng
+2026-06-16 11:16:00,842 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:16:17,949 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:16:21,205 - INFO - Khởi động ứng dụng
+2026-06-16 11:16:21,219 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:16:37,277 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:16:41,089 - INFO - Khởi động ứng dụng
+2026-06-16 11:16:41,096 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:18:34,782 - INFO - Khởi động ứng dụng
+2026-06-16 11:18:34,784 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:19:08,879 - INFO - Khởi động ứng dụng
+2026-06-16 11:19:08,881 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:19:12,140 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:19:12,898 - INFO - Khởi động ứng dụng
+2026-06-16 11:19:12,907 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:19:26,166 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:19:29,282 - INFO - Khởi động ứng dụng
+2026-06-16 11:19:29,285 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:21:34,449 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:25:37,485 - INFO - Khởi động ứng dụng
+2026-06-16 11:25:37,488 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:25:50,796 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:27:05,790 - INFO - Khởi động ứng dụng
+2026-06-16 11:27:05,796 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:27:15,363 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:28:08,625 - INFO - Khởi động ứng dụng
+2026-06-16 11:28:08,641 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:28:13,939 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:29:41,930 - INFO - Khởi động ứng dụng
+2026-06-16 11:29:41,930 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:29:46,627 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:31:16,548 - INFO - Khởi động ứng dụng
+2026-06-16 11:31:16,560 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:31:22,277 - INFO - Mở cửa sổ tìm kiếm bạn đọc
+2026-06-16 11:31:27,340 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:55:38,520 - INFO - Khởi động ứng dụng
+2026-06-16 11:55:38,524 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:55:38,802 - ERROR - Lỗi không mong muốn: unknown option "-bold"
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 13, in <module>
+    app = gui.LibraryManagementSystem(root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 104, in __init__
+    self.notebook.add(self.book_tab,     text=' QUẢN LÝ SÁCH ', bold=True)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\tkinter\ttk.py", line 817, in add
+    self.tk.call(self._w, "add", child, *(_format_optdict(kw)))
+_tkinter.TclError: unknown option "-bold"
+2026-06-16 11:56:56,739 - INFO - Khởi động ứng dụng
+2026-06-16 11:56:56,743 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:57:02,958 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:58:16,070 - INFO - Khởi động ứng dụng
+2026-06-16 11:58:16,070 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:58:19,392 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 11:59:37,301 - INFO - Khởi động ứng dụng
+2026-06-16 11:59:37,301 - INFO - Đã tải dữ liệu thành công
+2026-06-16 11:59:45,888 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 12:00:21,186 - INFO - Khởi động ứng dụng
+2026-06-16 12:00:21,186 - INFO - Đã tải dữ liệu thành công
+2026-06-16 12:00:30,781 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 12:08:07,764 - INFO - Khởi động ứng dụng
+2026-06-16 12:08:07,764 - INFO - Đã tải dữ liệu thành công
+2026-06-16 12:08:11,281 - INFO - Mở cửa sổ thêm sách mới
+2026-06-16 12:09:43,524 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 12:09:47,968 - INFO - Khởi động ứng dụng
+2026-06-16 12:09:47,968 - INFO - Đã tải dữ liệu thành công
+2026-06-16 12:09:51,217 - INFO - Mở cửa sổ tìm kiếm sách
+2026-06-16 12:10:51,619 - INFO - Mở cửa sổ danh sách sách quá hạn
+2026-06-16 12:11:13,404 - INFO - Mở cửa sổ xem lịch sử mượn/trả
+2026-06-16 12:11:20,953 - INFO - Mở cửa sổ trả sách
+2026-06-16 12:11:32,085 - INFO - Mở cửa sổ mượn sách
+2026-06-16 12:11:56,475 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 12:12:00,796 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 12:12:12,195 - INFO - Cập nhật sách: S171
+2026-06-16 12:12:25,244 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 12:12:34,789 - INFO - Cập nhật sách: S171
+2026-06-16 12:12:54,276 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 13:02:35,739 - INFO - Khởi động ứng dụng
+2026-06-16 13:02:35,754 - ERROR - Lỗi không mong muốn: Book.__init__() got an unexpected keyword argument 'so_luong'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 10, in <module>
+    data_handler.load_data()
+  File "c:\KỸ THUẬT LẬP TRÌNH\data_handler.py", line 49, in load_data
+    books_db[ma_sach] = Book.from_dict(book_data) # Sử dụng __setitem__
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\models.py", line 28, in from_dict
+    return cls(**data_copy)
+           ^^^^^^^^^^^^^^^^
+TypeError: Book.__init__() got an unexpected keyword argument 'so_luong'
+2026-06-16 13:03:37,977 - INFO - Khởi động ứng dụng
+2026-06-16 13:03:37,989 - ERROR - Lỗi không mong muốn: Book.__init__() got an unexpected keyword argument 'so_luong'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 10, in <module>
+    data_handler.load_data()
+  File "c:\KỸ THUẬT LẬP TRÌNH\data_handler.py", line 49, in load_data
+    books_db[ma_sach] = Book.from_dict(book_data) # Sử dụng __setitem__
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\models.py", line 28, in from_dict
+    return cls(**data_copy)
+           ^^^^^^^^^^^^^^^^
+TypeError: Book.__init__() got an unexpected keyword argument 'so_luong'
+2026-06-16 13:04:27,908 - INFO - Khởi động ứng dụng
+2026-06-16 13:04:27,923 - ERROR - Lỗi không mong muốn: Book.__init__() got an unexpected keyword argument 'so_luong'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 10, in <module>
+    data_handler.load_data()
+  File "c:\KỸ THUẬT LẬP TRÌNH\data_handler.py", line 49, in load_data
+    books_db[ma_sach] = Book.from_dict(book_data) # Sử dụng __setitem__
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\models.py", line 28, in from_dict
+    return cls(**data_copy)
+           ^^^^^^^^^^^^^^^^
+TypeError: Book.__init__() got an unexpected keyword argument 'so_luong'
+2026-06-16 13:06:01,156 - INFO - Khởi động ứng dụng
+2026-06-16 13:06:01,158 - ERROR - Lỗi không mong muốn: Book.__init__() got an unexpected keyword argument 'so_luong'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 10, in <module>
+    data_handler.load_data()
+  File "c:\KỸ THUẬT LẬP TRÌNH\data_handler.py", line 49, in load_data
+    books_db[ma_sach] = Book.from_dict(book_data) # Sử dụng __setitem__
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\models.py", line 28, in from_dict
+    return cls(**data_copy)
+           ^^^^^^^^^^^^^^^^
+TypeError: Book.__init__() got an unexpected keyword argument 'so_luong'
+2026-06-16 13:06:38,269 - INFO - Khởi động ứng dụng
+2026-06-16 13:06:38,275 - ERROR - Lỗi không mong muốn: Book.__init__() got an unexpected keyword argument 'so_luong'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 10, in <module>
+    data_handler.load_data()
+  File "c:\KỸ THUẬT LẬP TRÌNH\data_handler.py", line 49, in load_data
+    books_db[ma_sach] = Book.from_dict(book_data) # Sử dụng __setitem__
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\models.py", line 28, in from_dict
+    return cls(**data_copy)
+           ^^^^^^^^^^^^^^^^
+TypeError: Book.__init__() got an unexpected keyword argument 'so_luong'
+2026-06-16 13:06:49,401 - INFO - Khởi động ứng dụng
+2026-06-16 13:06:49,401 - ERROR - Lỗi không mong muốn: Book.__init__() got an unexpected keyword argument 'so_luong'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 10, in <module>
+    data_handler.load_data()
+  File "c:\KỸ THUẬT LẬP TRÌNH\data_handler.py", line 49, in load_data
+    books_db[ma_sach] = Book.from_dict(book_data) # Sử dụng __setitem__
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\models.py", line 28, in from_dict
+    return cls(**data_copy)
+           ^^^^^^^^^^^^^^^^
+TypeError: Book.__init__() got an unexpected keyword argument 'so_luong'
+2026-06-16 13:10:37,866 - INFO - Khởi động ứng dụng
+2026-06-16 13:10:37,868 - ERROR - Lỗi không mong muốn: Book.__init__() got an unexpected keyword argument 'so_luong'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 10, in <module>
+    data_handler.load_data()
+  File "c:\KỸ THUẬT LẬP TRÌNH\data_handler.py", line 49, in load_data
+    books_db[ma_sach] = Book.from_dict(book_data) # Sử dụng __setitem__
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\models.py", line 28, in from_dict
+    return cls(**data_copy)
+           ^^^^^^^^^^^^^^^^
+TypeError: Book.__init__() got an unexpected keyword argument 'so_luong'
+2026-06-16 13:12:42,211 - INFO - Khởi động ứng dụng
+2026-06-16 13:12:42,222 - ERROR - Lỗi không mong muốn: Book.__init__() got an unexpected keyword argument 'so_luong'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 10, in <module>
+    data_handler.load_data()
+  File "c:\KỸ THUẬT LẬP TRÌNH\data_handler.py", line 49, in load_data
+    books_db[ma_sach] = Book.from_dict(book_data) # Sử dụng __setitem__
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\models.py", line 28, in from_dict
+    return cls(**data_copy)
+           ^^^^^^^^^^^^^^^^
+TypeError: Book.__init__() got an unexpected keyword argument 'so_luong'
+2026-06-16 13:14:54,659 - INFO - Khởi động ứng dụng
+2026-06-16 13:14:54,659 - ERROR - Lỗi không mong muốn: Book.__init__() got an unexpected keyword argument 'so_luong'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 10, in <module>
+    data_handler.load_data()
+  File "c:\KỸ THUẬT LẬP TRÌNH\data_handler.py", line 49, in load_data
+    books_db[ma_sach] = Book.from_dict(book_data) # Sử dụng __setitem__
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\models.py", line 28, in from_dict
+    return cls(**data_copy)
+           ^^^^^^^^^^^^^^^^
+TypeError: Book.__init__() got an unexpected keyword argument 'so_luong'
+2026-06-16 13:16:46,482 - INFO - Khởi động ứng dụng
+2026-06-16 13:16:46,485 - ERROR - Lỗi không mong muốn: Book.__init__() got an unexpected keyword argument 'nam_xuat_ban'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 10, in <module>
+    data_handler.load_data()
+  File "c:\KỸ THUẬT LẬP TRÌNH\data_handler.py", line 49, in load_data
+    books_db[ma_sach] = Book.from_dict(book_data) # Sử dụng __setitem__
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\models.py", line 27, in from_dict
+    return cls(**data_copy)
+           ^^^^^^^^^^^^^^^^
+TypeError: Book.__init__() got an unexpected keyword argument 'nam_xuat_ban'
+2026-06-16 13:21:08,271 - INFO - Khởi động ứng dụng
+2026-06-16 13:21:08,271 - ERROR - Lỗi không mong muốn: Book.__init__() got an unexpected keyword argument 'so_luong'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 10, in <module>
+    data_handler.load_data()
+  File "c:\KỸ THUẬT LẬP TRÌNH\data_handler.py", line 49, in load_data
+    books_db[ma_sach] = Book.from_dict(book_data) # Sử dụng __setitem__
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\models.py", line 27, in from_dict
+    return cls(**data_copy)
+           ^^^^^^^^^^^^^^^^
+TypeError: Book.__init__() got an unexpected keyword argument 'so_luong'
+2026-06-16 13:28:32,094 - INFO - Khởi động ứng dụng
+2026-06-16 13:28:32,110 - ERROR - Lỗi không mong muốn: Book.__init__() got an unexpected keyword argument 'so_luong'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 10, in <module>
+    data_handler.load_data()
+  File "c:\KỸ THUẬT LẬP TRÌNH\data_handler.py", line 49, in load_data
+    books_db[ma_sach] = Book.from_dict(book_data) # Sử dụng __setitem__
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\models.py", line 27, in from_dict
+    return cls(**data_copy)
+           ^^^^^^^^^^^^^^^^
+TypeError: Book.__init__() got an unexpected keyword argument 'so_luong'
+2026-06-16 13:43:00,336 - INFO - Khởi động ứng dụng
+2026-06-16 13:43:00,353 - ERROR - Lỗi không mong muốn: Book.__init__() got an unexpected keyword argument 'so_luong'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 10, in <module>
+    data_handler.load_data()
+  File "c:\KỸ THUẬT LẬP TRÌNH\data_handler.py", line 49, in load_data
+    books_db[ma_sach] = Book.from_dict(book_data) # Sử dụng __setitem__
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\models.py", line 27, in from_dict
+    return cls(**data_copy)
+           ^^^^^^^^^^^^^^^^
+TypeError: Book.__init__() got an unexpected keyword argument 'so_luong'
+2026-06-16 13:44:02,732 - INFO - Khởi động ứng dụng
+2026-06-16 13:44:02,732 - ERROR - Lỗi không mong muốn: Book.__init__() got an unexpected keyword argument 'so_luong'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 10, in <module>
+    data_handler.load_data()
+  File "c:\KỸ THUẬT LẬP TRÌNH\data_handler.py", line 49, in load_data
+    books_db[ma_sach] = Book.from_dict(book_data) # Sử dụng __setitem__
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\models.py", line 28, in from_dict
+    return cls(**data_copy)
+           ^^^^^^^^^^^^^^^^
+TypeError: Book.__init__() got an unexpected keyword argument 'so_luong'
+2026-06-16 13:45:16,629 - INFO - Khởi động ứng dụng
+2026-06-16 13:45:16,629 - ERROR - Lỗi không mong muốn: Reader.__init__() got an unexpected keyword argument 'ho_ten'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 10, in <module>
+    data_handler.load_data()
+  File "c:\KỸ THUẬT LẬP TRÌNH\data_handler.py", line 63, in load_data
+    readers_db[ma_bd] = Reader.from_dict(reader_data) # Sử dụng __setitem__
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\models.py", line 47, in from_dict
+    return cls(**data_dict)
+           ^^^^^^^^^^^^^^^^
+TypeError: Reader.__init__() got an unexpected keyword argument 'ho_ten'
+2026-06-16 13:46:04,602 - INFO - Khởi động ứng dụng
+2026-06-16 13:46:04,613 - INFO - Đã tải dữ liệu thành công
+2026-06-16 13:46:15,294 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 13:46:32,909 - INFO - Khởi động ứng dụng
+2026-06-16 13:46:32,909 - INFO - Đã tải dữ liệu thành công
+2026-06-16 13:46:35,104 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 13:47:18,563 - INFO - Khởi động ứng dụng
+2026-06-16 13:47:18,577 - INFO - Đã tải dữ liệu thành công
+2026-06-16 13:47:20,721 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 13:57:21,130 - INFO - Khởi động ứng dụng
+2026-06-16 13:57:21,142 - INFO - Đã tải dữ liệu thành công
+2026-06-16 13:58:12,275 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 13:58:19,243 - INFO - Khởi động ứng dụng
+2026-06-16 13:58:19,260 - INFO - Đã tải dữ liệu thành công
+2026-06-16 13:58:42,233 - INFO - Mở cửa sổ thêm sách mới
+2026-06-16 13:59:24,936 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 13:59:29,028 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 13:59:40,863 - INFO - Cập nhật sách: S200
+2026-06-16 13:59:48,328 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 14:00:01,593 - INFO - Cập nhật sách: S199
+2026-06-16 14:00:11,453 - INFO - Mở cửa sổ tìm kiếm sách
+2026-06-16 14:01:56,476 - INFO - Mở cửa sổ thêm bạn đọc mới
+2026-06-16 14:02:26,174 - INFO - Thêm bạn đọc: BD051
+2026-06-16 14:02:34,681 - INFO - Mở cửa sổ cập nhật bạn đọc
+2026-06-16 14:02:40,797 - INFO - Cập nhật bạn đọc: BD051
+2026-06-16 14:02:54,579 - INFO - Mở cửa sổ tìm kiếm bạn đọc
+2026-06-16 14:03:14,705 - INFO - Mở cửa sổ mượn sách
+2026-06-16 14:03:45,010 - INFO - Mượn sách S100 bởi BD047
+2026-06-16 14:04:00,757 - INFO - Mở cửa sổ trả sách
+2026-06-16 14:05:15,204 - INFO - Mở cửa sổ danh sách sách quá hạn
+2026-06-16 14:05:24,541 - INFO - Mở cửa sổ xem lịch sử mượn/trả
+2026-06-16 14:05:53,885 - INFO - Mở cửa sổ thêm sách mới
+2026-06-16 14:06:38,499 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 14:06:53,521 - INFO - Cập nhật sách: S197
+2026-06-16 14:07:19,697 - INFO - Mở cửa sổ tìm kiếm sách
+2026-06-16 14:07:42,791 - INFO - Mở cửa sổ tìm kiếm sách
+2026-06-16 14:07:50,371 - INFO - Mở cửa sổ tìm kiếm bạn đọc
+2026-06-16 14:09:06,368 - INFO - Mở cửa sổ tìm kiếm bạn đọc
+2026-06-16 14:09:56,697 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 14:09:59,007 - INFO - Khởi động ứng dụng
+2026-06-16 14:09:59,013 - INFO - Đã tải dữ liệu thành công
+2026-06-16 14:10:02,828 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 14:10:25,444 - INFO - Khởi động ứng dụng
+2026-06-16 14:10:25,452 - INFO - Đã tải dữ liệu thành công
+2026-06-16 14:10:27,107 - INFO - Mở cửa sổ thêm sách mới
+2026-06-16 14:11:46,721 - INFO - Khởi động ứng dụng
+2026-06-16 14:11:46,738 - INFO - Đã tải dữ liệu thành công
+2026-06-16 14:11:48,656 - INFO - Mở cửa sổ thêm sách mới
+2026-06-16 14:12:11,355 - INFO - Thêm sách: S200
+2026-06-16 14:12:15,747 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 14:12:32,428 - INFO - Khởi động ứng dụng
+2026-06-16 14:12:32,442 - INFO - Đã tải dữ liệu thành công
+2026-06-16 14:12:43,501 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 14:12:46,455 - INFO - Mở cửa sổ tìm kiếm sách
+2026-06-16 14:12:57,478 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 14:13:01,145 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 14:16:47,242 - INFO - Khởi động ứng dụng
+2026-06-16 14:16:47,242 - INFO - Đã tải dữ liệu thành công
+2026-06-16 14:16:55,403 - INFO - Mở cửa sổ mượn sách
+2026-06-16 14:17:15,915 - INFO - Mượn sách S035 bởi BD046
+2026-06-16 14:17:24,943 - INFO - Mở cửa sổ trả sách
+2026-06-16 14:17:34,329 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 14:19:02,255 - INFO - Khởi động ứng dụng
+2026-06-16 14:19:02,269 - INFO - Đã tải dữ liệu thành công
+2026-06-16 14:19:05,302 - INFO - Mở cửa sổ trả sách
+2026-06-16 14:19:12,822 - INFO - Trả sách S002 bởi BD002
+2026-06-16 14:19:19,328 - INFO - Mở cửa sổ mượn sách
+2026-06-16 14:19:32,247 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 14:19:58,481 - INFO - Khởi động ứng dụng
+2026-06-16 14:19:58,491 - INFO - Đã tải dữ liệu thành công
+2026-06-16 14:20:01,846 - INFO - Mở cửa sổ mượn sách
+2026-06-16 14:20:14,570 - INFO - Mượn sách S030 bởi BD002
+2026-06-16 14:20:17,445 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 14:20:21,007 - INFO - Khởi động ứng dụng
+2026-06-16 14:20:21,007 - INFO - Đã tải dữ liệu thành công
+2026-06-16 14:20:23,650 - INFO - Mở cửa sổ xem lịch sử mượn/trả
+2026-06-16 14:20:44,560 - INFO - Mở cửa sổ danh sách sách quá hạn
+2026-06-16 14:20:57,262 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 14:24:29,873 - INFO - Khởi động ứng dụng
+2026-06-16 14:24:29,875 - INFO - Đã tải dữ liệu thành công
+2026-06-16 14:24:33,594 - INFO - Mở cửa sổ mượn sách
+2026-06-16 14:25:07,624 - INFO - Mượn sách S050 bởi BD011
+2026-06-16 14:25:21,208 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 14:25:31,802 - INFO - Khởi động ứng dụng
+2026-06-16 14:25:31,812 - INFO - Đã tải dữ liệu thành công
+2026-06-16 14:25:37,222 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 14:41:10,376 - INFO - Khởi động ứng dụng
+2026-06-16 14:41:10,383 - INFO - Đã tải dữ liệu thành công
+2026-06-16 14:41:19,287 - INFO - Mở cửa sổ tìm kiếm sách
+2026-06-16 14:41:41,395 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 14:46:21,418 - INFO - Khởi động ứng dụng
+2026-06-16 14:46:21,418 - INFO - Đã tải dữ liệu thành công
+2026-06-16 14:46:24,262 - INFO - Mở cửa sổ mượn sách
+2026-06-16 14:46:34,546 - INFO - Mượn sách S060 bởi BD002
+2026-06-16 14:50:36,192 - INFO - Khởi động ứng dụng
+2026-06-16 14:50:36,209 - INFO - Đã tải dữ liệu thành công
+2026-06-16 14:51:04,009 - INFO - Khởi động ứng dụng
+2026-06-16 14:51:04,009 - INFO - Đã tải dữ liệu thành công
+2026-06-16 14:51:19,233 - INFO - Mở cửa sổ trả sách
+2026-06-16 14:51:34,371 - INFO - Mở cửa sổ xem lịch sử mượn/trả
+2026-06-16 14:51:40,109 - INFO - Mở cửa sổ danh sách sách quá hạn
+2026-06-16 14:51:43,818 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 14:53:51,237 - INFO - Khởi động ứng dụng
+2026-06-16 14:53:51,237 - INFO - Đã tải dữ liệu thành công
+2026-06-16 14:53:56,304 - INFO - Mở cửa sổ mượn sách
+2026-06-16 14:54:08,191 - INFO - Mượn sách S020 bởi BD001
+2026-06-16 14:54:15,424 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 14:54:53,525 - INFO - Khởi động ứng dụng
+2026-06-16 14:54:53,525 - INFO - Đã tải dữ liệu thành công
+2026-06-16 14:54:57,342 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 15:16:07,116 - INFO - Khởi động ứng dụng
+2026-06-16 15:16:07,131 - INFO - Đã tải dữ liệu thành công
+2026-06-16 15:16:17,514 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 15:19:44,643 - INFO - Khởi động ứng dụng
+2026-06-16 15:19:44,644 - INFO - Đã tải dữ liệu thành công
+2026-06-16 15:19:44,885 - ERROR - Lỗi không mong muốn: 'TrackBook' object has no attribute 'ma_sach_muon'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 122, in check_and_update_overdue_books
+    ngay_muon_dt = datetime.strptime(record.ngay_muon, "%d/%m/%Y").date()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\_strptime.py", line 653, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\_strptime.py", line 432, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '2026-04-01' does not match format '%d/%m/%Y'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 13, in <module>
+    app = gui.LibraryManagementSystem(root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 111, in __init__
+    self.check_and_update_overdue_books()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 126, in check_and_update_overdue_books
+    logger.error(f"Lỗi định dạng ngày cho bản ghi: {record.ma_sach_muon}")
+                                                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TrackBook' object has no attribute 'ma_sach_muon'
+2026-06-16 15:20:24,423 - INFO - Khởi động ứng dụng
+2026-06-16 15:20:24,423 - INFO - Đã tải dữ liệu thành công
+2026-06-16 15:20:24,670 - ERROR - Lỗi định dạng ngày cho bản ghi: S001
+2026-06-16 15:20:24,670 - ERROR - Lỗi định dạng ngày cho bản ghi: S004
+2026-06-16 15:20:24,670 - ERROR - Lỗi định dạng ngày cho bản ghi: S007
+2026-06-16 15:20:24,671 - ERROR - Lỗi định dạng ngày cho bản ghi: S010
+2026-06-16 15:20:24,671 - ERROR - Lỗi định dạng ngày cho bản ghi: S013
+2026-06-16 15:20:24,671 - ERROR - Lỗi định dạng ngày cho bản ghi: S016
+2026-06-16 15:20:24,671 - ERROR - Lỗi định dạng ngày cho bản ghi: S019
+2026-06-16 15:20:35,402 - INFO - Mở cửa sổ xem lịch sử mượn/trả
+2026-06-16 15:20:43,885 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 15:21:14,932 - INFO - Khởi động ứng dụng
+2026-06-16 15:21:14,949 - INFO - Đã tải dữ liệu thành công
+2026-06-16 15:21:15,188 - ERROR - Lỗi định dạng ngày cho bản ghi: S001
+2026-06-16 15:21:15,188 - ERROR - Lỗi định dạng ngày cho bản ghi: S004
+2026-06-16 15:21:15,188 - ERROR - Lỗi định dạng ngày cho bản ghi: S007
+2026-06-16 15:21:15,188 - ERROR - Lỗi định dạng ngày cho bản ghi: S010
+2026-06-16 15:21:15,188 - ERROR - Lỗi định dạng ngày cho bản ghi: S013
+2026-06-16 15:21:15,188 - ERROR - Lỗi định dạng ngày cho bản ghi: S016
+2026-06-16 15:21:15,188 - ERROR - Lỗi định dạng ngày cho bản ghi: S019
+2026-06-16 15:21:19,880 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 15:22:25,722 - INFO - Khởi động ứng dụng
+2026-06-16 15:22:25,722 - INFO - Đã tải dữ liệu thành công
+2026-06-16 15:22:26,005 - ERROR - Lỗi định dạng ngày cho bản ghi: S007
+2026-06-16 15:22:26,005 - ERROR - Lỗi định dạng ngày cho bản ghi: S010
+2026-06-16 15:22:26,005 - ERROR - Lỗi định dạng ngày cho bản ghi: S013
+2026-06-16 15:22:26,005 - ERROR - Lỗi định dạng ngày cho bản ghi: S016
+2026-06-16 15:22:26,005 - ERROR - Lỗi định dạng ngày cho bản ghi: S019
+2026-06-16 15:22:37,762 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 15:26:18,370 - INFO - Khởi động ứng dụng
+2026-06-16 15:26:18,378 - INFO - Đã tải dữ liệu thành công
+2026-06-16 15:26:23,807 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 15:28:09,633 - INFO - Khởi động ứng dụng
+2026-06-16 15:28:09,644 - INFO - Đã tải dữ liệu thành công
+2026-06-16 15:28:15,470 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 15:28:31,715 - INFO - Khởi động ứng dụng
+2026-06-16 15:28:31,718 - INFO - Đã tải dữ liệu thành công
+2026-06-16 15:28:35,066 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 15:31:56,555 - INFO - Khởi động ứng dụng
+2026-06-16 15:31:56,557 - INFO - Đã tải dữ liệu thành công
+2026-06-16 15:32:11,696 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 15:34:10,559 - INFO - Khởi động ứng dụng
+2026-06-16 15:34:10,569 - INFO - Đã tải dữ liệu thành công
+2026-06-16 15:34:14,235 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 15:35:37,165 - INFO - Khởi động ứng dụng
+2026-06-16 15:35:37,165 - INFO - Đã tải dữ liệu thành công
+2026-06-16 15:35:44,699 - INFO - Mở cửa sổ mượn sách
+2026-06-16 15:36:00,784 - INFO - Mượn sách S199 bởi BD002
+2026-06-16 15:36:40,808 - INFO - Khởi động ứng dụng
+2026-06-16 15:36:40,824 - INFO - Đã tải dữ liệu thành công
+2026-06-16 15:36:44,638 - INFO - Mở cửa sổ mượn sách
+2026-06-16 15:37:11,619 - INFO - Mở cửa sổ danh sách sách quá hạn
+2026-06-16 15:37:35,477 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 15:38:45,350 - INFO - Khởi động ứng dụng
+2026-06-16 15:38:45,368 - INFO - Đã tải dữ liệu thành công
+2026-06-16 15:38:48,149 - INFO - Mở cửa sổ danh sách sách quá hạn
+2026-06-16 15:39:06,120 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 15:40:08,720 - INFO - Khởi động ứng dụng
+2026-06-16 15:40:08,720 - INFO - Đã tải dữ liệu thành công
+2026-06-16 15:40:11,381 - INFO - Mở cửa sổ danh sách sách quá hạn
+2026-06-16 15:40:15,980 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 15:40:42,197 - INFO - Khởi động ứng dụng
+2026-06-16 15:40:42,197 - INFO - Đã tải dữ liệu thành công
+2026-06-16 15:40:44,844 - INFO - Mở cửa sổ danh sách sách quá hạn
+2026-06-16 15:40:47,361 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 15:41:28,899 - INFO - Khởi động ứng dụng
+2026-06-16 15:41:28,913 - INFO - Đã tải dữ liệu thành công
+2026-06-16 15:41:31,557 - INFO - Mở cửa sổ danh sách sách quá hạn
+2026-06-16 15:41:34,165 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 15:41:43,907 - INFO - Khởi động ứng dụng
+2026-06-16 15:41:43,924 - INFO - Đã tải dữ liệu thành công
+2026-06-16 15:41:47,196 - INFO - Mở cửa sổ danh sách sách quá hạn
+2026-06-16 15:41:49,696 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 15:42:39,653 - INFO - Khởi động ứng dụng
+2026-06-16 15:42:39,660 - INFO - Đã tải dữ liệu thành công
+2026-06-16 15:42:42,545 - INFO - Mở cửa sổ danh sách sách quá hạn
+2026-06-16 15:43:35,676 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 15:46:14,947 - INFO - Khởi động ứng dụng
+2026-06-16 15:46:14,947 - INFO - Đã tải dữ liệu thành công
+2026-06-16 15:46:18,229 - INFO - Mở cửa sổ danh sách sách quá hạn
+2026-06-16 15:46:22,011 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 15:46:33,649 - INFO - Khởi động ứng dụng
+2026-06-16 15:46:33,652 - INFO - Đã tải dữ liệu thành công
+2026-06-16 15:46:36,659 - INFO - Mở cửa sổ danh sách sách quá hạn
+2026-06-16 15:46:40,458 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 15:46:55,323 - INFO - Khởi động ứng dụng
+2026-06-16 15:46:55,326 - INFO - Đã tải dữ liệu thành công
+2026-06-16 15:46:58,926 - INFO - Mở cửa sổ danh sách sách quá hạn
+2026-06-16 15:47:07,099 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 15:47:39,389 - INFO - Khởi động ứng dụng
+2026-06-16 15:47:39,392 - INFO - Đã tải dữ liệu thành công
+2026-06-16 15:47:44,998 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 15:47:56,374 - INFO - Khởi động ứng dụng
+2026-06-16 15:47:56,374 - INFO - Đã tải dữ liệu thành công
+2026-06-16 15:47:59,301 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 15:48:11,215 - INFO - Khởi động ứng dụng
+2026-06-16 15:48:11,215 - INFO - Đã tải dữ liệu thành công
+2026-06-16 15:48:17,848 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 15:48:28,869 - INFO - Khởi động ứng dụng
+2026-06-16 15:48:28,884 - INFO - Đã tải dữ liệu thành công
+2026-06-16 15:48:37,695 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 15:51:30,045 - INFO - Khởi động ứng dụng
+2026-06-16 15:51:30,045 - INFO - Đã tải dữ liệu thành công
+2026-06-16 15:51:38,817 - INFO - Mở cửa sổ thêm sách mới
+2026-06-16 15:51:45,624 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 15:52:00,297 - INFO - Khởi động ứng dụng
+2026-06-16 15:52:00,302 - INFO - Đã tải dữ liệu thành công
+2026-06-16 15:52:02,377 - INFO - Mở cửa sổ thêm sách mới
+2026-06-16 15:52:18,895 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 15:52:21,877 - INFO - Khởi động ứng dụng
+2026-06-16 15:52:21,879 - INFO - Đã tải dữ liệu thành công
+2026-06-16 15:52:24,789 - INFO - Mở cửa sổ thêm sách mới
+2026-06-16 15:52:28,458 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 15:52:46,894 - INFO - Khởi động ứng dụng
+2026-06-16 15:52:46,912 - INFO - Đã tải dữ liệu thành công
+2026-06-16 15:52:53,595 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 15:53:07,509 - INFO - Khởi động ứng dụng
+2026-06-16 15:53:07,525 - INFO - Đã tải dữ liệu thành công
+2026-06-16 15:53:12,528 - INFO - Mở cửa sổ thêm sách mới
+2026-06-16 15:53:14,909 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 15:53:18,821 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 15:53:26,312 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 15:54:16,475 - INFO - Khởi động ứng dụng
+2026-06-16 15:54:16,475 - INFO - Đã tải dữ liệu thành công
+2026-06-16 15:54:18,139 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 15:54:21,934 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 15:55:11,561 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 15:55:37,884 - INFO - Cập nhật sách: S001
+2026-06-16 15:55:44,826 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 15:55:52,566 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 15:56:25,606 - INFO - Cập nhật sách: S003
+2026-06-16 15:56:40,241 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 15:57:26,656 - INFO - Cập nhật sách: S023
+2026-06-16 15:57:36,946 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 15:58:11,691 - INFO - Cập nhật sách: S143
+2026-06-16 15:58:29,667 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 15:59:39,072 - INFO - Cập nhật sách: S181
+2026-06-16 15:59:47,706 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 16:00:49,392 - INFO - Cập nhật sách: S063
+2026-06-16 16:00:58,506 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 16:01:22,136 - INFO - Cập nhật sách: S118
+2026-06-16 16:01:28,662 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 16:01:58,733 - INFO - Cập nhật sách: S043
+2026-06-16 16:02:05,602 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 16:02:23,199 - INFO - Cập nhật sách: S138
+2026-06-16 16:02:36,298 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 16:03:10,794 - INFO - Cập nhật sách: S198
+2026-06-16 16:03:16,653 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 16:03:52,255 - INFO - Cập nhật sách: S117
+2026-06-16 16:03:59,768 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 16:04:16,126 - INFO - Cập nhật sách: S123
+2026-06-16 16:04:22,458 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 16:04:44,410 - INFO - Cập nhật sách: S038
+2026-06-16 16:04:51,165 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 16:05:01,259 - INFO - Cập nhật sách: S161
+2026-06-16 16:05:12,299 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 16:05:50,108 - INFO - Cập nhật sách: S163
+2026-06-16 16:05:59,482 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 16:06:46,173 - INFO - Cập nhật sách: S137
+2026-06-16 16:06:52,962 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 16:07:33,856 - INFO - Cập nhật sách: S057
+2026-06-16 16:07:40,378 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 16:07:58,712 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 16:08:06,414 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 16:08:32,005 - INFO - Cập nhật sách: S101
+2026-06-16 16:08:51,403 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 16:09:15,717 - INFO - Cập nhật sách: S178
+2026-06-16 16:09:32,211 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 16:10:16,551 - INFO - Cập nhật sách: S141
+2026-06-16 16:10:23,606 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 16:10:54,365 - INFO - Cập nhật sách: S158
+2026-06-16 16:11:00,375 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 16:11:21,733 - INFO - Cập nhật sách: S017
+2026-06-16 16:11:43,603 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 16:12:03,465 - INFO - Cập nhật sách: S061
+2026-06-16 16:12:10,555 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 16:12:33,396 - INFO - Cập nhật sách: S077
+2026-06-16 16:12:38,834 - INFO - Mở cửa sổ cập nhật sách
+2026-06-16 16:13:11,396 - INFO - Cập nhật sách: S041
+2026-06-16 16:14:14,333 - INFO - Mở cửa sổ danh sách sách quá hạn
+2026-06-16 16:14:33,110 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-16 16:15:16,898 - INFO - Khởi động ứng dụng
+2026-06-16 16:15:16,901 - INFO - Đã tải dữ liệu thành công
+2026-06-16 16:15:50,686 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng

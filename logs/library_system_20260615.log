@@ -1,0 +1,391 @@
+2026-06-15 19:32:32,321 - INFO - Khởi động ứng dụng
+2026-06-15 19:32:32,321 - INFO - Đã tải dữ liệu thành công
+2026-06-15 19:32:34,794 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 19:35:17,150 - INFO - Khởi động ứng dụng
+2026-06-15 19:35:17,150 - INFO - Đã tải dữ liệu thành công
+2026-06-15 19:35:19,638 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 19:56:48,380 - INFO - Khởi động ứng dụng
+2026-06-15 19:56:48,380 - INFO - Đã tải dữ liệu thành công
+2026-06-15 19:56:48,581 - ERROR - Lỗi không mong muốn: 'TrackBook' object has no attribute 'ten_sach_muon'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 13, in <module>
+    app = gui.LibraryManagementSystem(root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 193, in __init__
+    self.setup_tracking_tab()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 532, in setup_tracking_tab
+    self.update_tracking_list()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 1329, in update_tracking_list
+    tracking.ma_ban_doc, tracking.ten_sach_muon, tracking.ngay_muon, tracking.ngay_tra, tracking.trang_thai
+                         ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TrackBook' object has no attribute 'ten_sach_muon'
+2026-06-15 20:43:27,687 - INFO - Khởi động ứng dụng
+2026-06-15 20:43:27,687 - INFO - Đã tải dữ liệu thành công
+2026-06-15 20:43:28,082 - ERROR - Lỗi không mong muốn: 'TrackBook' object has no attribute 'ten_sach_muon'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 13, in <module>
+    app = gui.LibraryManagementSystem(root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 193, in __init__
+    self.setup_tracking_tab()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 532, in setup_tracking_tab
+    self.update_tracking_list()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 1329, in update_tracking_list
+    tracking.ma_ban_doc, tracking.ten_sach_muon, tracking.ngay_muon, tracking.ngay_tra, tracking.trang_thai
+                         ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TrackBook' object has no attribute 'ten_sach_muon'
+2026-06-15 20:49:46,439 - INFO - Khởi động ứng dụng
+2026-06-15 20:49:46,442 - INFO - Đã tải dữ liệu thành công
+2026-06-15 20:49:46,993 - ERROR - Lỗi không mong muốn: 'TrackBook' object has no attribute 'ma_sach_muon'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 212, in check_and_update_overdue_books
+    ngay_muon_dt = datetime.strptime(record.ngay_muon, "%d/%m/%Y").date()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\_strptime.py", line 653, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\_strptime.py", line 432, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '2026-04-01' does not match format '%d/%m/%Y'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 13, in <module>
+    app = gui.LibraryManagementSystem(root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 195, in __init__
+    self.check_and_update_overdue_books()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 225, in check_and_update_overdue_books
+    logger.error(f"Lỗi định dạng ngày mượn cho record: {record.ma_sach_muon} của bạn đọc {record.ma_ban_doc}")
+                                                        ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TrackBook' object has no attribute 'ma_sach_muon'
+2026-06-15 20:50:53,252 - INFO - Khởi động ứng dụng
+2026-06-15 20:50:53,253 - INFO - Đã tải dữ liệu thành công
+2026-06-15 20:50:53,532 - ERROR - Lỗi định dạng ngày mượn cho record: S001 của bạn đọc BD001
+2026-06-15 20:50:53,532 - ERROR - Lỗi định dạng ngày mượn cho record: S004 của bạn đọc BD004
+2026-06-15 20:50:53,532 - ERROR - Lỗi định dạng ngày mượn cho record: S007 của bạn đọc BD007
+2026-06-15 20:50:53,533 - ERROR - Lỗi định dạng ngày mượn cho record: S010 của bạn đọc BD010
+2026-06-15 20:50:53,533 - ERROR - Lỗi định dạng ngày mượn cho record: S013 của bạn đọc BD003
+2026-06-15 20:50:53,533 - ERROR - Lỗi định dạng ngày mượn cho record: S016 của bạn đọc BD006
+2026-06-15 20:50:53,533 - ERROR - Lỗi định dạng ngày mượn cho record: S019 của bạn đọc BD009
+2026-06-15 20:51:12,108 - INFO - Mở cửa sổ mượn sách
+2026-06-15 20:51:14,676 - INFO - Mở cửa sổ danh sách sách quá hạn
+2026-06-15 20:51:20,217 - INFO - Mở cửa sổ mượn sách
+2026-06-15 20:51:22,807 - INFO - Mở cửa sổ trả sách
+2026-06-15 20:51:42,316 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 21:02:07,783 - INFO - Khởi động ứng dụng
+2026-06-15 21:02:07,786 - INFO - Đã tải dữ liệu thành công
+2026-06-15 21:02:08,255 - ERROR - Lỗi định dạng ngày mượn cho record: S001 của bạn đọc BD001
+2026-06-15 21:02:08,257 - ERROR - Lỗi định dạng ngày mượn cho record: S004 của bạn đọc BD004
+2026-06-15 21:02:08,257 - ERROR - Lỗi định dạng ngày mượn cho record: S007 của bạn đọc BD007
+2026-06-15 21:02:08,257 - ERROR - Lỗi định dạng ngày mượn cho record: S010 của bạn đọc BD010
+2026-06-15 21:02:08,257 - ERROR - Lỗi định dạng ngày mượn cho record: S013 của bạn đọc BD003
+2026-06-15 21:02:08,257 - ERROR - Lỗi định dạng ngày mượn cho record: S016 của bạn đọc BD006
+2026-06-15 21:02:08,257 - ERROR - Lỗi định dạng ngày mượn cho record: S019 của bạn đọc BD009
+2026-06-15 21:02:19,206 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 21:18:12,655 - INFO - Khởi động ứng dụng
+2026-06-15 21:18:12,656 - INFO - Đã tải dữ liệu thành công
+2026-06-15 21:18:18,014 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 21:18:58,003 - INFO - Khởi động ứng dụng
+2026-06-15 21:18:58,006 - ERROR - Lỗi không mong muốn: 'list' object has no attribute 'items'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 10, in <module>
+    data_handler.load_data()
+  File "c:\KỸ THUẬT LẬP TRÌNH\data_handler.py", line 47, in load_data
+    for ma_sach, book_data in data.items():
+                              ^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'items'
+2026-06-15 21:37:17,852 - INFO - Khởi động ứng dụng
+2026-06-15 21:37:17,857 - ERROR - Lỗi không mong muốn: 'list' object has no attribute 'items'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 10, in <module>
+    data_handler.load_data()
+  File "c:\KỸ THUẬT LẬP TRÌNH\data_handler.py", line 62, in load_data
+    for ma_bd, reader_data in data.items():
+                              ^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'items'
+2026-06-15 22:05:54,306 - INFO - Khởi động ứng dụng
+2026-06-15 22:05:54,308 - ERROR - Lỗi không mong muốn: 'list' object has no attribute 'items'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 10, in <module>
+    data_handler.load_data()
+  File "c:\KỸ THUẬT LẬP TRÌNH\data_handler.py", line 62, in load_data
+    for ma_bd, reader_data in data.items():
+                              ^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'items'
+2026-06-15 22:08:25,227 - INFO - Khởi động ứng dụng
+2026-06-15 22:08:25,231 - ERROR - Lỗi không mong muốn: 'list' object has no attribute 'items'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 10, in <module>
+    data_handler.load_data()
+  File "c:\KỸ THUẬT LẬP TRÌNH\data_handler.py", line 62, in load_data
+    for ma_bd, reader_data in data.items():
+                              ^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'items'
+2026-06-15 22:09:10,253 - INFO - Khởi động ứng dụng
+2026-06-15 22:09:10,255 - ERROR - Lỗi không mong muốn: Book.__init__() got an unexpected keyword argument 'so_luong_sach'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 10, in <module>
+    data_handler.load_data()
+  File "c:\KỸ THUẬT LẬP TRÌNH\data_handler.py", line 49, in load_data
+    books_db[ma_sach] = Book.from_dict(book_data) # Sử dụng __setitem__
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\models.py", line 28, in from_dict
+    return cls(**data_copy)
+           ^^^^^^^^^^^^^^^^
+TypeError: Book.__init__() got an unexpected keyword argument 'so_luong_sach'
+2026-06-15 22:12:23,219 - INFO - Khởi động ứng dụng
+2026-06-15 22:12:23,219 - ERROR - Lỗi không mong muốn: Book.__init__() got an unexpected keyword argument 'tinh_trang_sach'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 10, in <module>
+    data_handler.load_data()
+  File "c:\KỸ THUẬT LẬP TRÌNH\data_handler.py", line 49, in load_data
+    books_db[ma_sach] = Book.from_dict(book_data) # Sử dụng __setitem__
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\models.py", line 28, in from_dict
+    return cls(**data_copy)
+           ^^^^^^^^^^^^^^^^
+TypeError: Book.__init__() got an unexpected keyword argument 'tinh_trang_sach'
+2026-06-15 22:12:59,450 - INFO - Khởi động ứng dụng
+2026-06-15 22:12:59,453 - ERROR - Lỗi không mong muốn: 'Book' object has no attribute 'so_luong'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 10, in <module>
+    data_handler.load_data()
+  File "c:\KỸ THUẬT LẬP TRÌNH\data_handler.py", line 52, in load_data
+    logger.debug(f"Key: {key}, Value: {value}")
+                                      ^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\models.py", line 16, in __str__
+    f"Số lượng sách: {self.so_luong}, Tình trạng sách: {self.tinh_trang}]")
+                      ^^^^^^^^^^^^^
+AttributeError: 'Book' object has no attribute 'so_luong'
+2026-06-15 22:14:23,966 - INFO - Khởi động ứng dụng
+2026-06-15 22:14:23,973 - ERROR - Lỗi không mong muốn: 'list' object has no attribute 'items'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 10, in <module>
+    data_handler.load_data()
+  File "c:\KỸ THUẬT LẬP TRÌNH\data_handler.py", line 62, in load_data
+    for ma_bd, reader_data in data.items():
+                              ^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'items'
+2026-06-15 22:17:19,597 - INFO - Khởi động ứng dụng
+2026-06-15 22:17:19,597 - INFO - Đã tải dữ liệu thành công
+2026-06-15 22:17:19,804 - ERROR - Lỗi không mong muốn: 'Book' object has no attribute 'so_luong'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 13, in <module>
+    app = gui.LibraryManagementSystem(root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 191, in __init__
+    self.setup_book_tab()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 306, in setup_book_tab
+    self.update_book_list()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 827, in update_book_list
+    book.so_luong,
+    ^^^^^^^^^^^^^
+AttributeError: 'Book' object has no attribute 'so_luong'
+2026-06-15 22:18:28,462 - INFO - Khởi động ứng dụng
+2026-06-15 22:18:28,462 - INFO - Đã tải dữ liệu thành công
+2026-06-15 22:19:11,350 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 22:19:26,037 - INFO - Khởi động ứng dụng
+2026-06-15 22:19:26,040 - INFO - Đã tải dữ liệu thành công
+2026-06-15 22:19:59,476 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 22:20:12,003 - INFO - Khởi động ứng dụng
+2026-06-15 22:20:12,020 - INFO - Đã tải dữ liệu thành công
+2026-06-15 22:20:13,485 - INFO - Mở cửa sổ thêm sách mới
+2026-06-15 22:21:09,989 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 22:23:11,111 - INFO - Khởi động ứng dụng
+2026-06-15 22:23:11,115 - INFO - Đã tải dữ liệu thành công
+2026-06-15 22:23:14,597 - INFO - Mở cửa sổ thêm sách mới
+2026-06-15 22:23:51,955 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 22:26:12,491 - INFO - Khởi động ứng dụng
+2026-06-15 22:26:12,496 - INFO - Đã tải dữ liệu thành công
+2026-06-15 22:26:14,894 - INFO - Mở cửa sổ thêm sách mới
+2026-06-15 22:26:48,474 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 22:33:03,763 - INFO - Khởi động ứng dụng
+2026-06-15 22:33:03,776 - INFO - Đã tải dữ liệu thành công
+2026-06-15 22:33:05,419 - INFO - Mở cửa sổ thêm sách mới
+2026-06-15 22:33:47,711 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 22:36:29,966 - INFO - Khởi động ứng dụng
+2026-06-15 22:36:29,969 - INFO - Đã tải dữ liệu thành công
+2026-06-15 22:36:31,617 - INFO - Mở cửa sổ thêm sách mới
+2026-06-15 22:37:03,266 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 22:38:12,663 - INFO - Khởi động ứng dụng
+2026-06-15 22:38:12,663 - INFO - Đã tải dữ liệu thành công
+2026-06-15 22:38:14,334 - INFO - Mở cửa sổ thêm sách mới
+2026-06-15 22:38:40,141 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 22:39:17,242 - INFO - Khởi động ứng dụng
+2026-06-15 22:39:17,257 - INFO - Đã tải dữ liệu thành công
+2026-06-15 22:39:19,357 - INFO - Mở cửa sổ thêm sách mới
+2026-06-15 22:39:41,264 - INFO - Thêm sách mới thành công: S201
+2026-06-15 22:39:53,349 - INFO - Mở cửa sổ cập nhật sách
+2026-06-15 22:39:53,349 - WARNING - Không có sách nào được chọn để cập nhật
+2026-06-15 22:40:06,448 - INFO - Mở cửa sổ cập nhật sách
+2026-06-15 22:40:06,448 - INFO - Mở cửa sổ cập nhật cho sách: S033
+2026-06-15 22:40:25,861 - INFO - Mở cửa sổ cập nhật sách
+2026-06-15 22:40:25,861 - INFO - Mở cửa sổ cập nhật cho sách: S033
+2026-06-15 22:40:29,517 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 22:45:08,838 - INFO - Khởi động ứng dụng
+2026-06-15 22:45:08,842 - INFO - Đã tải dữ liệu thành công
+2026-06-15 22:45:10,372 - INFO - Mở cửa sổ cập nhật sách
+2026-06-15 22:45:10,372 - WARNING - Không có sách nào được chọn để cập nhật
+2026-06-15 22:45:14,228 - INFO - Mở cửa sổ cập nhật sách
+2026-06-15 22:45:14,228 - INFO - Mở cửa sổ cập nhật cho sách: S003
+2026-06-15 22:45:30,379 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 22:57:50,114 - INFO - Khởi động ứng dụng
+2026-06-15 22:57:50,116 - INFO - Đã tải dữ liệu thành công
+2026-06-15 22:58:03,268 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 22:59:16,796 - INFO - Khởi động ứng dụng
+2026-06-15 22:59:16,796 - INFO - Đã tải dữ liệu thành công
+2026-06-15 22:59:18,500 - INFO - Mở cửa sổ thêm sách mới
+2026-06-15 22:59:49,779 - INFO - Thêm sách mới thành công: S202
+2026-06-15 22:59:52,176 - INFO - Mở cửa sổ cập nhật sách
+2026-06-15 22:59:52,176 - WARNING - Không có sách nào được chọn để cập nhật
+2026-06-15 22:59:56,281 - INFO - Mở cửa sổ cập nhật sách
+2026-06-15 22:59:56,281 - INFO - Mở cửa sổ cập nhật cho sách: S003
+2026-06-15 23:00:03,418 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 23:04:24,660 - INFO - Khởi động ứng dụng
+2026-06-15 23:04:24,663 - ERROR - Lỗi không mong muốn: Reader.__init__() got an unexpected keyword argument 'sdt'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 10, in <module>
+    data_handler.load_data()
+  File "c:\KỸ THUẬT LẬP TRÌNH\data_handler.py", line 63, in load_data
+    readers_db[ma_bd] = Reader.from_dict(reader_data) # Sử dụng __setitem__
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\models.py", line 47, in from_dict
+    return cls(**data_dict)
+           ^^^^^^^^^^^^^^^^
+TypeError: Reader.__init__() got an unexpected keyword argument 'sdt'
+2026-06-15 23:06:26,729 - INFO - Khởi động ứng dụng
+2026-06-15 23:06:26,733 - INFO - Đã tải dữ liệu thành công
+2026-06-15 23:06:26,924 - ERROR - Lỗi không mong muốn: 'Reader' object has no attribute 'ten'
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\main.py", line 13, in <module>
+    app = gui.LibraryManagementSystem(root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 192, in __init__
+    self.setup_reader_tab()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 414, in setup_reader_tab
+    self.update_reader_list()
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 1057, in update_reader_list
+    reader.ma_ban_doc, reader.ten, reader.ngay_sinh, reader.gioi_tinh, reader.dia_chi, reader.so_dien_thoai
+                       ^^^^^^^^^^
+AttributeError: 'Reader' object has no attribute 'ten'
+2026-06-15 23:10:34,309 - INFO - Khởi động ứng dụng
+2026-06-15 23:10:34,324 - INFO - Đã tải dữ liệu thành công
+2026-06-15 23:10:47,158 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 23:16:07,325 - INFO - Khởi động ứng dụng
+2026-06-15 23:16:07,329 - INFO - Đã tải dữ liệu thành công
+2026-06-15 23:16:10,472 - INFO - Mở cửa sổ cập nhật sách
+2026-06-15 23:16:10,472 - WARNING - Không có sách nào được chọn để cập nhật
+2026-06-15 23:16:14,888 - INFO - Mở cửa sổ cập nhật sách
+2026-06-15 23:16:14,888 - INFO - Mở cửa sổ cập nhật cho sách: S001
+2026-06-15 23:16:17,566 - INFO - Mở cửa sổ tìm kiếm sách
+2026-06-15 23:16:37,291 - INFO - Mở cửa sổ thêm bạn đọc mới
+2026-06-15 23:17:12,780 - INFO - Ngày sinh đã chọn (Thêm bạn đọc): 15/06/2026
+2026-06-15 23:17:37,823 - INFO - Thêm bạn đọc mới thành công: BD051
+2026-06-15 23:17:41,284 - INFO - Mở cửa sổ cập nhật bạn đọc
+2026-06-15 23:17:41,284 - WARNING - Không có bạn đọc nào được chọn để cập nhật
+2026-06-15 23:17:45,942 - INFO - Mở cửa sổ cập nhật bạn đọc
+2026-06-15 23:17:45,942 - INFO - Mở cửa sổ cập nhật cho bạn đọc: BD006
+2026-06-15 23:17:53,788 - INFO - Cập nhật thông tin bạn đọc thành công: BD006
+2026-06-15 23:17:56,197 - INFO - Mở cửa sổ tìm kiếm bạn đọc
+2026-06-15 23:18:20,171 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 23:18:53,648 - INFO - Khởi động ứng dụng
+2026-06-15 23:18:53,648 - INFO - Đã tải dữ liệu thành công
+2026-06-15 23:18:58,610 - INFO - Mở cửa sổ tìm kiếm bạn đọc
+2026-06-15 23:19:15,564 - INFO - Mở cửa sổ mượn sách
+2026-06-15 23:19:31,040 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 23:21:16,380 - INFO - Khởi động ứng dụng
+2026-06-15 23:21:16,380 - INFO - Đã tải dữ liệu thành công
+2026-06-15 23:21:20,445 - INFO - Mở cửa sổ cập nhật sách
+2026-06-15 23:21:20,448 - WARNING - Không có sách nào được chọn để cập nhật
+2026-06-15 23:21:29,688 - INFO - Mở cửa sổ cập nhật sách
+2026-06-15 23:21:29,689 - INFO - Mở cửa sổ cập nhật cho sách: S003
+2026-06-15 23:21:35,614 - INFO - Mở cửa sổ tìm kiếm sách
+2026-06-15 23:21:56,464 - INFO - Mở cửa sổ mượn sách
+2026-06-15 23:22:12,790 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 23:22:57,939 - INFO - Khởi động ứng dụng
+2026-06-15 23:22:57,939 - INFO - Đã tải dữ liệu thành công
+2026-06-15 23:23:02,398 - INFO - Mở cửa sổ mượn sách
+2026-06-15 23:23:16,705 - INFO - Mượn sách thành công: S001 bởi BD002
+2026-06-15 23:23:19,686 - INFO - Mở cửa sổ trả sách
+2026-06-15 23:23:28,454 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 23:25:38,858 - INFO - Khởi động ứng dụng
+2026-06-15 23:25:38,859 - INFO - Đã tải dữ liệu thành công
+2026-06-15 23:25:42,923 - INFO - Mở cửa sổ trả sách
+2026-06-15 23:25:52,087 - INFO - Mở cửa sổ xem lịch sử mượn/trả
+2026-06-15 23:26:02,286 - INFO - Mở cửa sổ danh sách sách quá hạn
+2026-06-15 23:26:05,115 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 23:28:51,243 - INFO - Khởi động ứng dụng
+2026-06-15 23:28:51,244 - INFO - Đã tải dữ liệu thành công
+2026-06-15 23:28:55,368 - INFO - Mở cửa sổ trả sách
+2026-06-15 23:29:02,332 - INFO - Mở cửa sổ trả sách
+2026-06-15 23:29:09,986 - INFO - Mở cửa sổ xem lịch sử mượn/trả
+2026-06-15 23:29:16,557 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 23:31:45,473 - INFO - Khởi động ứng dụng
+2026-06-15 23:31:45,476 - INFO - Đã tải dữ liệu thành công
+2026-06-15 23:31:51,117 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 23:32:07,644 - INFO - Khởi động ứng dụng
+2026-06-15 23:32:07,645 - INFO - Đã tải dữ liệu thành công
+2026-06-15 23:32:13,582 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 23:45:43,358 - INFO - Khởi động ứng dụng
+2026-06-15 23:45:43,362 - INFO - Đã tải dữ liệu thành công
+2026-06-15 23:45:48,266 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 23:46:26,381 - INFO - Khởi động ứng dụng
+2026-06-15 23:46:26,384 - INFO - Đã tải dữ liệu thành công
+2026-06-15 23:46:28,873 - INFO - Mở cửa sổ thêm sách mới
+2026-06-15 23:46:31,541 - INFO - Mở cửa sổ cập nhật sách
+2026-06-15 23:46:31,541 - WARNING - Không có sách nào được chọn để cập nhật
+2026-06-15 23:46:34,742 - INFO - Mở cửa sổ cập nhật sách
+2026-06-15 23:46:34,742 - INFO - Mở cửa sổ cập nhật cho sách: S002
+2026-06-15 23:46:37,758 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 23:47:19,548 - INFO - Khởi động ứng dụng
+2026-06-15 23:47:19,552 - INFO - Đã tải dữ liệu thành công
+2026-06-15 23:47:21,450 - INFO - Mở cửa sổ cập nhật sách
+2026-06-15 23:47:21,450 - WARNING - Không có sách nào được chọn để cập nhật
+2026-06-15 23:47:25,245 - INFO - Mở cửa sổ cập nhật sách
+2026-06-15 23:47:25,245 - INFO - Mở cửa sổ cập nhật cho sách: S003
+2026-06-15 23:47:47,187 - INFO - Mở cửa sổ tìm kiếm sách
+2026-06-15 23:48:07,035 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 23:49:29,240 - INFO - Khởi động ứng dụng
+2026-06-15 23:49:29,243 - INFO - Đã tải dữ liệu thành công
+2026-06-15 23:49:40,963 - INFO - Mở cửa sổ danh sách sách quá hạn
+2026-06-15 23:49:43,928 - INFO - Mở cửa sổ xem lịch sử mượn/trả
+2026-06-15 23:49:50,015 - INFO - Mở cửa sổ trả sách
+2026-06-15 23:49:57,211 - INFO - Mở cửa sổ trả sách
+2026-06-15 23:50:08,740 - INFO - Mở cửa sổ trả sách
+2026-06-15 23:50:16,853 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 23:50:47,568 - INFO - Khởi động ứng dụng
+2026-06-15 23:50:47,571 - INFO - Đã tải dữ liệu thành công
+2026-06-15 23:50:50,257 - INFO - Mở cửa sổ trả sách
+2026-06-15 23:51:01,555 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 23:51:20,116 - INFO - Khởi động ứng dụng
+2026-06-15 23:51:20,118 - INFO - Đã tải dữ liệu thành công
+2026-06-15 23:51:22,652 - INFO - Mở cửa sổ trả sách
+2026-06-15 23:51:34,120 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 23:51:40,948 - INFO - Khởi động ứng dụng
+2026-06-15 23:51:40,951 - INFO - Đã tải dữ liệu thành công
+2026-06-15 23:51:43,604 - INFO - Mở cửa sổ xem lịch sử mượn/trả
+2026-06-15 23:51:52,255 - INFO - Mở cửa sổ danh sách sách quá hạn
+2026-06-15 23:51:59,066 - INFO - Mở cửa sổ thêm bạn đọc mới
+2026-06-15 23:52:01,178 - ERROR - Lỗi khi mở DatePickerDialog (Thêm bạn đọc): name 'DatePickerDialog' is not defined
+Traceback (most recent call last):
+  File "c:\KỸ THUẬT LẬP TRÌNH\gui.py", line 931, in open_date_picker_for_add
+    date_dialog = DatePickerDialog(
+                  ^^^^^^^^^^^^^^^^
+NameError: name 'DatePickerDialog' is not defined
+2026-06-15 23:52:33,524 - INFO - Thêm bạn đọc mới thành công: BD051
+2026-06-15 23:52:38,869 - INFO - Mở cửa sổ cập nhật bạn đọc
+2026-06-15 23:52:38,869 - WARNING - Không có bạn đọc nào được chọn để cập nhật
+2026-06-15 23:52:42,722 - INFO - Mở cửa sổ cập nhật bạn đọc
+2026-06-15 23:52:42,722 - INFO - Mở cửa sổ cập nhật cho bạn đọc: BD051
+2026-06-15 23:52:50,169 - INFO - Cập nhật thông tin bạn đọc thành công: BD051
+2026-06-15 23:52:52,769 - INFO - Mở cửa sổ tìm kiếm bạn đọc
+2026-06-15 23:53:13,093 - INFO - Mở cửa sổ mượn sách
+2026-06-15 23:53:28,717 - INFO - Mượn sách thành công: S020 bởi BD050
+2026-06-15 23:53:31,118 - INFO - Mở cửa sổ xem lịch sử mượn/trả
+2026-06-15 23:53:38,358 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-15 23:53:59,191 - INFO - Khởi động ứng dụng
+2026-06-15 23:53:59,194 - INFO - Đã tải dữ liệu thành công
+2026-06-15 23:54:02,664 - INFO - Mở cửa sổ xem lịch sử mượn/trả
+2026-06-15 23:54:20,795 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng

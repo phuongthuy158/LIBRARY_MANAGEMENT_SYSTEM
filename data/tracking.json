@@ -1,0 +1,650 @@
+[
+    {
+        "ma_ban_doc": "BD001",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S001",
+        "ten_sach": "Trí tuệ do thái",
+        "ngay_muon": "01/05/2026",
+        "ngay_tra": "19/06/2026",
+        "trang_thai": "Đã trả"
+    },
+    {
+        "ma_ban_doc": "BD002",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S001",
+        "ten_sach": "Trí tuệ do thái",
+        "ngay_muon": "01/05/2026",
+        "ngay_tra": "19/06/2026",
+        "trang_thai": "Đã trả"
+    },
+    {
+        "ma_ban_doc": "BD002",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S002",
+        "ten_sach": "Nhà Giả Kim",
+        "ngay_muon": "02/05/2026",
+        "ngay_tra": null,
+        "trang_thai": "Quá hạn"
+    },
+    {
+        "ma_ban_doc": "BD003",
+        "chuc_vu": "Khác",
+        "ma_sach": "S003",
+        "ten_sach": "Tự lập tuổi 20",
+        "ngay_muon": "03/04/2026",
+        "ngay_tra": "12/05/2026",
+        "trang_thai": "Đã trả"
+    },
+    {
+        "ma_ban_doc": "BD002",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S003",
+        "ten_sach": "Tự lập tuổi 20",
+        "ngay_muon": "03/05/2026",
+        "ngay_tra": null,
+        "trang_thai": "Quá hạn"
+    },
+    {
+        "ma_ban_doc": "BD004",
+        "chuc_vu": "Khác",
+        "ma_sach": "S004",
+        "ten_sach": "Chuyện xứ Lang Biang Tập 1",
+        "ngay_muon": "04/05/2026",
+        "ngay_tra": "18/06/2026",
+        "trang_thai": "Đã trả"
+    },
+    {
+        "ma_ban_doc": "BD002",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S004",
+        "ten_sach": "Chuyện xứ Lang Biang Tập 1",
+        "ngay_muon": "04/05/2026",
+        "ngay_tra": null,
+        "trang_thai": "Quá hạn"
+    },
+    {
+        "ma_ban_doc": "BD005",
+        "chuc_vu": "Khác",
+        "ma_sach": "S005",
+        "ten_sach": "Vợ nhặt",
+        "ngay_muon": "05/05/2026",
+        "ngay_tra": "19/06/2026",
+        "trang_thai": "Đã trả"
+    },
+    {
+        "ma_ban_doc": "BD002",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S005",
+        "ten_sach": "Vợ nhặt",
+        "ngay_muon": "05/05/2026",
+        "ngay_tra": null,
+        "trang_thai": "Quá hạn"
+    },
+    {
+        "ma_ban_doc": "BD006",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S006",
+        "ten_sach": "Sapiens: Lược Sử Loài Người",
+        "ngay_muon": "06/04/2026",
+        "ngay_tra": "25/05/2026",
+        "trang_thai": "Đã trả"
+    },
+    {
+        "ma_ban_doc": "BD002",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S006",
+        "ten_sach": "Sapiens: Lược Sử Loài Người",
+        "ngay_muon": "06/05/2026",
+        "ngay_tra": "18/06/2026",
+        "trang_thai": "Đã trả"
+    },
+    {
+        "ma_ban_doc": "BD007",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S007",
+        "ten_sach": "Homo Deus: Lược Sử Tương Lai",
+        "ngay_muon": "07/05/2026",
+        "ngay_tra": null,
+        "trang_thai": "Quá hạn"
+    },
+    {
+        "ma_ban_doc": "BD002",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S007",
+        "ten_sach": "Homo Deus: Lược Sử Tương Lai",
+        "ngay_muon": "07/05/2026",
+        "ngay_tra": null,
+        "trang_thai": "Quá hạn"
+    },
+    {
+        "ma_ban_doc": "BD008",
+        "chuc_vu": "Giảng viên",
+        "ma_sach": "S008",
+        "ten_sach": "Lược Sử Thời Gian",
+        "ngay_muon": "08/05/2026",
+        "ngay_tra": null,
+        "trang_thai": "Đang mượn"
+    },
+    {
+        "ma_ban_doc": "BD002",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S008",
+        "ten_sach": "Lược Sử Thời Gian",
+        "ngay_muon": "08/05/2026",
+        "ngay_tra": "19/06/2026",
+        "trang_thai": "Đã trả"
+    },
+    {
+        "ma_ban_doc": "BD009",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S009",
+        "ten_sach": "Clean Code Tập 1",
+        "ngay_muon": "09/04/2026",
+        "ngay_tra": "28/05/2026",
+        "trang_thai": "Đã trả"
+    },
+    {
+        "ma_ban_doc": "BD010",
+        "chuc_vu": "Giảng viên",
+        "ma_sach": "S010",
+        "ten_sach": "Giải tích I",
+        "ngay_muon": "20/05/2026",
+        "ngay_tra": null,
+        "trang_thai": "Đang mượn"
+    },
+    {
+        "ma_ban_doc": "BD001",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S011",
+        "ten_sach": "Bước đường cùng",
+        "ngay_muon": "11/05/2026",
+        "ngay_tra": null,
+        "trang_thai": "Quá hạn"
+    },
+    {
+        "ma_ban_doc": "BD002",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S012",
+        "ten_sach": "Không Gia Đình",
+        "ngay_muon": "12/04/2026",
+        "ngay_tra": "21/05/2026",
+        "trang_thai": "Đã trả"
+    },
+    {
+        "ma_ban_doc": "BD003",
+        "chuc_vu": "Khác",
+        "ma_sach": "S013",
+        "ten_sach": "Sherlock Holmes Tập 2",
+        "ngay_muon": "13/06/2026",
+        "ngay_tra": null,
+        "trang_thai": "Đang mượn"
+    },
+    {
+        "ma_ban_doc": "BD004",
+        "chuc_vu": "Khác",
+        "ma_sach": "S014",
+        "ten_sach": "Bố Già",
+        "ngay_muon": "14/05/2026",
+        "ngay_tra": null,
+        "trang_thai": "Quá hạn"
+    },
+    {
+        "ma_ban_doc": "BD005",
+        "chuc_vu": "Khác",
+        "ma_sach": "S015",
+        "ten_sach": "Chiến Tranh Và Hòa Bình",
+        "ngay_muon": "15/04/2026",
+        "ngay_tra": "24/05/2026",
+        "trang_thai": "Đã trả"
+    },
+    {
+        "ma_ban_doc": "BD006",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S016",
+        "ten_sach": "Giao tiếp tiếng Anh Tập 2",
+        "ngay_muon": "23/05/2026",
+        "ngay_tra": null,
+        "trang_thai": "Đang mượn"
+    },
+    {
+        "ma_ban_doc": "BD007",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S017",
+        "ten_sach": "Kỹ năng làm sếp",
+        "ngay_muon": "17/04/2026",
+        "ngay_tra": null,
+        "trang_thai": "Quá hạn"
+    },
+    {
+        "ma_ban_doc": "BD008",
+        "chuc_vu": "Giảng viên",
+        "ma_sach": "S018",
+        "ten_sach": "Cha Giàu Cha Nghèo",
+        "ngay_muon": "18/04/2026",
+        "ngay_tra": "02/05/2026",
+        "trang_thai": "Đã trả"
+    },
+    {
+        "ma_ban_doc": "BD009",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S019",
+        "ten_sach": "Muôn Kiếp Nhân Sinh",
+        "ngay_muon": "23/05/2026",
+        "ngay_tra": null,
+        "trang_thai": "Đang mượn"
+    },
+    {
+        "ma_ban_doc": "BD010",
+        "chuc_vu": "Giảng viên",
+        "ma_sach": "S020",
+        "ten_sach": "Lập Trình Python Cơ Bản",
+        "ngay_muon": "20/04/2026",
+        "ngay_tra": null,
+        "trang_thai": "Đang mượn"
+    },
+    {
+        "ma_ban_doc": "BD017",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S031",
+        "ten_sach": "Những ngày thơ ấu",
+        "ngay_muon": "20/05/2026",
+        "ngay_tra": null,
+        "trang_thai": "Quá hạn"
+    },
+    {
+        "ma_ban_doc": "BD047",
+        "chuc_vu": "Giảng viên",
+        "ma_sach": "S031",
+        "ten_sach": "Những ngày thơ ấu",
+        "ngay_muon": "10/05/2026",
+        "ngay_tra": null,
+        "trang_thai": "Đang mượn"
+    },
+    {
+        "ma_ban_doc": "BD037",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S045",
+        "ten_sach": "Vang bóng một thời",
+        "ngay_muon": "20/05/2026",
+        "ngay_tra": null,
+        "trang_thai": "Quá hạn"
+    },
+    {
+        "ma_ban_doc": "BD037",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S031",
+        "ten_sach": "Những ngày thơ ấu",
+        "ngay_muon": "20/05/2026",
+        "ngay_tra": null,
+        "trang_thai": "Quá hạn"
+    },
+    {
+        "ma_ban_doc": "BD037",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S016",
+        "ten_sach": "Giao tiếp tiếng Anh Tập 2",
+        "ngay_muon": "20/05/2026",
+        "ngay_tra": null,
+        "trang_thai": "Quá hạn"
+    },
+    {
+        "ma_ban_doc": "BD017",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S090",
+        "ten_sach": "Đại số",
+        "ngay_muon": "20/05/2026",
+        "ngay_tra": null,
+        "trang_thai": "Quá hạn"
+    },
+    {
+        "ma_ban_doc": "BD017",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S005",
+        "ten_sach": "Vợ nhặt",
+        "ngay_muon": "20/05/2026",
+        "ngay_tra": null,
+        "trang_thai": "Quá hạn"
+    },
+    {
+        "ma_ban_doc": "BD017",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S195",
+        "ten_sach": "Chiến tranh và hòa bình",
+        "ngay_muon": "20/05/2026",
+        "ngay_tra": null,
+        "trang_thai": "Quá hạn"
+    },
+    {
+        "ma_ban_doc": "BD002",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S058",
+        "ten_sach": "Cha giàu cha nghèo",
+        "ngay_muon": "10/06/2026",
+        "ngay_tra": "19/06/2026",
+        "trang_thai": "Đã trả"
+    },
+    {
+        "ma_ban_doc": "BD002",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S005",
+        "ten_sach": "Vợ nhặt",
+        "ngay_muon": "10/06/2026",
+        "ngay_tra": null,
+        "trang_thai": "Đang mượn"
+    },
+    {
+        "ma_ban_doc": "BD017",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S172",
+        "ten_sach": "Không gia đình",
+        "ngay_muon": "10/06/2026",
+        "ngay_tra": null,
+        "trang_thai": "Đang mượn"
+    },
+    {
+        "ma_ban_doc": "BD002",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S199",
+        "ten_sach": "Không gia đình",
+        "ngay_muon": "16/06/2026",
+        "ngay_tra": "19/06/2026",
+        "trang_thai": "Đã trả"
+    },
+    {
+        "ma_ban_doc": "BD004",
+        "chuc_vu": "Khác",
+        "ma_sach": "S198",
+        "ten_sach": "Khéo ăn khéo nói sẽ có được thiên hạ",
+        "ngay_muon": "18/06/2026",
+        "ngay_tra": "",
+        "trang_thai": "Đang mượn"
+    },
+    {
+        "ma_ban_doc": "BD005",
+        "chuc_vu": "Khác",
+        "ma_sach": "S200",
+        "ten_sach": "Nhật ký trong tù",
+        "ngay_muon": "18/06/2026",
+        "ngay_tra": "",
+        "trang_thai": "Đang mượn"
+    },
+    {
+        "ma_ban_doc": "BD015",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S001",
+        "ten_sach": "Trí tuệ do thái",
+        "ngay_muon": "18/06/2026",
+        "ngay_tra": "19/06/2026",
+        "trang_thai": "Đã trả"
+    },
+    {
+        "ma_ban_doc": "BD015",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S010",
+        "ten_sach": "Giải tích I",
+        "ngay_muon": "18/06/2026",
+        "ngay_tra": "",
+        "trang_thai": "Đang mượn"
+    },
+    {
+        "ma_ban_doc": "BD015",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S016",
+        "ten_sach": "Giao tiếp tiếng Anh Tập 2",
+        "ngay_muon": "18/06/2026",
+        "ngay_tra": "",
+        "trang_thai": "Đang mượn"
+    },
+    {
+        "ma_ban_doc": "BD023",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S010",
+        "ten_sach": "Giải tích I",
+        "ngay_muon": "18/06/2026",
+        "ngay_tra": "",
+        "trang_thai": "Đang mượn"
+    },
+    {
+        "ma_ban_doc": "BD050",
+        "chuc_vu": "Giảng viên",
+        "ma_sach": "S015",
+        "ten_sach": "Chiến Tranh Và Hòa Bình",
+        "ngay_muon": "23/05/2026",
+        "ngay_tra": "",
+        "trang_thai": "Đang mượn"
+    },
+    {
+        "ma_ban_doc": "BD001",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S100",
+        "ten_sach": "Lập Trình Python Cơ Bản",
+        "ngay_muon": "18/06/2026",
+        "ngay_tra": "19/06/2026",
+        "trang_thai": "Đã trả"
+    },
+    {
+        "ma_ban_doc": "BD001",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S200",
+        "ten_sach": "Nhật ký trong tù",
+        "ngay_muon": "20/05/2026",
+        "ngay_tra": "19/06/2026",
+        "trang_thai": "Đã trả"
+    },
+    {
+        "ma_ban_doc": "BD001",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S201",
+        "ten_sach": "Truyện Kiều",
+        "ngay_muon": "18/05/2026",
+        "ngay_tra": "",
+        "trang_thai": "Quá hạn"
+    },
+    {
+        "ma_ban_doc": "BD001",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S101",
+        "ten_sach": "Gieo suy nghĩ gặt thành công",
+        "ngay_muon": "23/05/2026",
+        "ngay_tra": "19/06/2026",
+        "trang_thai": "Đã trả"
+    },
+    {
+        "ma_ban_doc": "BD001",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S105",
+        "ten_sach": "Chí Phèo",
+        "ngay_muon": "18/05/2026",
+        "ngay_tra": "",
+        "trang_thai": "Quá hạn"
+    },
+    {
+        "ma_ban_doc": "BD001",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S167",
+        "ten_sach": "Định hình mạng 6G trong tương lai Tập 1",
+        "ngay_muon": "30/05/2026",
+        "ngay_tra": "",
+        "trang_thai": "Đang mượn"
+    },
+    {
+        "ma_ban_doc": "BD001",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S126",
+        "ten_sach": "Bão táp triều Trần",
+        "ngay_muon": "25/05/2026",
+        "ngay_tra": "",
+        "trang_thai": "Đang mượn"
+    },
+    {
+        "ma_ban_doc": "BD001",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S156",
+        "ten_sach": "Giao tiếp tiếng Anh Tập 1",
+        "ngay_muon": "18/05/2026",
+        "ngay_tra": "18/06/2026",
+        "trang_thai": "Đã trả"
+    },
+    {
+        "ma_ban_doc": "BD023",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S156",
+        "ten_sach": "Giao tiếp tiếng Anh Tập 1",
+        "ngay_muon": "18/05/2026",
+        "ngay_tra": "",
+        "trang_thai": "Quá hạn"
+    },
+    {
+        "ma_ban_doc": "BD025",
+        "chuc_vu": "Giảng viên",
+        "ma_sach": "S156",
+        "ten_sach": "Giao tiếp tiếng Anh Tập 1",
+        "ngay_muon": "18/05/2026",
+        "ngay_tra": "",
+        "trang_thai": "Đang mượn"
+    },
+    {
+        "ma_ban_doc": "BD037",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S042",
+        "ten_sach": "Nhà Giả Kim",
+        "ngay_muon": "18/06/2026",
+        "ngay_tra": "",
+        "trang_thai": "Đang mượn"
+    },
+    {
+        "ma_ban_doc": "BD002",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S200",
+        "ten_sach": "Nhật ký trong tù",
+        "ngay_muon": "18/06/2026",
+        "ngay_tra": "",
+        "trang_thai": "Đang mượn"
+    },
+    {
+        "ma_ban_doc": "BD005",
+        "chuc_vu": "Khác",
+        "ma_sach": "S001",
+        "ten_sach": "Trí tuệ do thái",
+        "ngay_muon": "18/06/2026",
+        "ngay_tra": "",
+        "trang_thai": "Đang mượn"
+    },
+    {
+        "ma_ban_doc": "BD002",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S101",
+        "ten_sach": "Gieo suy nghĩ gặt thành công",
+        "ngay_muon": "19/06/2026",
+        "ngay_tra": "",
+        "trang_thai": "Đang mượn"
+    },
+    {
+        "ma_ban_doc": "BD008",
+        "chuc_vu": "None",
+        "ma_sach": "S001",
+        "ten_sach": "Trí tuệ do thái",
+        "ngay_muon": "19/06/2026",
+        "ngay_tra": "19/06/2026",
+        "trang_thai": "Đã trả"
+    },
+    {
+        "ma_ban_doc": "BD002",
+        "chuc_vu": "None",
+        "ma_sach": "S002",
+        "ten_sach": "Nhà Giả Kim",
+        "ngay_muon": "19/06/2026",
+        "ngay_tra": "19/06/2026",
+        "trang_thai": "Đã trả"
+    },
+    {
+        "ma_ban_doc": "BD001",
+        "chuc_vu": "None",
+        "ma_sach": "S001",
+        "ten_sach": "Trí tuệ do thái",
+        "ngay_muon": "19/06/2026",
+        "ngay_tra": "",
+        "trang_thai": "Đang mượn"
+    },
+    {
+        "ma_ban_doc": "BD009",
+        "chuc_vu": "None",
+        "ma_sach": "S008",
+        "ten_sach": "Lược Sử Thời Gian",
+        "ngay_muon": "19/06/2026",
+        "ngay_tra": "19/06/2026",
+        "trang_thai": "Đã trả"
+    },
+    {
+        "ma_ban_doc": "BD002",
+        "chuc_vu": "None",
+        "ma_sach": "S008",
+        "ten_sach": "Lược Sử Thời Gian",
+        "ngay_muon": "19/06/2026",
+        "ngay_tra": "",
+        "trang_thai": "Đang mượn"
+    },
+    {
+        "ma_ban_doc": "BD050",
+        "chuc_vu": "Giảng viên",
+        "ma_sach": "S001",
+        "ten_sach": "Trí tuệ do thái",
+        "ngay_muon": "19/06/2026",
+        "ngay_tra": "",
+        "trang_thai": "Đang mượn"
+    },
+    {
+        "ma_ban_doc": "BD049",
+        "chuc_vu": "Khác",
+        "ma_sach": "S001",
+        "ten_sach": "Trí tuệ do thái",
+        "ngay_muon": "19/06/2026",
+        "ngay_tra": "",
+        "trang_thai": "Đang mượn"
+    },
+    {
+        "ma_ban_doc": "BD027",
+        "chuc_vu": "Giảng viên",
+        "ma_sach": "S200",
+        "ten_sach": "Nhật ký trong tù",
+        "ngay_muon": "19/06/2026",
+        "ngay_tra": "",
+        "trang_thai": "Đang mượn"
+    },
+    {
+        "ma_ban_doc": "BD001",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S199",
+        "ten_sach": "Tiếu ngạo giang hồ",
+        "ngay_muon": "19/06/2026",
+        "ngay_tra": "",
+        "trang_thai": "Đang mượn"
+    },
+    {
+        "ma_ban_doc": "BD001",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S193",
+        "ten_sach": "Những cô gái nhỏ",
+        "ngay_muon": "19/06/2026",
+        "ngay_tra": "",
+        "trang_thai": "Đang mượn"
+    },
+    {
+        "ma_ban_doc": "BD038",
+        "chuc_vu": "Sinh viên",
+        "ma_sach": "S031",
+        "ten_sach": "Những ngày thơ ấu",
+        "ngay_muon": "19/06/2026",
+        "ngay_tra": "",
+        "trang_thai": "Đang mượn"
+    },
+    {
+        "ma_ban_doc": "BD040",
+        "chuc_vu": "Giảng viên",
+        "ma_sach": "S031",
+        "ten_sach": "Những ngày thơ ấu",
+        "ngay_muon": "19/06/2026",
+        "ngay_tra": "",
+        "trang_thai": "Đang mượn"
+    }
+]

@@ -1,0 +1,452 @@
+{
+    "BD050": {
+        "ma_ban_doc": "BD050",
+        "ho_ten": "Đặng Thị Lan",
+        "ngay_sinh": "15/05/2000",
+        "gioi_tinh": "Nữ",
+        "dia_chi": "Hưng Yên",
+        "chuc_vu": "Giảng viên",
+        "so_dien_thoai": "0900000049"
+    },
+    "BD020": {
+        "ma_ban_doc": "BD020",
+        "ho_ten": "Đặng Thị Lan Chi",
+        "ngay_sinh": "20/09/1999",
+        "gioi_tinh": "Nữ",
+        "dia_chi": "Cần Thơ",
+        "chuc_vu": "Giảng viên",
+        "so_dien_thoai": "0900000019"
+    },
+    "BD021": {
+        "ma_ban_doc": "BD021",
+        "ho_ten": "Trần Văn An Khánh",
+        "ngay_sinh": "09/10/2004",
+        "gioi_tinh": "Nam",
+        "dia_chi": "Hà Nội",
+        "chuc_vu": "Sinh viên",
+        "so_dien_thoai": "0900000020"
+    },
+    "BD022": {
+        "ma_ban_doc": "BD022",
+        "ho_ten": "Nguyễn Ngọc Mai",
+        "ngay_sinh": "15/09/2000",
+        "gioi_tinh": "Nữ",
+        "dia_chi": "Hải Phòng",
+        "chuc_vu": "Giảng viên",
+        "so_dien_thoai": "0900000021"
+    },
+    "BD023": {
+        "ma_ban_doc": "BD023",
+        "ho_ten": "Đặng Lê Tuấn",
+        "ngay_sinh": "25/09/2006",
+        "gioi_tinh": "Nam",
+        "dia_chi": "Đà Nẵng",
+        "chuc_vu": "Sinh viên",
+        "so_dien_thoai": "0900000022"
+    },
+    "BD024": {
+        "ma_ban_doc": "BD024",
+        "ho_ten": "Phạm Thu Hà",
+        "ngay_sinh": "25/10/2001",
+        "gioi_tinh": "Nữ",
+        "dia_chi": "Huế",
+        "chuc_vu": "Khác",
+        "so_dien_thoai": "0900000023"
+    },
+    "BD025": {
+        "ma_ban_doc": "BD025",
+        "ho_ten": "Đặng Đức Long",
+        "ngay_sinh": "15/07/1999",
+        "gioi_tinh": "Nam",
+        "dia_chi": "Quảng Ninh",
+        "chuc_vu": "Giảng viên",
+        "so_dien_thoai": "0900000024"
+    },
+    "BD026": {
+        "ma_ban_doc": "BD026",
+        "ho_ten": "Phạm Vũ Anh Chi",
+        "ngay_sinh": "02/08/1999",
+        "gioi_tinh": "Nữ",
+        "dia_chi": "Nghệ An",
+        "chuc_vu": "Giảng viên",
+        "so_dien_thoai": "0900000025"
+    },
+    "BD027": {
+        "ma_ban_doc": "BD027",
+        "ho_ten": "Đỗ Thanh Bình",
+        "ngay_sinh": "15/09/1999",
+        "gioi_tinh": "Nam",
+        "dia_chi": "Thanh Hóa",
+        "chuc_vu": "Giảng viên",
+        "so_dien_thoai": "0900000026"
+    },
+    "BD028": {
+        "ma_ban_doc": "BD028",
+        "ho_ten": "Đỗ Hoài Khánh An",
+        "ngay_sinh": "15/01/2002",
+        "gioi_tinh": "Nữ",
+        "dia_chi": "Nam Định",
+        "chuc_vu": "Giảng viên",
+        "so_dien_thoai": "0900000027"
+    },
+    "BD029": {
+        "ma_ban_doc": "BD029",
+        "ho_ten": "Ngô Quang Phú",
+        "ngay_sinh": "01/10/2004",
+        "gioi_tinh": "Nam",
+        "dia_chi": "Bắc Ninh",
+        "chuc_vu": "Sinh viên",
+        "so_dien_thoai": "0900000028"
+    },
+    "BD030": {
+        "ma_ban_doc": "BD030",
+        "ho_ten": "Trần Thị Hồng Mai",
+        "ngay_sinh": "25/09/2001",
+        "gioi_tinh": "Nữ",
+        "dia_chi": "Cần Thơ",
+        "chuc_vu": "Sinh viên",
+        "so_dien_thoai": "0900000029"
+    },
+    "BD031": {
+        "ma_ban_doc": "BD031",
+        "ho_ten": "Nguyễn An Khánh",
+        "ngay_sinh": "18/07/1999",
+        "gioi_tinh": "Nam",
+        "dia_chi": "Hà Nội",
+        "chuc_vu": "Giảng viên",
+        "so_dien_thoai": "0900000030"
+    },
+    "BD032": {
+        "ma_ban_doc": "BD032",
+        "ho_ten": "Đặng Trần Mai Hoa",
+        "ngay_sinh": "17/05/2002",
+        "gioi_tinh": "Nữ",
+        "dia_chi": "Hải Phòng",
+        "chuc_vu": "Sinh viên",
+        "so_dien_thoai": "0900000031"
+    },
+    "BD033": {
+        "ma_ban_doc": "BD033",
+        "ho_ten": "Lê Minh Tuấn Hoàng",
+        "ngay_sinh": "19/04/2001",
+        "gioi_tinh": "Nam",
+        "dia_chi": "Đà Nẵng",
+        "chuc_vu": "Sinh viên",
+        "so_dien_thoai": "0900000032"
+    },
+    "BD034": {
+        "ma_ban_doc": "BD034",
+        "ho_ten": "Bùi Thu Hà",
+        "ngay_sinh": "19/08/2004",
+        "gioi_tinh": "Nữ",
+        "dia_chi": "Huế",
+        "chuc_vu": "Sinh viên",
+        "so_dien_thoai": "0900000033"
+    },
+    "BD035": {
+        "ma_ban_doc": "BD035",
+        "ho_ten": "Hoàng Đức Khánh",
+        "ngay_sinh": "19/08/2006",
+        "gioi_tinh": "Nam",
+        "dia_chi": "Quảng Ninh",
+        "chuc_vu": "Sinh viên",
+        "so_dien_thoai": "0900000034"
+    },
+    "BD036": {
+        "ma_ban_doc": "BD036",
+        "ho_ten": "Trần Ngọc Mai Anh",
+        "ngay_sinh": "15/09/2006",
+        "gioi_tinh": "Nữ",
+        "dia_chi": "Nghệ An",
+        "chuc_vu": "Sinh viên",
+        "so_dien_thoai": "0900000035"
+    },
+    "BD037": {
+        "ma_ban_doc": "BD037",
+        "ho_ten": "Đỗ Thanh Bình",
+        "ngay_sinh": "15/01/2001",
+        "gioi_tinh": "Nam",
+        "dia_chi": "Thanh Hóa",
+        "chuc_vu": "Sinh viên",
+        "so_dien_thoai": "0900000036"
+    },
+    "BD001": {
+        "ma_ban_doc": "BD001",
+        "ho_ten": "Trần Văn Anh Minh",
+        "ngay_sinh": "19/08/2005",
+        "gioi_tinh": "Nam",
+        "dia_chi": "Hải Dương",
+        "chuc_vu": "Sinh viên",
+        "so_dien_thoai": "0900000049"
+    },
+    "BD038": {
+        "ma_ban_doc": "BD038",
+        "ho_ten": "Bùi Khánh Hoa",
+        "ngay_sinh": "07/06/2004",
+        "gioi_tinh": "Nữ",
+        "dia_chi": "Nam Định",
+        "chuc_vu": "Sinh viên",
+        "so_dien_thoai": "0900000037"
+    },
+    "BD039": {
+        "ma_ban_doc": "BD039",
+        "ho_ten": "Ngô Phạm Đức Huy",
+        "ngay_sinh": "25/04/2003",
+        "gioi_tinh": "Nam",
+        "dia_chi": "Bắc Ninh",
+        "chuc_vu": "Khác",
+        "so_dien_thoai": "0900000038"
+    },
+    "BD002": {
+        "ma_ban_doc": "BD002",
+        "ho_ten": "Trịnh Thị Mai Linh",
+        "ngay_sinh": "19/08/2001",
+        "gioi_tinh": "Nữ",
+        "dia_chi": "Hải Phòng",
+        "chuc_vu": "Sinh viên",
+        "so_dien_thoai": "0900000001"
+    },
+    "BD003": {
+        "ma_ban_doc": "BD003",
+        "ho_ten": "Lê Tuấn Anh",
+        "ngay_sinh": "09/02/2000",
+        "gioi_tinh": "Nam",
+        "dia_chi": "Đà Nẵng",
+        "chuc_vu": "Khác",
+        "so_dien_thoai": "0900000002"
+    },
+    "BD004": {
+        "ma_ban_doc": "BD004",
+        "ho_ten": "Nguyễn Phạm Thu Linh",
+        "ngay_sinh": "17/05/2003",
+        "gioi_tinh": "Nữ",
+        "dia_chi": "Huế",
+        "chuc_vu": "Khác",
+        "so_dien_thoai": "0900000003"
+    },
+    "BD005": {
+        "ma_ban_doc": "BD005",
+        "ho_ten": "Hoàng Đức Anh Minh",
+        "ngay_sinh": "21/11/2001",
+        "gioi_tinh": "Nam",
+        "dia_chi": "Quảng Ninh",
+        "chuc_vu": "Khác",
+        "so_dien_thoai": "0900000004"
+    },
+    "BD006": {
+        "ma_ban_doc": "BD006",
+        "ho_ten": "Đặng Vũ Ngọc Minh",
+        "ngay_sinh": "15/07/2005",
+        "gioi_tinh": "Nữ",
+        "dia_chi": "Hưng Yên",
+        "chuc_vu": "Sinh viên",
+        "so_dien_thoai": "0900000005"
+    },
+    "BD007": {
+        "ma_ban_doc": "BD007",
+        "ho_ten": "Đỗ Thanh Bình",
+        "ngay_sinh": "26/05/2002",
+        "gioi_tinh": "Nam",
+        "dia_chi": "Thanh Hóa",
+        "chuc_vu": "Sinh viên",
+        "so_dien_thoai": "0900000006"
+    },
+    "BD008": {
+        "ma_ban_doc": "BD008",
+        "ho_ten": "Bùi Khánh Linh",
+        "ngay_sinh": "19/02/1998",
+        "gioi_tinh": "Nữ",
+        "dia_chi": "Nam Định",
+        "chuc_vu": "Giảng viên",
+        "so_dien_thoai": "0900000007"
+    },
+    "BD009": {
+        "ma_ban_doc": "BD009",
+        "ho_ten": "Trần Ngô Quang Phú",
+        "ngay_sinh": "19/08/2001",
+        "gioi_tinh": "Nam",
+        "dia_chi": "Bắc Ninh",
+        "chuc_vu": "Sinh viên",
+        "so_dien_thoai": "0900000008"
+    },
+    "BD040": {
+        "ma_ban_doc": "BD040",
+        "ho_ten": "Đặng Thị Lan Anh",
+        "ngay_sinh": "17/02/2001",
+        "gioi_tinh": "Nữ",
+        "dia_chi": "Cần Thơ",
+        "chuc_vu": "Giảng viên",
+        "so_dien_thoai": "0900000039"
+    },
+    "BD041": {
+        "ma_ban_doc": "BD041",
+        "ho_ten": "Nguyễn Anh Khoa",
+        "ngay_sinh": "18/02/1999",
+        "gioi_tinh": "Nam",
+        "dia_chi": "Hà Nội",
+        "chuc_vu": "Giảng viên",
+        "so_dien_thoai": "0900000040"
+    },
+    "BD042": {
+        "ma_ban_doc": "BD042",
+        "ho_ten": "Trần Ngọc Mai Anh",
+        "ngay_sinh": "27/07/1999",
+        "gioi_tinh": "Nữ",
+        "dia_chi": "Hải Phòng",
+        "chuc_vu": "Giảng viên",
+        "so_dien_thoai": "0900000041"
+    },
+    "BD043": {
+        "ma_ban_doc": "BD043",
+        "ho_ten": "Nguyễn Minh Phát",
+        "ngay_sinh": "21/12/2005",
+        "gioi_tinh": "Nam",
+        "dia_chi": "Đà Nẵng",
+        "chuc_vu": "Sinh viên",
+        "so_dien_thoai": "0900000042"
+    },
+    "BD044": {
+        "ma_ban_doc": "BD044",
+        "ho_ten": "Phạm Hà An",
+        "ngay_sinh": "25/12/2003",
+        "gioi_tinh": "Nữ",
+        "dia_chi": "Huế",
+        "chuc_vu": "Sinh viên",
+        "so_dien_thoai": "0900000043"
+    },
+    "BD045": {
+        "ma_ban_doc": "BD045",
+        "ho_ten": "Hoàng Đức Long",
+        "ngay_sinh": "29/08/2006",
+        "gioi_tinh": "Nam",
+        "dia_chi": "Quảng Ninh",
+        "chuc_vu": "Sinh viên",
+        "so_dien_thoai": "0900000044"
+    },
+    "BD046": {
+        "ma_ban_doc": "BD046",
+        "ho_ten": "Vũ Ngọc Anh Chi",
+        "ngay_sinh": "15/01/2004",
+        "gioi_tinh": "Nữ",
+        "dia_chi": "Nghệ An",
+        "chuc_vu": "Sinh viên",
+        "so_dien_thoai": "0900000045"
+    },
+    "BD047": {
+        "ma_ban_doc": "BD047",
+        "ho_ten": "Đỗ Thanh Bình",
+        "ngay_sinh": "15/02/1998",
+        "gioi_tinh": "Nam",
+        "dia_chi": "Thanh Hóa",
+        "chuc_vu": "Giảng viên",
+        "so_dien_thoai": "0900000046"
+    },
+    "BD010": {
+        "ma_ban_doc": "BD010",
+        "ho_ten": "Trần Thị Mai Hoa",
+        "ngay_sinh": "19/07/1999",
+        "gioi_tinh": "Nữ",
+        "dia_chi": "Cần Thơ",
+        "chuc_vu": "Giảng viên",
+        "so_dien_thoai": "0900000009"
+    },
+    "BD011": {
+        "ma_ban_doc": "BD011",
+        "ho_ten": "Nguyễn Văn An",
+        "ngay_sinh": "15/02/2005",
+        "gioi_tinh": "Nam",
+        "dia_chi": "Hà Nội",
+        "chuc_vu": "Giảng viên",
+        "so_dien_thoai": "0900000010"
+    },
+    "BD048": {
+        "ma_ban_doc": "BD048",
+        "ho_ten": "Nguyễn Ngọc Khánh Linh",
+        "ngay_sinh": "15/03/2003",
+        "gioi_tinh": "Nữ",
+        "dia_chi": "Nam Định",
+        "chuc_vu": "Sinh viên",
+        "so_dien_thoai": "0900000047"
+    },
+    "BD049": {
+        "ma_ban_doc": "BD049",
+        "ho_ten": "Ngô Đặng Quang Anh",
+        "ngay_sinh": "15/04/2003",
+        "gioi_tinh": "Nam",
+        "dia_chi": "Bắc Ninh",
+        "chuc_vu": "Khác",
+        "so_dien_thoai": "0900000048"
+    },
+    "BD012": {
+        "ma_ban_doc": "BD012",
+        "ho_ten": "Phạm Mai Chi",
+        "ngay_sinh": "15/03/2001",
+        "gioi_tinh": "Nữ",
+        "dia_chi": "Hải Phòng",
+        "chuc_vu": "Khác",
+        "so_dien_thoai": "0900000011"
+    },
+    "BD013": {
+        "ma_ban_doc": "BD013",
+        "ho_ten": "Phạm Lê Tuấn Anh",
+        "ngay_sinh": "18/09/2001",
+        "gioi_tinh": "Nam",
+        "dia_chi": "Đà Nẵng",
+        "chuc_vu": "Khác",
+        "so_dien_thoai": "0900000012"
+    },
+    "BD014": {
+        "ma_ban_doc": "BD014",
+        "ho_ten": "Nguyễn Ngọc Thu Hà",
+        "ngay_sinh": "15/05/2007",
+        "gioi_tinh": "Nữ",
+        "dia_chi": "Huế",
+        "chuc_vu": "Sinh viên",
+        "so_dien_thoai": "0900000013"
+    },
+    "BD015": {
+        "ma_ban_doc": "BD015",
+        "ho_ten": "Hoàng Đức Bảo Long",
+        "ngay_sinh": "15/06/2007",
+        "gioi_tinh": "Nam",
+        "dia_chi": "Quảng Ninh",
+        "chuc_vu": "Sinh viên",
+        "so_dien_thoai": "0900000014"
+    },
+    "BD016": {
+        "ma_ban_doc": "BD016",
+        "ho_ten": "Vũ Ngọc Hoàng",
+        "ngay_sinh": "20/07/2007",
+        "gioi_tinh": "Nữ",
+        "dia_chi": "Nghệ An",
+        "chuc_vu": "Sinh viên",
+        "so_dien_thoai": "0900000015"
+    },
+    "BD017": {
+        "ma_ban_doc": "BD017",
+        "ho_ten": "Đỗ Thanh Bình",
+        "ngay_sinh": "22/06/2005",
+        "gioi_tinh": "Nam",
+        "dia_chi": "Thanh Hóa",
+        "chuc_vu": "Sinh viên",
+        "so_dien_thoai": "0900000016"
+    },
+    "BD018": {
+        "ma_ban_doc": "BD018",
+        "ho_ten": "Trần Bùi Lan Chi",
+        "ngay_sinh": "15/09/2002",
+        "gioi_tinh": "Nữ",
+        "dia_chi": "Nam Định",
+        "chuc_vu": "Sinh viên",
+        "so_dien_thoai": "0900000017"
+    },
+    "BD019": {
+        "ma_ban_doc": "BD019",
+        "ho_ten": "Trần Ngô Quang Minh",
+        "ngay_sinh": "26/03/2003",
+        "gioi_tinh": "Nam",
+        "dia_chi": "Bắc Ninh",
+        "chuc_vu": "Sinh viên",
+        "so_dien_thoai": "0900000018"
+    }
+}
