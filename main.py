@@ -2,7 +2,9 @@ import gui
 import data_handler
 import ttkbootstrap as ttk
 from tkinter import messagebox
+import os
 
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 if __name__ == "__main__":
     from logger import logger
     logger.info("Khởi động ứng dụng")
