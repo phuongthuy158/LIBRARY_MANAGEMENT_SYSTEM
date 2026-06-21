@@ -120,7 +120,7 @@
         "ma_ban_doc": "BD008",
         "chuc_vu": "Giảng viên",
         "ma_sach": "S008",
-        "ten_sach": "Lược Sử Thời Gian",
+        "ten_sach": "Câu chuyện khoa học",
         "ngay_muon": "08/05/2026",
         "ngay_tra": null,
         "trang_thai": "Đang mượn"
@@ -129,7 +129,7 @@
         "ma_ban_doc": "BD002",
         "chuc_vu": "Sinh viên",
         "ma_sach": "S008",
-        "ten_sach": "Lược Sử Thời Gian",
+        "ten_sach": "Câu chuyện khoa học",
         "ngay_muon": "08/05/2026",
         "ngay_tra": "19/06/2026",
         "trang_thai": "Đã trả"
@@ -138,7 +138,7 @@
         "ma_ban_doc": "BD009",
         "chuc_vu": "Sinh viên",
         "ma_sach": "S009",
-        "ten_sach": "Clean Code Tập 1",
+        "ten_sach": "100 nhà khoa học vĩ đại Tập 2",
         "ngay_muon": "09/04/2026",
         "ngay_tra": "28/05/2026",
         "trang_thai": "Đã trả"
@@ -165,7 +165,7 @@
         "ma_ban_doc": "BD002",
         "chuc_vu": "Sinh viên",
         "ma_sach": "S012",
-        "ten_sach": "Không Gia Đình",
+        "ten_sach": "Thất lạc cõi người",
         "ngay_muon": "12/04/2026",
         "ngay_tra": "21/05/2026",
         "trang_thai": "Đã trả"
@@ -183,7 +183,7 @@
         "ma_ban_doc": "BD004",
         "chuc_vu": "Khác",
         "ma_sach": "S014",
-        "ten_sach": "Bố Già",
+        "ten_sach": "Những tấm lòng cao cả",
         "ngay_muon": "14/05/2026",
         "ngay_tra": null,
         "trang_thai": "Quá hạn"
@@ -192,7 +192,7 @@
         "ma_ban_doc": "BD005",
         "chuc_vu": "Khác",
         "ma_sach": "S015",
-        "ten_sach": "Chiến Tranh Và Hòa Bình",
+        "ten_sach": "Mưa đỏ",
         "ngay_muon": "15/04/2026",
         "ngay_tra": "24/05/2026",
         "trang_thai": "Đã trả"
@@ -219,7 +219,7 @@
         "ma_ban_doc": "BD008",
         "chuc_vu": "Giảng viên",
         "ma_sach": "S018",
-        "ten_sach": "Cha Giàu Cha Nghèo",
+        "ten_sach": "Gieo thói quen nhỏ gặt thành công lớn",
         "ngay_muon": "18/04/2026",
         "ngay_tra": "02/05/2026",
         "trang_thai": "Đã trả"
@@ -408,7 +408,7 @@
         "ma_ban_doc": "BD050",
         "chuc_vu": "Giảng viên",
         "ma_sach": "S015",
-        "ten_sach": "Chiến Tranh Và Hòa Bình",
+        "ten_sach": "Mưa đỏ",
         "ngay_muon": "23/05/2026",
         "ngay_tra": "",
         "trang_thai": "Đang mượn"
@@ -552,7 +552,7 @@
         "ma_ban_doc": "BD002",
         "chuc_vu": "None",
         "ma_sach": "S002",
-        "ten_sach": "Nhà Giả Kim",
+        "ten_sach": "Kẻ thù giấu mặt",
         "ngay_muon": "19/06/2026",
         "ngay_tra": "19/06/2026",
         "trang_thai": "Đã trả"
