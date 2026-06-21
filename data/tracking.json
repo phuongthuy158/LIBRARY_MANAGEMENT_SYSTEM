@@ -21,7 +21,7 @@
         "ma_ban_doc": "BD002",
         "chuc_vu": "Sinh viên",
         "ma_sach": "S002",
-        "ten_sach": "Nhà Giả Kim",
+        "ten_sach": "Kẻ thù giấu mặt",
         "ngay_muon": "02/05/2026",
         "ngay_tra": null,
         "trang_thai": "Quá hạn"
@@ -309,7 +309,7 @@
         "ma_ban_doc": "BD017",
         "chuc_vu": "Sinh viên",
         "ma_sach": "S195",
-        "ten_sach": "Chiến tranh và hòa bình",
+        "ten_sach": "Tiếu ngạo giang hồ",
         "ngay_muon": "20/05/2026",
         "ngay_tra": null,
         "trang_thai": "Quá hạn"
@@ -318,7 +318,7 @@
         "ma_ban_doc": "BD002",
         "chuc_vu": "Sinh viên",
         "ma_sach": "S058",
-        "ten_sach": "Cha giàu cha nghèo",
+        "ten_sach": "Trộm lấy cơ may từ vận rủi",
         "ngay_muon": "10/06/2026",
         "ngay_tra": "19/06/2026",
         "trang_thai": "Đã trả"
@@ -336,7 +336,7 @@
         "ma_ban_doc": "BD017",
         "chuc_vu": "Sinh viên",
         "ma_sach": "S172",
-        "ten_sach": "Không gia đình",
+        "ten_sach": "Harry Potter Tập 5",
         "ngay_muon": "10/06/2026",
         "ngay_tra": null,
         "trang_thai": "Đang mượn"
@@ -345,7 +345,7 @@
         "ma_ban_doc": "BD002",
         "chuc_vu": "Sinh viên",
         "ma_sach": "S199",
-        "ten_sach": "Không gia đình",
+        "ten_sach": "Lãnh địa ánh sáng",
         "ngay_muon": "16/06/2026",
         "ngay_tra": "19/06/2026",
         "trang_thai": "Đã trả"
@@ -541,7 +541,7 @@
     },
     {
         "ma_ban_doc": "BD008",
-        "chuc_vu": "None",
+        "chuc_vu": "Giảng viên",
         "ma_sach": "S001",
         "ten_sach": "Trí tuệ do thái",
         "ngay_muon": "19/06/2026",
@@ -550,7 +550,7 @@
     },
     {
         "ma_ban_doc": "BD002",
-        "chuc_vu": "None",
+        "chuc_vu": "Sinh viên",
         "ma_sach": "S002",
         "ten_sach": "Kẻ thù giấu mặt",
         "ngay_muon": "19/06/2026",
@@ -559,7 +559,7 @@
     },
     {
         "ma_ban_doc": "BD001",
-        "chuc_vu": "None",
+        "chuc_vu": "Sinh viên",
         "ma_sach": "S001",
         "ten_sach": "Trí tuệ do thái",
         "ngay_muon": "19/06/2026",
@@ -568,7 +568,7 @@
     },
     {
         "ma_ban_doc": "BD009",
-        "chuc_vu": "None",
+        "chuc_vu": "Sinh viên",
         "ma_sach": "S008",
         "ten_sach": "Lược Sử Thời Gian",
         "ngay_muon": "19/06/2026",
@@ -577,7 +577,7 @@
     },
     {
         "ma_ban_doc": "BD002",
-        "chuc_vu": "None",
+        "chuc_vu": "Sinh viên",
         "ma_sach": "S008",
         "ten_sach": "Lược Sử Thời Gian",
         "ngay_muon": "19/06/2026",
@@ -644,6 +644,15 @@
         "ma_sach": "S031",
         "ten_sach": "Những ngày thơ ấu",
         "ngay_muon": "19/06/2026",
+        "ngay_tra": "",
+        "trang_thai": "Đang mượn"
+    },
+    {
+        "ma_ban_doc": "BD010",
+        "chuc_vu": "Giảng viên",
+        "ma_sach": "S186",
+        "ten_sach": "Vua Gia Long và người Pháp",
+        "ngay_muon": "21/06/2026",
         "ngay_tra": "",
         "trang_thai": "Đang mượn"
     }

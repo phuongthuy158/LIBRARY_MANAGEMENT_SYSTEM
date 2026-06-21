@@ -22,10 +22,6 @@ def _validate_date(ngay_sinh):
 
 # THÊM BẠN ĐỌC MỚI
 def add_reader(ma_ban_doc, ho_ten, ngay_sinh, gioi_tinh, dia_chi, chuc_vu, so_dien_thoai):
-    """
-    Thêm bạn đọc mới.
-    Raise ValueError nếu dữ liệu không hợp lệ.
-    """
     ma_ban_doc = str(ma_ban_doc).strip()
 
     if not re.fullmatch(r"BD\d+", ma_ban_doc):
@@ -50,10 +46,6 @@ def add_reader(ma_ban_doc, ho_ten, ngay_sinh, gioi_tinh, dia_chi, chuc_vu, so_di
 
 # CẬP NHẬT THÔNG TIN BẠN ĐỌC 
 def update_reader(ma_ban_doc, ho_ten, ngay_sinh, gioi_tinh, dia_chi, chuc_vu, so_dien_thoai):
-    """
-    Cập nhật thông tin bạn đọc (không đổi mã).
-    Raise ValueError nếu không tìm thấy hoặc dữ liệu không hợp lệ.
-    """
     ma_ban_doc = str(ma_ban_doc).strip()
 
     if not all([ho_ten, gioi_tinh, dia_chi, chuc_vu, so_dien_thoai]):
@@ -75,10 +67,6 @@ def update_reader(ma_ban_doc, ho_ten, ngay_sinh, gioi_tinh, dia_chi, chuc_vu, so
 
 # XÓA BẠN ĐỌC 
 def delete_reader(ma_ban_doc):
-    """
-    Xóa bạn đọc.
-    Raise ValueError nếu không tìm thấy hoặc đang mượn sách.
-    """
     ma_ban_doc = str(ma_ban_doc).strip()
 
     dang_muon = [
@@ -97,11 +85,6 @@ def delete_reader(ma_ban_doc):
 
 # TÌM KIẾM BẠN ĐỌC 
 def search_readers(keyword, field="ho_ten"):
-    """
-    Tìm kiếm bạn đọc theo field và keyword.
-    field: 'ma_ban_doc' | 'ho_ten' | 'so_dien_thoai' | 'chuc_vu' |'dia_chi'
-    Trả về list[Reader].
-    """
     kw = keyword.strip().lower()
     field_map = {
         "ma_ban_doc":    lambda r: str(r.ma_ban_doc).lower(),
@@ -115,14 +98,9 @@ def search_readers(keyword, field="ho_ten"):
 
 # LỌC VÀ SẮP XẾP DANH SÁCH
 def get_all_readers():
-    """Trả về list[Reader] toàn bộ bạn đọc."""
     return list(data_handler.readers_db.values())
 
 def filter_readers(gioi_tinh=None, dia_chi=None, chuc_vu=None):
-    """
-    Lọc bạn đọc theo giới tính và/hoặc địa chỉ.
-    Trả về list[Reader].
-    """
     readers = get_all_readers()
     if gioi_tinh and gioi_tinh != "Tất cả":
         readers = [r for r in readers if r.gioi_tinh == gioi_tinh]

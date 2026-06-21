@@ -11,9 +11,9 @@ from logger import logger
 import customtkinter as ctk
 from PIL import Image, ImageTk
 
-_FONT_ENTRY = ("Arial Unicode MS", 11)
-_FONT_LABEL = ("Arial Unicode MS", 10)
-_FONT_BOLD  = ("Arial Unicode MS", 10, "bold")
+font_entry = ("Arial Unicode MS", 11)
+font_label = ("Arial Unicode MS", 10)
+font_bold = ("Arial Unicode MS", 10, "bold")
 
 # XÂY DỰNG GIAO DIỆN CHƯƠNG TRÌNH
 class LibraryManagementSystem:
@@ -48,19 +48,15 @@ class LibraryManagementSystem:
             logo_label = tk.Label(top_row, image=logo_photo,bd=0)
             logo_label.image = logo_photo
             logo_label.pack(side=tk.LEFT, padx=(0, 15))
-
         except Exception as e:
             logger.error(f"Không thể tải logo: {e}")
 
-        school_frame = tk.Frame(top_row)
-        school_frame.pack(side=tk.LEFT)
-
-        tk.Label(school_frame, text="ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+        header_frame = tk.Frame(top_row)
+        header_frame.pack(side=tk.LEFT)
+        tk.Label(header_frame, text="ĐẠI HỌC BÁCH KHOA HÀ NỘI",
                 font=("Arial Unicode MS", 18, "bold"), fg="#BE0000").pack(anchor="w")
-
-        tk.Label(school_frame,text="HA NOI UNIVERSITY OF SCIENCE AND TECHNOLOGY",
+        tk.Label(header_frame,text="HA NOI UNIVERSITY OF SCIENCE AND TECHNOLOGY",
                  font=("Arial Unicode MS", 11),fg="#BE0000").pack(anchor="w", fill='x')
-
         tk.Label(center_frame,text="HỆ THỐNG QUẢN LÝ THƯ VIỆN",
                  font=("Arial Unicode MS", 30, "bold"),fg="#BE0000"
                  ).pack(anchor="center", pady=(10, 15))
@@ -69,14 +65,13 @@ class LibraryManagementSystem:
         active_tab_bg = "white"
         active_tab_fg = "#003366"
         try:
-            inactive_tab_bg = self.style.lookup('TButton', 'background') or "#E0EFFF"
+            inactive_tab_bg = self.style.lookup('TButton', 'background') or "#F1F4F7"
             inactive_tab_fg = self.style.lookup('TButton', 'foreground') or "#495057"
             tab_hover_bg   = self.style.lookup('TButton', 'background', ('active',)) or "#C8E0FF"
         except tk.TclError:
-            inactive_tab_bg, inactive_tab_fg, tab_hover_bg = "#F0F0F0", "#333333", "#E0E0E0"
-
+            inactive_tab_bg, inactive_tab_fg, tab_hover_bg = "#F1F4F7", "#495057", "#C8E0FF"
         try:
-            self.style.configure("TNotebook", borderwidth=0)
+            self.style.configure("TNotebook", borderwidth=1)
             self.style.configure("TNotebook.Client", background=active_tab_bg)
             self.style.configure("TNotebook.Tab",
                 background=inactive_tab_bg, foreground=inactive_tab_fg,
@@ -396,20 +391,20 @@ class LibraryManagementSystem:
                          ("Tác giả", "tac_gia"), ("Nhà xuất bản", "nha_xuat_ban"),
                          ("Năm xuất bản", "nam_xuat_ban"),
                          ("Số lượng", "so_luong_sach")]:
-            ttk.Label(form, text=lbl + ":", font=_FONT_LABEL).pack(anchor="w", pady=(8, 0))
-            e = ttk.Entry(form, font=_FONT_ENTRY, width=50)
+            ttk.Label(form, text=lbl + ":", font=font_label).pack(anchor="w", pady=(8, 0))
+            e = ttk.Entry(form, font=font_entry, width=50)
             e.pack(fill='x')
             fields[key] = e
 
-        ttk.Label(form, text="Thể loại:", font=_FONT_LABEL).pack(anchor="w", pady=(8, 0))
+        ttk.Label(form, text="Thể loại:", font=font_label).pack(anchor="w", pady=(8, 0))
         genres_existing = sorted({b.the_loai for b in data_handler.books_db.values() if b.the_loai})
         the_loai_var = tk.StringVar(value="Tiểu thuyết")
-        the_loai_cb  = ttk.Combobox(form, textvariable=the_loai_var, font=_FONT_ENTRY, state="readonly",
+        the_loai_cb  = ttk.Combobox(form, textvariable=the_loai_var, font=font_entry, state="readonly",
                                      values=genres_existing + ["-- Nhập thể loại mới --"], width=48)
         the_loai_cb.pack(fill='x')
 
-        custom_lbl   = ttk.Label(form, text="Nhập thể loại mới:", font=_FONT_LABEL)
-        custom_entry = ttk.Entry(form, font=_FONT_ENTRY, width=50)
+        custom_lbl   = ttk.Label(form, text="Nhập thể loại mới:", font=font_label)
+        custom_entry = ttk.Entry(form, font=font_entry, width=50)
 
         def on_genre_change(e=None):
             if the_loai_var.get() == "-- Nhập thể loại mới --":
@@ -421,11 +416,11 @@ class LibraryManagementSystem:
                 custom_entry.pack_forget()
         the_loai_cb.bind("<<ComboboxSelected>>", on_genre_change)
 
-        ttk.Label(form, text="Tình trạng sách:", font=_FONT_LABEL).pack(anchor="w", pady=(8, 0))
+        ttk.Label(form, text="Tình trạng sách:", font=font_label).pack(anchor="w", pady=(8, 0))
         tinh_trang_sach_var = tk.StringVar(value="Sách mới")
         ttk.Combobox(form, textvariable=tinh_trang_sach_var,
                      values=["Sách mới", "Sách đã sử dụng"],
-                     state="readonly", width=48, font=_FONT_ENTRY).pack(fill='x')
+                     state="readonly", width=48, font=font_entry).pack(fill='x')
 
         def save_book():
             ma_sach       = fields["ma_sach"].get().strip()
@@ -477,7 +472,7 @@ class LibraryManagementSystem:
 
         ttk.Label(win, text="Cập nhật thông tin sách", font=("Arial Unicode MS", 14, "bold")).pack(pady=10)
         ttk.Label(win, text=f"Mã sách: {ma_sach}  (không thể thay đổi)",
-                  font=_FONT_BOLD, foreground="#c0392b").pack(pady=3)
+                  font=font_bold, foreground="#c0392b").pack(pady=3)
 
         form = ttk.Frame(win)
         form.pack(fill='both', expand=True, padx=20)
@@ -490,20 +485,20 @@ class LibraryManagementSystem:
             ("Năm xuất bản", "nam_xuat_ban", getattr(book, 'nam_xuat_ban', '')),
             ("Số lượng", "so_luong_sach", str(book.so_luong_sach)),
         ]:
-            ttk.Label(form, text=lbl + ":", font=_FONT_LABEL).pack(anchor="w", pady=(8, 0))
-            e = ttk.Entry(form, font=_FONT_ENTRY, width=50)
+            ttk.Label(form, text=lbl + ":", font=font_label).pack(anchor="w", pady=(8, 0))
+            e = ttk.Entry(form, font=font_entry, width=50)
             e.insert(0, val)
             e.pack(fill='x')
             fields[key] = e
 
-        ttk.Label(form, text="Thể loại:", font=_FONT_LABEL).pack(anchor="w", pady=(8, 0))
+        ttk.Label(form, text="Thể loại:", font=font_label).pack(anchor="w", pady=(8, 0))
         genres_existing = sorted({b.the_loai for b in data_handler.books_db.values() if b.the_loai})
         the_loai_var = tk.StringVar(value=book.the_loai)
-        the_loai_cb  = ttk.Combobox(form, textvariable=the_loai_var, font=_FONT_ENTRY, state="readonly",
+        the_loai_cb  = ttk.Combobox(form, textvariable=the_loai_var, font=font_entry, state="readonly",
                                      values=genres_existing + ["-- Nhập thể loại mới --"], width=48)
         the_loai_cb.pack(fill='x')
-        custom_lbl   = ttk.Label(form, text="Nhập thể loại mới:", font=_FONT_LABEL)
-        custom_entry = ttk.Entry(form, font=_FONT_ENTRY, width=50)
+        custom_lbl   = ttk.Label(form, text="Nhập thể loại mới:", font=font_label)
+        custom_entry = ttk.Entry(form, font=font_entry, width=50)
 
         def on_genre_change(e=None):
             if the_loai_var.get() == "-- Nhập thể loại mới --":
@@ -514,11 +509,11 @@ class LibraryManagementSystem:
                 custom_lbl.pack_forget(); custom_entry.pack_forget()
         the_loai_cb.bind("<<ComboboxSelected>>", on_genre_change)
 
-        ttk.Label(form, text="Tình trạng sách:", font=_FONT_LABEL).pack(anchor="w", pady=(8, 0))
+        ttk.Label(form, text="Tình trạng sách:", font=font_label).pack(anchor="w", pady=(8, 0))
         tinh_trang_sach_var = tk.StringVar(value=book.tinh_trang_sach)
         ttk.Combobox(form, textvariable=tinh_trang_sach_var,
                      values=["Sách mới", "Sách đã sử dụng"],
-                     state="readonly", width=48, font=_FONT_ENTRY).pack(fill='x')
+                     state="readonly", width=48, font=font_entry).pack(fill='x')
 
         def update_book():
             ten_sach = fields["ten_sach"].get().strip()
@@ -567,16 +562,16 @@ class LibraryManagementSystem:
         top = ttk.Frame(win)
         top.pack(fill='x', padx=15, pady=12)
 
-        ttk.Label(top, text="Tìm theo:", font=_FONT_LABEL).pack(side=tk.LEFT)
+        ttk.Label(top, text="Tìm theo:", font=font_label).pack(side=tk.LEFT)
         search_field_var = tk.StringVar(value="Tên sách")
         field_cb = ttk.Combobox(top, textvariable=search_field_var,
                                  values=["Mã sách", "Tên sách", "Thể loại", "Tác giả", "Nhà xuất bản"],
-                                 state="readonly", width=16, font=_FONT_ENTRY)
+                                 state="readonly", width=16, font=font_entry)
         field_cb.pack(side=tk.LEFT, padx=(4, 12))
 
-        ttk.Label(top, text="Từ khóa:", font=_FONT_LABEL).pack(side=tk.LEFT)
+        ttk.Label(top, text="Từ khóa:", font=font_label).pack(side=tk.LEFT)
         search_var = tk.StringVar()
-        entry = ttk.Entry(top, font=_FONT_ENTRY, textvariable=search_var, width=30)
+        entry = ttk.Entry(top, font=font_entry, textvariable=search_var, width=30)
         entry.pack(side=tk.LEFT, padx=8)
         entry.focus()
 
@@ -822,36 +817,36 @@ class LibraryManagementSystem:
         form = ScrolledFrame(win)
         form.pack(fill=tk.BOTH, expand=tk.YES, padx=20, pady=5)
 
-        ttk.Label(form, text="Mã bạn đọc:", font=_FONT_LABEL).pack(anchor="w", pady=(8, 0))
-        ma_doc_entry = ttk.Entry(form, font=_FONT_ENTRY, width=50)
+        ttk.Label(form, text="Mã bạn đọc:", font=font_label).pack(anchor="w", pady=(8, 0))
+        ma_doc_entry = ttk.Entry(form, font=font_entry, width=50)
         ma_doc_entry.pack(fill='x')
 
-        ttk.Label(form, text="Họ và tên:", font=_FONT_LABEL).pack(anchor="w", pady=(8, 0))
-        ho_ten_entry = ttk.Entry(form, font=_FONT_ENTRY, width=50)
+        ttk.Label(form, text="Họ và tên:", font=font_label).pack(anchor="w", pady=(8, 0))
+        ho_ten_entry = ttk.Entry(form, font=font_entry, width=50)
         ho_ten_entry.pack(fill='x')
 
-        ttk.Label(form, text="Ngày sinh (DD/MM/YYYY):", font=_FONT_LABEL).pack(anchor="w", pady=(8, 0))
-        ngay_sinh_entry = ttk.Entry(form, font=_FONT_ENTRY, width=50)
+        ttk.Label(form, text="Ngày sinh (DD/MM/YYYY):", font=font_label).pack(anchor="w", pady=(8, 0))
+        ngay_sinh_entry = ttk.Entry(form, font=font_entry, width=50)
         ngay_sinh_entry.pack(fill='x')
 
-        ttk.Label(form, text="Giới tính:", font=_FONT_LABEL).pack(anchor="w", pady=(8, 0))
+        ttk.Label(form, text="Giới tính:", font=font_label).pack(anchor="w", pady=(8, 0))
         gioi_tinh_cb = ttk.Combobox(form, values=["Nam", "Nữ", "Khác"], state="readonly",
-                                     width=48, font=_FONT_ENTRY)
+                                     width=48, font=font_entry)
         gioi_tinh_cb.current(0)
         gioi_tinh_cb.pack(fill='x')
 
-        ttk.Label(form, text="Địa chỉ:", font=_FONT_LABEL).pack(anchor="w", pady=(8, 0))
-        dia_chi_entry = ttk.Entry(form, font=_FONT_ENTRY, width=50)
+        ttk.Label(form, text="Địa chỉ:", font=font_label).pack(anchor="w", pady=(8, 0))
+        dia_chi_entry = ttk.Entry(form, font=font_entry, width=50)
         dia_chi_entry.pack(fill='x')
 
-        ttk.Label(form, text="Chức vụ:", font=_FONT_LABEL).pack(anchor="w", pady=(8, 0))
+        ttk.Label(form, text="Chức vụ:", font=font_label).pack(anchor="w", pady=(8, 0))
         chuc_vu_cb = ttk.Combobox(form, values=["Giảng viên", "Sinh viên", "Khác"], state="readonly",
-                                     width=48, font=_FONT_ENTRY)
+                                     width=48, font=font_entry)
         chuc_vu_cb.current(0)
         chuc_vu_cb.pack(fill='x')
 
-        ttk.Label(form, text="Số điện thoại:", font=_FONT_LABEL).pack(anchor="w", pady=(8, 0))
-        so_dien_thoai_entry = ttk.Entry(form, font=_FONT_ENTRY, width=50)
+        ttk.Label(form, text="Số điện thoại:", font=font_label).pack(anchor="w", pady=(8, 0))
+        so_dien_thoai_entry = ttk.Entry(form, font=font_entry, width=50)
         so_dien_thoai_entry.pack(fill='x')
 
         def save_reader():
@@ -902,46 +897,46 @@ class LibraryManagementSystem:
         ttk.Label(win, text="Cập nhật thông tin bạn đọc",
                   font=("Arial Unicode MS", 14, "bold")).pack(pady=10)
         ttk.Label(win, text=f"Mã bạn đọc: {reader_id_key}  (không thể thay đổi)",
-                  font=_FONT_BOLD, foreground="#c0392b").pack(pady=3)
+                  font=font_bold, foreground="#c0392b").pack(pady=3)
 
         form = ScrolledFrame(win)
         form.pack(fill=BOTH, expand=YES, padx=20, pady=5)
 
-        ttk.Label(form, text="Họ và tên:", font=_FONT_LABEL).pack(anchor="w", pady=(8, 0))
-        ho_ten_entry = ttk.Entry(form, font=_FONT_ENTRY, width=50)
+        ttk.Label(form, text="Họ và tên:", font=font_label).pack(anchor="w", pady=(8, 0))
+        ho_ten_entry = ttk.Entry(form, font=font_entry, width=50)
         ho_ten_entry.insert(0, reader.ho_ten)
         ho_ten_entry.pack(fill='x')
 
-        ttk.Label(form, text="Ngày sinh (DD/MM/YYYY):", font=_FONT_LABEL).pack(anchor="w", pady=(8, 0))
-        ngay_sinh_entry = ttk.Entry(form, font=_FONT_ENTRY, width=50)
+        ttk.Label(form, text="Ngày sinh (DD/MM/YYYY):", font=font_label).pack(anchor="w", pady=(8, 0))
+        ngay_sinh_entry = ttk.Entry(form, font=font_entry, width=50)
         ngay_sinh_entry.insert(0, reader.ngay_sinh)
         ngay_sinh_entry.pack(fill='x')
 
-        ttk.Label(form, text="Giới tính:", font=_FONT_LABEL).pack(anchor="w", pady=(8, 0))
+        ttk.Label(form, text="Giới tính:", font=font_label).pack(anchor="w", pady=(8, 0))
         gioi_tinh_cb = ttk.Combobox(form, values=["Nam", "Nữ", "Khác"], state="readonly",
-                                     width=48, font=_FONT_ENTRY)
+                                     width=48, font=font_entry)
         if reader.gioi_tinh in ["Nam", "Nữ", "Khác"]:
             gioi_tinh_cb.set(reader.gioi_tinh)
         else:
             gioi_tinh_cb.current(0)
         gioi_tinh_cb.pack(fill='x')
 
-        ttk.Label(form, text="Địa chỉ:", font=_FONT_LABEL).pack(anchor="w", pady=(8, 0))
-        dia_chi_entry = ttk.Entry(form, font=_FONT_ENTRY, width=50)
+        ttk.Label(form, text="Địa chỉ:", font=font_label).pack(anchor="w", pady=(8, 0))
+        dia_chi_entry = ttk.Entry(form, font=font_entry, width=50)
         dia_chi_entry.insert(0, reader.dia_chi)
         dia_chi_entry.pack(fill='x')
 
-        ttk.Label(form, text="Chức vụ:", font=_FONT_LABEL).pack(anchor="w", pady=(8, 0))
+        ttk.Label(form, text="Chức vụ:", font=font_label).pack(anchor="w", pady=(8, 0))
         chuc_vu_cb = ttk.Combobox(form, values=["Giảng viên", "Sinh viên", "Khác"], state="readonly",
-                                     width=48, font=_FONT_ENTRY)
+                                     width=48, font=font_entry)
         if reader.chuc_vu in ["Giảng viên", "Sinh viên", "Khác"]:
             chuc_vu_cb.set(reader.chuc_vu)
         else:
             chuc_vu_cb.current(0)
         chuc_vu_cb.pack(fill='x')
 
-        ttk.Label(form, text="Số điện thoại:", font=_FONT_LABEL).pack(anchor="w", pady=(8, 0))
-        so_dien_thoai_entry = ttk.Entry(form, font=_FONT_ENTRY, width=50)
+        ttk.Label(form, text="Số điện thoại:", font=font_label).pack(anchor="w", pady=(8, 0))
+        so_dien_thoai_entry = ttk.Entry(form, font=font_entry, width=50)
         so_dien_thoai_entry.insert(0, reader.so_dien_thoai)
         so_dien_thoai_entry.pack(fill='x')
 
@@ -984,16 +979,16 @@ class LibraryManagementSystem:
         top = ttk.Frame(win)
         top.pack(fill='x', padx=15, pady=12)
 
-        ttk.Label(top, text="Tìm theo:", font=_FONT_LABEL).pack(side=tk.LEFT)
+        ttk.Label(top, text="Tìm theo:", font=font_label).pack(side=tk.LEFT)
         search_field_var = tk.StringVar(value="Họ tên")
         field_cb = ttk.Combobox(top, textvariable=search_field_var,
                                  values=["Mã bạn đọc", "Họ tên", "Số điện thoại", "Địa chỉ", "Chức vụ"],
-                                 state="readonly", width=16, font=_FONT_ENTRY)
+                                 state="readonly", width=16, font=font_entry)
         field_cb.pack(side=tk.LEFT, padx=(4, 12))
 
-        ttk.Label(top, text="Từ khóa:", font=_FONT_LABEL).pack(side=tk.LEFT)
+        ttk.Label(top, text="Từ khóa:", font=font_label).pack(side=tk.LEFT)
         search_var = tk.StringVar()
-        entry = ttk.Entry(top, font=_FONT_ENTRY, textvariable=search_var, width=30)
+        entry = ttk.Entry(top, font=font_entry, textvariable=search_var, width=30)
         entry.pack(side=tk.LEFT, padx=8)
         entry.focus()
 
@@ -1193,13 +1188,13 @@ class LibraryManagementSystem:
         form = ttk.Frame(win)
         form.pack(fill='x', padx=20)
 
-        ttk.Label(form, text="Mã bạn đọc:", font=_FONT_LABEL).pack(anchor="w", pady=(8, 0))
+        ttk.Label(form, text="Mã bạn đọc:", font=font_label).pack(anchor="w", pady=(8, 0))
         reader_id_var = tk.StringVar()
-        ttk.Entry(form, font=_FONT_ENTRY, textvariable=reader_id_var, width=50).pack(fill='x')
+        ttk.Entry(form, font=font_entry, textvariable=reader_id_var, width=50).pack(fill='x')
 
-        ttk.Label(form, text="Mã sách:", font=_FONT_LABEL).pack(anchor="w", pady=(8, 0))
+        ttk.Label(form, text="Mã sách:", font=font_label).pack(anchor="w", pady=(8, 0))
         book_id_var = tk.StringVar()
-        ttk.Entry(form, font=_FONT_ENTRY, textvariable=book_id_var, width=50).pack(fill='x')
+        ttk.Entry(form, font=font_entry, textvariable=book_id_var, width=50).pack(fill='x')
 
         info_label = ttk.Label(win, text="", font=("Arial Unicode MS", 10),
                                 foreground="#34495e", wraplength=420, justify="left")
@@ -1283,20 +1278,20 @@ class LibraryManagementSystem:
 
         top = ttk.Frame(win)
         top.pack(fill='x', padx=15, pady=5)
-        ttk.Label(top, text="Mã bạn đọc:", font=_FONT_LABEL).pack(side=tk.LEFT)
+        ttk.Label(top, text="Mã bạn đọc:", font=font_label).pack(side=tk.LEFT)
         reader_id_var = tk.StringVar()
-        reader_id_entry = ttk.Entry(top, font=_FONT_ENTRY, textvariable=reader_id_var, width=20)
+        reader_id_entry = ttk.Entry(top, font=font_entry, textvariable=reader_id_var, width=20)
         reader_id_entry.pack(side=tk.LEFT, padx=8)
         reader_id_entry.focus()
 
         filter_frame = ttk.Frame(win)
         filter_frame.pack(fill='x', padx=15, pady=(0, 5))
-        ttk.Label(filter_frame, text="Lọc:", font=_FONT_LABEL).pack(side=tk.LEFT)
+        ttk.Label(filter_frame, text="Lọc:", font=font_label).pack(side=tk.LEFT)
         filter_combo = ttk.Combobox(filter_frame, values=["Tất cả", "Mã sách","Tên sách", "Trạng thái"],
                                     state="readonly", width=12)
         filter_combo.current(0)
         filter_combo.pack(side=tk.LEFT, padx=5)
-        search_entry = ttk.Entry(filter_frame, font=_FONT_ENTRY, width=25)
+        search_entry = ttk.Entry(filter_frame, font=font_entry, width=25)
         search_entry.pack(side=tk.LEFT, padx=5)
 
         cols = ("Mã sách", "Tên sách", "Ngày mượn", "Trạng thái")
@@ -1384,9 +1379,9 @@ class LibraryManagementSystem:
 
         search_frame = ttk.Frame(win)
         search_frame.pack(fill='x', padx=20, pady=15)
-        ttk.Label(search_frame, text="Tìm theo Mã bạn đọc hoặc Mã sách:", font=_FONT_LABEL).pack(side=tk.LEFT)
+        ttk.Label(search_frame, text="Tìm theo Mã bạn đọc hoặc Mã sách:", font=font_label).pack(side=tk.LEFT)
         search_var = tk.StringVar()
-        entry = ttk.Entry(search_frame, font=_FONT_ENTRY, textvariable=search_var, width=25)
+        entry = ttk.Entry(search_frame, font=font_entry, textvariable=search_var, width=25)
         entry.pack(side=tk.LEFT, padx=8)
         entry.focus()
 
@@ -1455,9 +1450,9 @@ class LibraryManagementSystem:
 
         search_frame = ttk.Frame(win)
         search_frame.pack(fill='x', padx=20, pady=15)
-        ttk.Label(search_frame, text="Lọc theo Mã bạn đọc:", font=_FONT_LABEL).pack(side=tk.LEFT)
+        ttk.Label(search_frame, text="Lọc theo Mã bạn đọc:", font=font_label).pack(side=tk.LEFT)
         ma_bd_var = tk.StringVar()
-        entry = ttk.Entry(search_frame, font=_FONT_ENTRY, textvariable=ma_bd_var, width=20)
+        entry = ttk.Entry(search_frame, font=font_entry, textvariable=ma_bd_var, width=20)
         entry.pack(side=tk.LEFT, padx=8)
 
         cols = ("Mã bạn đọc","Tên bạn đọc","Chức vụ", "Mã sách", "Tên sách", "Ngày mượn", "Số ngày quá hạn", "Tiền phạt")

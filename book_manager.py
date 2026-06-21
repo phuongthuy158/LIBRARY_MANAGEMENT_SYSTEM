@@ -2,13 +2,25 @@ import re
 from models import Book
 import data_handler
 
+# LỌC VÀ SẮP XẾP DANH SÁCH
+def get_all_books():
+    return list(data_handler.books_db.values())
+
+def filter_books(the_loai=None, tac_gia=None, nha_xuat_ban=None, tinh_trang_sach=None):
+    books = get_all_books()
+    if the_loai and the_loai != "Tất cả":
+        books = [b for b in books if b.the_loai == the_loai]
+    if tac_gia and tac_gia != "Tất cả":
+        books = [b for b in books if b.tac_gia == tac_gia]
+    if nha_xuat_ban and nha_xuat_ban != "Tất cả":
+        books = [b for b in books if b.nha_xuat_ban == nha_xuat_ban]
+    if tinh_trang_sach and tinh_trang_sach != "Tất cả":
+        books = [b for b in books if b.tinh_trang_sach == tinh_trang_sach]
+    return books
+
 # THÊM SÁCH 
 def add_book(ma_sach, ten_sach, tac_gia, the_loai,
              so_luong_sach, tinh_trang_sach, nha_xuat_ban, nam_xuat_ban):
-    """
-    Thêm sách mới vào hệ thống.
-    Raise ValueError nếu dữ liệu không hợp lệ.
-    """
     ma_sach = str(ma_sach).strip()
     if not re.fullmatch(r"S\d+", ma_sach):
         raise ValueError("Mã sách phải có dạng S + số.")
@@ -43,10 +55,6 @@ def add_book(ma_sach, ten_sach, tac_gia, the_loai,
 # CẬP NHẬT SÁCH 
 def update_book(ma_sach, ten_sach, tac_gia, the_loai,
                 so_luong_sach, tinh_trang_sach, nha_xuat_ban, nam_xuat_ban):
-    """
-    Cập nhật thông tin sách (không đổi mã sách).
-    Raise ValueError nếu không tìm thấy hoặc dữ liệu không hợp lệ.
-    """
     ma_sach = str(ma_sach).strip()
 
     if not all([ten_sach, tac_gia, the_loai, tinh_trang_sach]):
@@ -63,7 +71,10 @@ def update_book(ma_sach, ten_sach, tac_gia, the_loai,
     if so_luong <= 0:
         raise ValueError("Số lượng sách phải lớn hơn 0")
 
-    # Không để số lượng mới < số đang cho mượn
+    '''
+    Cập nhật số lượng mới của sách thỏa mãn yêu cầu số lượng mới không được
+    nhỏ hơn số sách đang cho mượn
+    '''
     so_dang_muon = sum(
         1 for r in data_handler.tracking_records
         if r.ma_sach == ma_sach and r.trang_thai in ("Đang mượn", "Quá hạn")
@@ -83,7 +94,6 @@ def update_book(ma_sach, ten_sach, tac_gia, the_loai,
     book.so_luong_sach  = so_luong
     book.tinh_trang_sach = tinh_trang_sach
 
-    # Đồng bộ tên sách trong lịch sử mượn
     for r in data_handler.tracking_records:
         if r.ma_sach == ma_sach:
             r.ten_sach = ten_sach
@@ -91,12 +101,21 @@ def update_book(ma_sach, ten_sach, tac_gia, the_loai,
     data_handler.save_data()
     return book
 
+# TÌM KIẾM SÁCH 
+def search_books(keyword, field="ten_sach"):
+    kw = keyword.strip().lower()
+    field_map = {
+        "ma_sach":      lambda b: str(b.ma_sach).lower(),
+        "ten_sach":     lambda b: str(b.ten_sach).lower(),
+        "tac_gia":      lambda b: str(b.tac_gia).lower(),
+        "the_loai":     lambda b: str(b.the_loai).lower(),
+        "nha_xuat_ban": lambda b: str(b.nha_xuat_ban).lower(),
+    }
+    get_val = field_map.get(field, lambda b: "")
+    return [b for b in data_handler.books_db.values() if kw in get_val(b)]
+
 # XÓA SÁCH 
 def delete_book(ma_sach):
-    """
-    Xóa sách khỏi hệ thống.
-    Raise ValueError nếu không tìm thấy hoặc sách đang được mượn.
-    """
     ma_sach = str(ma_sach).strip()
 
     dang_muon = [
@@ -109,40 +128,4 @@ def delete_book(ma_sach):
     del data_handler.books_db[ma_sach]
     data_handler.save_data()
 
-# TÌM KIẾM SÁCH 
-def search_books(keyword, field="ten_sach"):
-    """
-    Tìm kiếm sách theo keyword (không phân biệt hoa thường).
-    Trả về list[Book].
-    """
-    kw = keyword.strip().lower()
-    field_map = {
-        "ma_sach":      lambda b: str(b.ma_sach).lower(),
-        "ten_sach":     lambda b: str(b.ten_sach).lower(),
-        "tac_gia":      lambda b: str(b.tac_gia).lower(),
-        "the_loai":     lambda b: str(b.the_loai).lower(),
-        "nha_xuat_ban": lambda b: str(b.nha_xuat_ban).lower(),
-    }
-    get_val = field_map.get(field, lambda b: "")
-    return [b for b in data_handler.books_db.values() if kw in get_val(b)]
 
-# LỌC VÀ SẮP XẾP DANH SÁCH
-def get_all_books():
-    """Trả về list[Book] toàn bộ sách."""
-    return list(data_handler.books_db.values())
-
-def filter_books(the_loai=None, tac_gia=None, nha_xuat_ban=None, tinh_trang_sach=None):
-    """
-    Lọc sách theo các tiêu chí 
-    Trả về list[Book].
-    """
-    books = get_all_books()
-    if the_loai and the_loai != "Tất cả":
-        books = [b for b in books if b.the_loai == the_loai]
-    if tac_gia and tac_gia != "Tất cả":
-        books = [b for b in books if b.tac_gia == tac_gia]
-    if nha_xuat_ban and nha_xuat_ban != "Tất cả":
-        books = [b for b in books if b.nha_xuat_ban == nha_xuat_ban]
-    if tinh_trang_sach and tinh_trang_sach != "Tất cả":
-        books = [b for b in books if b.tinh_trang_sach == tinh_trang_sach]
-    return books

@@ -1,3 +1,68 @@
 2026-06-21 01:38:38,161 - INFO - Khởi động ứng dụng
 2026-06-21 01:38:38,165 - INFO - Đã tải dữ liệu thành công
 2026-06-21 01:38:40,797 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-21 17:42:34,317 - INFO - Khởi động ứng dụng
+2026-06-21 17:42:34,328 - INFO - Đã tải dữ liệu thành công
+2026-06-21 17:42:41,951 - INFO - Mở cửa sổ cập nhật sách
+2026-06-21 17:42:48,612 - INFO - Cập nhật sách: S001
+2026-06-21 17:43:04,521 - INFO - Mở cửa sổ cập nhật sách
+2026-06-21 17:43:12,044 - INFO - Cập nhật sách: S010
+2026-06-21 17:44:03,050 - INFO - Mở cửa sổ xem lịch sử mượn/trả
+2026-06-21 17:44:09,748 - INFO - Mở cửa sổ danh sách sách quá hạn
+2026-06-21 17:44:26,302 - INFO - Mở cửa sổ xem lịch sử mượn/trả
+2026-06-21 17:44:56,530 - INFO - Mở cửa sổ trả sách
+2026-06-21 17:45:11,320 - INFO - Mở cửa sổ tìm kiếm sách
+2026-06-21 17:52:50,908 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-21 17:52:52,906 - INFO - Khởi động ứng dụng
+2026-06-21 17:52:52,911 - INFO - Đã tải dữ liệu thành công
+2026-06-21 17:52:59,939 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-21 17:56:47,007 - INFO - Khởi động ứng dụng
+2026-06-21 17:56:47,020 - INFO - Đã tải dữ liệu thành công
+2026-06-21 17:56:54,191 - INFO - Mở cửa sổ mượn sách
+2026-06-21 17:57:08,716 - INFO - Mượn sách S186 bởi BD010
+2026-06-21 17:57:12,245 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-21 19:36:53,659 - INFO - Khởi động ứng dụng
+2026-06-21 19:36:53,666 - INFO - Đã tải dữ liệu thành công
+2026-06-21 19:38:27,451 - INFO - Mở cửa sổ thêm sách mới
+2026-06-21 19:43:29,283 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-21 19:43:31,159 - INFO - Khởi động ứng dụng
+2026-06-21 19:43:31,163 - INFO - Đã tải dữ liệu thành công
+2026-06-21 19:43:42,666 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-21 19:44:10,452 - INFO - Khởi động ứng dụng
+2026-06-21 19:44:10,453 - INFO - Đã tải dữ liệu thành công
+2026-06-21 19:47:43,736 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-21 19:47:48,029 - INFO - Khởi động ứng dụng
+2026-06-21 19:47:48,031 - INFO - Đã tải dữ liệu thành công
+2026-06-21 19:47:55,855 - INFO - Mở cửa sổ mượn sách
+2026-06-21 19:48:04,419 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-21 19:49:16,678 - INFO - Khởi động ứng dụng
+2026-06-21 19:49:16,686 - INFO - Đã tải dữ liệu thành công
+2026-06-21 19:49:24,369 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-21 19:49:37,960 - INFO - Khởi động ứng dụng
+2026-06-21 19:49:37,964 - INFO - Đã tải dữ liệu thành công
+2026-06-21 19:49:40,308 - INFO - Mở cửa sổ cập nhật sách
+2026-06-21 19:49:44,803 - INFO - Mở cửa sổ trả sách
+2026-06-21 19:49:48,234 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-21 19:50:59,848 - INFO - Khởi động ứng dụng
+2026-06-21 19:50:59,855 - INFO - Đã tải dữ liệu thành công
+2026-06-21 19:54:43,942 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-21 19:54:46,082 - INFO - Khởi động ứng dụng
+2026-06-21 19:54:46,088 - INFO - Đã tải dữ liệu thành công
+2026-06-21 19:54:50,753 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-21 19:57:26,348 - INFO - Khởi động ứng dụng
+2026-06-21 19:57:26,348 - INFO - Đã tải dữ liệu thành công
+2026-06-21 19:58:09,830 - INFO - Khởi động ứng dụng
+2026-06-21 19:58:09,836 - INFO - Đã tải dữ liệu thành công
+2026-06-21 19:58:16,291 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-21 20:39:39,860 - INFO - Khởi động ứng dụng
+2026-06-21 20:39:39,866 - INFO - Đã tải dữ liệu thành công
+2026-06-21 20:39:57,727 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng
+2026-06-21 20:47:27,001 - INFO - Khởi động ứng dụng
+2026-06-21 20:47:27,015 - INFO - Đã tải dữ liệu thành công
+2026-06-21 20:47:33,321 - INFO - Mở cửa sổ thêm sách mới
+2026-06-21 20:47:55,146 - INFO - Mở cửa sổ cập nhật sách
+2026-06-21 20:47:58,682 - INFO - Mở cửa sổ cập nhật sách
+2026-06-21 20:48:04,481 - INFO - Cập nhật sách: S002
+2026-06-21 20:48:20,675 - INFO - Mở cửa sổ thêm sách mới
+2026-06-21 20:48:37,133 - INFO - Mở cửa sổ xem lịch sử mượn/trả
+2026-06-21 20:58:03,079 - INFO - Đã lưu dữ liệu và kết thúc ứng dụng

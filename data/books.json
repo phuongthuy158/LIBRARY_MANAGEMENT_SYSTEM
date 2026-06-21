@@ -414,10 +414,10 @@
         "ten_sach": "Giải tích I",
         "tac_gia": "Nhóm giảng viên khoa Toán - Tin",
         "the_loai": "Giáo trình",
-        "so_luong_sach": 0,
+        "so_luong_sach": 10,
         "tinh_trang_sach": "Sách đã sử dụng",
         "nha_xuat_ban": "NXB Bách Khoa",
-        "nam_xuat_ban": 2009
+        "nam_xuat_ban": "2009"
     },
     "S047": {
         "ma_sach": "S047",
@@ -1857,7 +1857,7 @@
         "so_luong_sach": 7,
         "tinh_trang_sach": "Sách mới",
         "nha_xuat_ban": "NXB Trẻ",
-        "nam_xuat_ban": "20"
+        "nam_xuat_ban": "2000"
     },
     "S002": {
         "ma_sach": "S002",
@@ -1867,7 +1867,7 @@
         "so_luong_sach": 5,
         "tinh_trang_sach": "Sách đã sử dụng",
         "nha_xuat_ban": "NXB Kim Đồng",
-        "nam_xuat_ban": 2001
+        "nam_xuat_ban": "2001"
     },
     "S039": {
         "ma_sach": "S039",
