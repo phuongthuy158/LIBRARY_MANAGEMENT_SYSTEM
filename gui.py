@@ -248,7 +248,7 @@ class LibraryManagementSystem:
 
     @staticmethod
     def _last_word_sort_key(ho_ten: str) -> list:
-        """Sắp xếp theo tiếng cuối trong tên (chuẩn tiếng Việt)."""
+        """Sắp xếp theo tiếng cuối cùng trong tên"""
         parts = ho_ten.strip().split()
         if not parts:
             return []
