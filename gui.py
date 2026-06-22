@@ -460,10 +460,6 @@ class LibraryManagementSystem:
         selected = self.book_tree.selection()[0]
         ma_sach  = str(self.book_tree.item(selected)['values'][0])
 
-        if ma_sach not in data_handler.books_db:
-            messagebox.showerror("Lỗi", f"Mã sách '{ma_sach}' không tồn tại!")
-            return
-
         book = data_handler.books_db[ma_sach]
         win  = tk.Toplevel(self.root)
         win.title("Cập Nhật Thông Tin Sách")
