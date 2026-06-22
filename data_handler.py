@@ -17,7 +17,7 @@ TRACKING_FILE = "data/tracking.json"
 def save_data():
     global books_db, readers_db, tracking_records
     try:
-        # Chuyển HashTable thành dict để serialize JSON
+        # Chuyển HashTable thành dict 
         books_to_save = {key: book.to_dict() for key, book in books_db.items()}
         logger.debug(f"Dữ liệu sách được lưu: {books_to_save}")
         with open(BOOKS_FILE, 'w', encoding='utf-8') as f:
